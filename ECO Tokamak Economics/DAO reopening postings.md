@@ -1,0 +1,2 @@
+- Notion Announcement: [https://tokamak.notion.site/Tokamak-Network-DAO-is-Reopened-97c01756d7bb440f8f09ff98afeda6b3?pvs=4](https://tokamak.notion.site/Tokamak-Network-DAO-is-Reopened-97c01756d7bb440f8f09ff98afeda6b3)
+- X: Tokamak Network DAO reopened after audits. You can create on-chain proposals for the Tokamak ecosystem. [https://tinyurl.com/56kte7de](https://tinyurl.com/56kte7de)

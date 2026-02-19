@@ -1,0 +1,1 @@
+[https://forum.arbitrum.foundation/t/arb-staking-unlock-arb-utility-and-align-governance/25084](https://forum.arbitrum.foundation/t/arb-staking-unlock-arb-utility-and-align-governance/25084)

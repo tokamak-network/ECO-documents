@@ -1,0 +1,24 @@
+## Hammer’s work
+
+- 8월 1주차 (~25.08.06)
+  - Develop the Tokamak Network Terminal
+    - Added features
+      - connect wallet
+      - check balance tokens(TON / WTON / ETH)
+      - wrap / unwrap tokens
+      - stake / unstake / withdrawal tokens
+      - approve tokens
+  - Research LLM based service
+    - To develop our own LLM based service
+    - Gemini CLI
+    - Claude Code
+- 8월 2주차 (~25.08.13)
+  - Tokamak Network Terminal browser feature development begins
+    - `LLM CLI (Gemini) - MCP - Embedded React App - Metamask` structure for developing an interface to connect wallets
+- 8월 3주차 (~25.08.20)
+  - (1) Code improvements for type safety in the Tokamak Network Terminal project
+  - (2) Adding ts-type-guardian sub agent to ensure type stability.
+  - (3) Adding Commit slash command for conventional commits
+  - (4) PC browser wallet connection feature currently under development
+- 8월 4주차 (~25.08.27)
+  - Check

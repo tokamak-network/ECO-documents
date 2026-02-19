@@ -1,0 +1,73 @@
+### Contract scope  
+
+- DAOCommitteeProxy2.sol [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/proxy/DAOCommitteeProxy2.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/proxy/DAOCommitteeProxy2.sol)
+- DAOCommittee_V1.sol  [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/DAOCommittee_V1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/DAOCommittee_V1.sol) 
+- DAOCommitteeOwner.sol [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/DAOCommitteeOwner.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/DAOCommitteeOwner.sol)
+- SeigManagerV1_3.sol : [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/stake/managers/SeigManagerV1_3.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/stake/managers/SeigManagerV1_3.sol) 
+- DepositManagerV1_1.sol: [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/stake/managers/DepositManagerV1_1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/stake/managers/DepositManagerV1_1.sol)
+- L1BridgeRegistryV1_1.sol  [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/L1BridgeRegistryV1_1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/L1BridgeRegistryV1_1.sol)
+- Layer2ManagerV1_1.sol [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/Layer2ManagerV1_1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/Layer2ManagerV1_1.sol)
+- OperatorManagerV1_1.sol [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/OperatorManagerV1_1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/OperatorManagerV1_1.sol)
+- CandidateAddOnV1_1.sol [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/CandidateAddOnV1_1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/CandidateAddOnV1_1.sol)
+
+Issues 
+
+3+20+3+10+6+3+3+5+2 = 55 
+
+- DAOCommitteeProxy2.sol  3
+  - informational. 1개
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommitteeProxy2-DAP#span-iddap-01mdap-01m-improper-imposition-of-restrictionspan](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommitteeProxy2-DAP#span-iddap-01mdap-01m-improper-imposition-of-restrictionspan)
+  - minor . 2개
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommitteeProxy2-DAP#span-iddap-01mdap-01m-improper-imposition-of-restrictionspan](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommitteeProxy2-DAP#span-iddap-01mdap-01m-improper-imposition-of-restrictionspan)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommitteeProxy2-DAP#span-iddap-01mdap-01m-improper-imposition-of-restrictionspan](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommitteeProxy2-DAP#span-iddap-01mdap-01m-improper-imposition-of-restrictionspan)
+- DAOCommittee_V1.sol   **20 **
+  - informational. 8개
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/code-style/DAOCommittee_V1-DAO#DAO-01C](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/code-style/DAOCommittee_V1-DAO#DAO-01C)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/code-style/DAOCommittee_V1-DAO/#DAO-02C](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/code-style/DAOCommittee_V1-DAO/#DAO-02C)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/code-style/DAOCommittee_V1-DAO#DAO-03C](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/code-style/DAOCommittee_V1-DAO#DAO-03C)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/code-style/DAOCommittee_V1-DAO#DAO-04C](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/code-style/DAOCommittee_V1-DAO#DAO-04C)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/code-style/DAOCommittee_V1-DAO#DAO-05C](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/code-style/DAOCommittee_V1-DAO#DAO-05C)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/static-analysis/DAOCommittee_V1-DAO#DAO-01S](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/static-analysis/DAOCommittee_V1-DAO#DAO-01S)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/static-analysis/DAOCommittee_V1-DAO#DAO-02S](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/static-analysis/DAOCommittee_V1-DAO#DAO-02S)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/static-analysis/DAOCommittee_V1-DAO/#DAO-03S](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/static-analysis/DAOCommittee_V1-DAO/#DAO-03S)
+  - minor . 3개
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-03M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-03M)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-05M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-05M)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-04M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-04M)
+  - unknown 2개
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-01M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-01M)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-02M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-02M)
+  - medium 6개
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-06M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-06M)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/static-analysis/DAOCommittee_V1-DAO#DAO-04S](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/static-analysis/DAOCommittee_V1-DAO#DAO-04S)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-10M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-10M)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-09M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-09M)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-08M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-08M)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-07M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-07M)
+  - major 1개
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-11M](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommittee_V1-DAO#DAO-11M)
+- DAOCommitteeOwner.sol  3 개
+  - informational. 2개
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/static-analysis/DAOCommitteeOwner-DAC](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/static-analysis/DAOCommitteeOwner-DAC)
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommitteeProxy2-DAP#span-iddap-01mdap-01m-improper-imposition-of-restrictionspan](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommitteeProxy2-DAP#span-iddap-01mdap-01m-improper-imposition-of-restrictionspan)
+  - medium 1개
+    - [https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommitteeProxy2-DAP#span-iddap-01mdap-01m-improper-imposition-of-restrictionspan](https://omniscia.io/reports/tokamak-network-ton-staking-v2-67bc7fe2ee4dd600185cd150/manual-review/DAOCommitteeProxy2-DAP#span-iddap-01mdap-01m-improper-imposition-of-restrictionspan)
+- SeigManagerV1_3.sol **10 개**
+  - informational. 3개
+  - minor . 2개
+  - unknown 1개
+  - medium 2개
+  - major 2개
+- DepositManagerV1_1.sol 6 개
+  - informational. 5 개
+  - minor . 1 개
+- L1BridgeRegistryV1_1.sol 3개
+  - informational.  3개
+- Layer2ManagerV1_1.sol 3개
+  - informational.  3개 
+- OperatorManagerV1_1.sol 5개
+  - informational.  5개
+- CandidateAddOnV1_1.sol 2개
+  - informational. 1개
+  - medium . 1개
+  - 

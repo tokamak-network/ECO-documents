@@ -1,0 +1,1 @@
+Agenda link: [https://github.com/tokamak-network/ton-staking-v2/issues/59](https://github.com/tokamak-network/ton-staking-v2/issues/59)

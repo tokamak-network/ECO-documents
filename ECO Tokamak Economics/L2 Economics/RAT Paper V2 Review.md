@@ -1,0 +1,21 @@
+[RATv1.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/5fb79359-bc21-4160-8262-c1e03ad001ef/RATv1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666LSIAKN5%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T044303Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD5yi7n%2Fxo2tZawtkp40ZNP9JS7mAu%2BmNcZfyr2Nq3oMwIgSfq2llzvBKEPCHFn15rY8UyzPFcTAfp%2FJESjpu06F50q%2FwMIdBAAGgw2Mzc0MjMxODM4MDUiDFcNdtNRmrO9XYP45ircA6cXTbDQ9h%2B6Muip63p9RzPOT2%2FkvYF%2BkUfsHLg2KdgEWJvPfJBPjyK3suzNZ7igUN2ufSwIlaXJ1Kjv%2FFQlsYYaVvBfd9GlQEfZgy620DVQ5PGUPJ20vpt5iIc1xZzghezTK4NGiu0Pb3u4lza%2FTTqHdlbBR9ODRnU%2FvbV%2BDaxK8EA9Xw9VhewZO0eL8VN1LczvNvYnVGAgsUOX1WbE3NkzKdjxQL7ONHHKfKwiPTYEPQJSltaDitNU8T3tseYS7z%2BNXdnqml%2FtH9PDSswfczincI3TFp6vg0x9x58gY8TxL074k2uJS8l04gFkGxFQY%2FIpomaAuo%2BO86TPyLqBMByo9svClfV9MJJvLjd6JOzOTje1poSvTlNe9sOElgS8sDh8%2FQr8s9LXryXeodjBet21klxPvb32rR4u9YVccMpc96ttv%2FkVYYp%2FLGxVvYLjCmb8l9ohHcRCvNKcCalYTxsyK0RYwmxf9IZutEzYDd7ddonjNcrTCLO6qFlaTGZwjO01sKKvS%2BNthbg0EyKKBpRF5AtENTnMmBI%2B2U5asu%2F9baSKEjJdz7TjippsPhEiffr5BYaEVYS0e0%2B3hCui%2FtV4KXkvpli%2FnQwqHdf191WITcCfp5I4MP2XxfgVMMrz2cwGOqUBWviOYvigTdUn5tCoFpP6Z9cNdBrIUhiibJ2ieI79dXloJEXCVUOL7I9xbDIQhzCn%2BqAsuntGRM9%2B4oBRM1naIml1P3GPrIRAhJYPOJI26r%2BN%2F3EqL6H80fK4n2lhu%2BjpmGqE0HREkROnAa9kCuJGQkhQ5X9Zz0mn2xF8JN9qOKvbDqPRituGBkwVfheGW1c0N7JJScpRxdKEuIo1G1sg8A7j%2FxnY&X-Amz-Signature=e50b1e633551f30a9581d67db1b1e12b36af7402f5df650517856b601af07430&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+[RATv2.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/5e47210b-ba2c-4721-86c1-b90f22b779c0/RATv2.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666LSIAKN5%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T044303Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD5yi7n%2Fxo2tZawtkp40ZNP9JS7mAu%2BmNcZfyr2Nq3oMwIgSfq2llzvBKEPCHFn15rY8UyzPFcTAfp%2FJESjpu06F50q%2FwMIdBAAGgw2Mzc0MjMxODM4MDUiDFcNdtNRmrO9XYP45ircA6cXTbDQ9h%2B6Muip63p9RzPOT2%2FkvYF%2BkUfsHLg2KdgEWJvPfJBPjyK3suzNZ7igUN2ufSwIlaXJ1Kjv%2FFQlsYYaVvBfd9GlQEfZgy620DVQ5PGUPJ20vpt5iIc1xZzghezTK4NGiu0Pb3u4lza%2FTTqHdlbBR9ODRnU%2FvbV%2BDaxK8EA9Xw9VhewZO0eL8VN1LczvNvYnVGAgsUOX1WbE3NkzKdjxQL7ONHHKfKwiPTYEPQJSltaDitNU8T3tseYS7z%2BNXdnqml%2FtH9PDSswfczincI3TFp6vg0x9x58gY8TxL074k2uJS8l04gFkGxFQY%2FIpomaAuo%2BO86TPyLqBMByo9svClfV9MJJvLjd6JOzOTje1poSvTlNe9sOElgS8sDh8%2FQr8s9LXryXeodjBet21klxPvb32rR4u9YVccMpc96ttv%2FkVYYp%2FLGxVvYLjCmb8l9ohHcRCvNKcCalYTxsyK0RYwmxf9IZutEzYDd7ddonjNcrTCLO6qFlaTGZwjO01sKKvS%2BNthbg0EyKKBpRF5AtENTnMmBI%2B2U5asu%2F9baSKEjJdz7TjippsPhEiffr5BYaEVYS0e0%2B3hCui%2FtV4KXkvpli%2FnQwqHdf191WITcCfp5I4MP2XxfgVMMrz2cwGOqUBWviOYvigTdUn5tCoFpP6Z9cNdBrIUhiibJ2ieI79dXloJEXCVUOL7I9xbDIQhzCn%2BqAsuntGRM9%2B4oBRM1naIml1P3GPrIRAhJYPOJI26r%2BN%2F3EqL6H80fK4n2lhu%2BjpmGqE0HREkROnAa9kCuJGQkhQ5X9Zz0mn2xF8JN9qOKvbDqPRituGBkwVfheGW1c0N7JJScpRxdKEuIo1G1sg8A7j%2FxnY&X-Amz-Signature=208eb39829570c76d2b17ae5625b8550711de9325c8a60fa73fccb0421e6e72f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+## V1 → V2 Improvements
+
+1. Demonstrated why RAT **outperforms** Proof-of-Diligence (PoD): on-chain verifiability, no extra watcher network, and lower expected gas overhead
+1. Added PoC implementation (Optimism Stack based) — thanks to Zena
+1. Quantified PoC costs → sub-$30/month security overhead under typical parameters
+1. Corrected the proof in **Proposition 1** which was not rigorously true
+1. Clarified randomness source: use **previous block hash + current timestamp** (not state root / generic blockhash)
+1. Readibility refinement
+  1. Payoff tables
+  1. Numerical analysis of parameter settings (Figure 3)
+
+## Checklist for Zena
+
+- [x] Author Name of Zena
+- [x] Section 8.1 Implementation/Test Setting
+- [x] Section 8.1 Algorithm 1 Pseudocode 
+- [x] Section 8.2 Cost calculation 

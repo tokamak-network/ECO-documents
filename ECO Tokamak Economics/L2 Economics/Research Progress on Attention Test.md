@@ -1,0 +1,60 @@
+## Engagement
+
+- **ETH CC: Speaker Waitlist**
+  - Reply
+
+![](images/e582154e67f9.png)
+
+  - Chance to be a speaker:
+    - Google AI Studio: 50-70%
+    - Grok: 50%
+- EF Grant: 9 PM May 28th 2025 (Italy time)
+  - Budget reqeust: 50k USD
+  - Duration: 9 month
+  - Scope: Academic
+  - Chance to be accepted: 30% 
+
+## Core Concept
+
+1. Combining attention test to the existing fraud proof system
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/823c2b43-1902-4c6f-9b1b-5171fc7fc32a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667T3LCQV7%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T044224Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCV7bUngtw7I62tPt45W1NJRkeJMhHeod37GR9XZaOtXQIhAMoLmTOo6rhyimaR6mxO%2Bdsk9u72iC0%2F1u1arhrcP2TEKv8DCHQQABoMNjM3NDIzMTgzODA1IgxWT6f%2FoYcbStneggUq3AMVAOW7uxCW%2BALLd8gLMIuipBvhBsFLLY3YyRNnk5QWA37G1Ue3Av1q90BY2qNeN5NZnUChCLuj8QXlfRibCvippKUpl2AHaXJxBGvNskqARo8e2mUzLIiKaKvzYwIDz9gTFmPVKCkpLIP6pN4ziXZMDJ7UqhnIKdtyTTiWdS7dlNYxi79Uju%2FTF3kF4IYQSmU4%2Fz0KHkV2NfzwIIcyMDeTHtYVbjRcZdSIObcKa0s22Rd1oUF4Io0ThHGID6UIoAvu8B5MkQJ2yJk5SzordwhMPIq1kI%2FesDxZ4u9Vd4ZqiXpMCivPDio7GmEiSF96IGaBOUojFTVitxl3gZF2Iip%2Fn4T%2BkTXLTkqE3lAKtlhxuGeCUgiFuzvvSE7RjH4hprxCp6tOmn8AU2XbsRwQa2bHxsUn2xlUOOo%2BBFkhs17zXXI6wPZlzJMC5eS%2FAAaXAfR62KYJltmPX0KbP0ea7pq9eHrnalKCGJC0eK5%2B5rZl0PhklsXvEaEV7cfF%2BU232MbYXyX7q2ECm0JfxXYCRySJZ6InL%2BzAS%2F6ZDNnQZBQ4H00v2V7UlN2Ab8LyIHtEsY9vHp4LyELotSu1v3gZD9imt%2FTj8go9PBkRBWgqm3GQIsN2w1TOOjZpEcwU2TCx79nMBjqkAYxwctksz3QLM1jhminxqHsSQORlXHT68JmO0yRgVpKeH56M4TfOxipRsNQO7DhwM%2FO0c9T3KyVsYgzYjHEsldan1YThZco08uNQMK3rB09JeEfpX6sbI%2F35KHzpzIrlX6zXyevX%2BaeETZ8UvxR2vlpEfQdZupDDdseLYeU3e5Z0lWQKHSZyqOxZMO2lhqMzwYUJp9aSWkkFB%2BOt5VtrYn4HhocA&X-Amz-Signature=9ddc5f21ce26c46035814619cb88776b74e43da52917fcc2a759ffe8328554ac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+1. Parameters and How it works
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/07775f2a-7419-4466-96c0-3bbe426e3f31/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667T3LCQV7%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T044224Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCV7bUngtw7I62tPt45W1NJRkeJMhHeod37GR9XZaOtXQIhAMoLmTOo6rhyimaR6mxO%2Bdsk9u72iC0%2F1u1arhrcP2TEKv8DCHQQABoMNjM3NDIzMTgzODA1IgxWT6f%2FoYcbStneggUq3AMVAOW7uxCW%2BALLd8gLMIuipBvhBsFLLY3YyRNnk5QWA37G1Ue3Av1q90BY2qNeN5NZnUChCLuj8QXlfRibCvippKUpl2AHaXJxBGvNskqARo8e2mUzLIiKaKvzYwIDz9gTFmPVKCkpLIP6pN4ziXZMDJ7UqhnIKdtyTTiWdS7dlNYxi79Uju%2FTF3kF4IYQSmU4%2Fz0KHkV2NfzwIIcyMDeTHtYVbjRcZdSIObcKa0s22Rd1oUF4Io0ThHGID6UIoAvu8B5MkQJ2yJk5SzordwhMPIq1kI%2FesDxZ4u9Vd4ZqiXpMCivPDio7GmEiSF96IGaBOUojFTVitxl3gZF2Iip%2Fn4T%2BkTXLTkqE3lAKtlhxuGeCUgiFuzvvSE7RjH4hprxCp6tOmn8AU2XbsRwQa2bHxsUn2xlUOOo%2BBFkhs17zXXI6wPZlzJMC5eS%2FAAaXAfR62KYJltmPX0KbP0ea7pq9eHrnalKCGJC0eK5%2B5rZl0PhklsXvEaEV7cfF%2BU232MbYXyX7q2ECm0JfxXYCRySJZ6InL%2BzAS%2F6ZDNnQZBQ4H00v2V7UlN2Ab8LyIHtEsY9vHp4LyELotSu1v3gZD9imt%2FTj8go9PBkRBWgqm3GQIsN2w1TOOjZpEcwU2TCx79nMBjqkAYxwctksz3QLM1jhminxqHsSQORlXHT68JmO0yRgVpKeH56M4TfOxipRsNQO7DhwM%2FO0c9T3KyVsYgzYjHEsldan1YThZco08uNQMK3rB09JeEfpX6sbI%2F35KHzpzIrlX6zXyevX%2BaeETZ8UvxR2vlpEfQdZupDDdseLYeU3e5Z0lWQKHSZyqOxZMO2lhqMzwYUJp9aSWkkFB%2BOt5VtrYn4HhocA&X-Amz-Signature=b0391037fa6f00c26b70501e5d9892e67178e0ef916ee7b4d8d515afea1f135e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+## Game Setting & Payoff table
+
+1. Core assumption: Validators share the same cost and risk preference
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/74ffac86-8200-4992-9b9c-804067a3236c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667T3LCQV7%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T044224Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCV7bUngtw7I62tPt45W1NJRkeJMhHeod37GR9XZaOtXQIhAMoLmTOo6rhyimaR6mxO%2Bdsk9u72iC0%2F1u1arhrcP2TEKv8DCHQQABoMNjM3NDIzMTgzODA1IgxWT6f%2FoYcbStneggUq3AMVAOW7uxCW%2BALLd8gLMIuipBvhBsFLLY3YyRNnk5QWA37G1Ue3Av1q90BY2qNeN5NZnUChCLuj8QXlfRibCvippKUpl2AHaXJxBGvNskqARo8e2mUzLIiKaKvzYwIDz9gTFmPVKCkpLIP6pN4ziXZMDJ7UqhnIKdtyTTiWdS7dlNYxi79Uju%2FTF3kF4IYQSmU4%2Fz0KHkV2NfzwIIcyMDeTHtYVbjRcZdSIObcKa0s22Rd1oUF4Io0ThHGID6UIoAvu8B5MkQJ2yJk5SzordwhMPIq1kI%2FesDxZ4u9Vd4ZqiXpMCivPDio7GmEiSF96IGaBOUojFTVitxl3gZF2Iip%2Fn4T%2BkTXLTkqE3lAKtlhxuGeCUgiFuzvvSE7RjH4hprxCp6tOmn8AU2XbsRwQa2bHxsUn2xlUOOo%2BBFkhs17zXXI6wPZlzJMC5eS%2FAAaXAfR62KYJltmPX0KbP0ea7pq9eHrnalKCGJC0eK5%2B5rZl0PhklsXvEaEV7cfF%2BU232MbYXyX7q2ECm0JfxXYCRySJZ6InL%2BzAS%2F6ZDNnQZBQ4H00v2V7UlN2Ab8LyIHtEsY9vHp4LyELotSu1v3gZD9imt%2FTj8go9PBkRBWgqm3GQIsN2w1TOOjZpEcwU2TCx79nMBjqkAYxwctksz3QLM1jhminxqHsSQORlXHT68JmO0yRgVpKeH56M4TfOxipRsNQO7DhwM%2FO0c9T3KyVsYgzYjHEsldan1YThZco08uNQMK3rB09JeEfpX6sbI%2F35KHzpzIrlX6zXyevX%2BaeETZ8UvxR2vlpEfQdZupDDdseLYeU3e5Z0lWQKHSZyqOxZMO2lhqMzwYUJp9aSWkkFB%2BOt5VtrYn4HhocA&X-Amz-Signature=5329d5e91c22d2b37a9e8bc708e35ffec8bab246579dfed8634c844b6d18bdfe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+## Theorems and Interpretation
+
+After analysis, we get three Nash equilibria.
+
+1. <u>**Pure Strategy Nash Equilibrium - Validators are always online and Proposer is Honest**</u>
+  - Condition: $c_m ≤ \frac{\pi_a C_{off}}{N}$ , where
+    - $c_m$ is the per-epoch cost parameter
+    - $\pi_a$ is the attention test probability
+    - $C_{off}$ is the penality of failing the attention test
+    - $N$ is the number of validators
+1. Pure Strategy Nash Equilibrium - Validators are always offline and Proposer is Fraudulent
+1. Mixed Strategy Nash Equilibrium
+
+## Design for Ideal Security
+
+- Prices of AWS node specs for operating Arbitrum One, Base, Taiko’s nodes are $100-$430 / month approximately.
+- If we consider the L2 state commitment occurs every 10 mins
+- Then, $c_m \approx 0.0463$ $
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/8bcedb1c-51ed-46d6-817f-d507b4ba4473/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667T3LCQV7%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T044224Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCV7bUngtw7I62tPt45W1NJRkeJMhHeod37GR9XZaOtXQIhAMoLmTOo6rhyimaR6mxO%2Bdsk9u72iC0%2F1u1arhrcP2TEKv8DCHQQABoMNjM3NDIzMTgzODA1IgxWT6f%2FoYcbStneggUq3AMVAOW7uxCW%2BALLd8gLMIuipBvhBsFLLY3YyRNnk5QWA37G1Ue3Av1q90BY2qNeN5NZnUChCLuj8QXlfRibCvippKUpl2AHaXJxBGvNskqARo8e2mUzLIiKaKvzYwIDz9gTFmPVKCkpLIP6pN4ziXZMDJ7UqhnIKdtyTTiWdS7dlNYxi79Uju%2FTF3kF4IYQSmU4%2Fz0KHkV2NfzwIIcyMDeTHtYVbjRcZdSIObcKa0s22Rd1oUF4Io0ThHGID6UIoAvu8B5MkQJ2yJk5SzordwhMPIq1kI%2FesDxZ4u9Vd4ZqiXpMCivPDio7GmEiSF96IGaBOUojFTVitxl3gZF2Iip%2Fn4T%2BkTXLTkqE3lAKtlhxuGeCUgiFuzvvSE7RjH4hprxCp6tOmn8AU2XbsRwQa2bHxsUn2xlUOOo%2BBFkhs17zXXI6wPZlzJMC5eS%2FAAaXAfR62KYJltmPX0KbP0ea7pq9eHrnalKCGJC0eK5%2B5rZl0PhklsXvEaEV7cfF%2BU232MbYXyX7q2ECm0JfxXYCRySJZ6InL%2BzAS%2F6ZDNnQZBQ4H00v2V7UlN2Ab8LyIHtEsY9vHp4LyELotSu1v3gZD9imt%2FTj8go9PBkRBWgqm3GQIsN2w1TOOjZpEcwU2TCx79nMBjqkAYxwctksz3QLM1jhminxqHsSQORlXHT68JmO0yRgVpKeH56M4TfOxipRsNQO7DhwM%2FO0c9T3KyVsYgzYjHEsldan1YThZco08uNQMK3rB09JeEfpX6sbI%2F35KHzpzIrlX6zXyevX%2BaeETZ8UvxR2vlpEfQdZupDDdseLYeU3e5Z0lWQKHSZyqOxZMO2lhqMzwYUJp9aSWkkFB%2BOt5VtrYn4HhocA&X-Amz-Signature=5eee493f53d62617fcb87f3f4fd9da1fe9f62bd3387c7274a67583a67bc4a6b2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+## Simulation
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/a144fbca-4a26-4483-a9b0-ab39e1fb3bec/cumulative_payoff_timeseries.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667T3LCQV7%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T044224Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCV7bUngtw7I62tPt45W1NJRkeJMhHeod37GR9XZaOtXQIhAMoLmTOo6rhyimaR6mxO%2Bdsk9u72iC0%2F1u1arhrcP2TEKv8DCHQQABoMNjM3NDIzMTgzODA1IgxWT6f%2FoYcbStneggUq3AMVAOW7uxCW%2BALLd8gLMIuipBvhBsFLLY3YyRNnk5QWA37G1Ue3Av1q90BY2qNeN5NZnUChCLuj8QXlfRibCvippKUpl2AHaXJxBGvNskqARo8e2mUzLIiKaKvzYwIDz9gTFmPVKCkpLIP6pN4ziXZMDJ7UqhnIKdtyTTiWdS7dlNYxi79Uju%2FTF3kF4IYQSmU4%2Fz0KHkV2NfzwIIcyMDeTHtYVbjRcZdSIObcKa0s22Rd1oUF4Io0ThHGID6UIoAvu8B5MkQJ2yJk5SzordwhMPIq1kI%2FesDxZ4u9Vd4ZqiXpMCivPDio7GmEiSF96IGaBOUojFTVitxl3gZF2Iip%2Fn4T%2BkTXLTkqE3lAKtlhxuGeCUgiFuzvvSE7RjH4hprxCp6tOmn8AU2XbsRwQa2bHxsUn2xlUOOo%2BBFkhs17zXXI6wPZlzJMC5eS%2FAAaXAfR62KYJltmPX0KbP0ea7pq9eHrnalKCGJC0eK5%2B5rZl0PhklsXvEaEV7cfF%2BU232MbYXyX7q2ECm0JfxXYCRySJZ6InL%2BzAS%2F6ZDNnQZBQ4H00v2V7UlN2Ab8LyIHtEsY9vHp4LyELotSu1v3gZD9imt%2FTj8go9PBkRBWgqm3GQIsN2w1TOOjZpEcwU2TCx79nMBjqkAYxwctksz3QLM1jhminxqHsSQORlXHT68JmO0yRgVpKeH56M4TfOxipRsNQO7DhwM%2FO0c9T3KyVsYgzYjHEsldan1YThZco08uNQMK3rB09JeEfpX6sbI%2F35KHzpzIrlX6zXyevX%2BaeETZ8UvxR2vlpEfQdZupDDdseLYeU3e5Z0lWQKHSZyqOxZMO2lhqMzwYUJp9aSWkkFB%2BOt5VtrYn4HhocA&X-Amz-Signature=c7d7724101f5d9ddb811623a5332644df8a641d0b0fdf96bd830f659866edeaa&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+## Manuscript for Details (still updating)
+
+[Attention_Test__AFT_ (11).pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/d9317dc5-13aa-4f9c-b0a7-14f10ef21ee3/Attention_Test__AFT__%2811%29.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667T3LCQV7%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T044224Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCV7bUngtw7I62tPt45W1NJRkeJMhHeod37GR9XZaOtXQIhAMoLmTOo6rhyimaR6mxO%2Bdsk9u72iC0%2F1u1arhrcP2TEKv8DCHQQABoMNjM3NDIzMTgzODA1IgxWT6f%2FoYcbStneggUq3AMVAOW7uxCW%2BALLd8gLMIuipBvhBsFLLY3YyRNnk5QWA37G1Ue3Av1q90BY2qNeN5NZnUChCLuj8QXlfRibCvippKUpl2AHaXJxBGvNskqARo8e2mUzLIiKaKvzYwIDz9gTFmPVKCkpLIP6pN4ziXZMDJ7UqhnIKdtyTTiWdS7dlNYxi79Uju%2FTF3kF4IYQSmU4%2Fz0KHkV2NfzwIIcyMDeTHtYVbjRcZdSIObcKa0s22Rd1oUF4Io0ThHGID6UIoAvu8B5MkQJ2yJk5SzordwhMPIq1kI%2FesDxZ4u9Vd4ZqiXpMCivPDio7GmEiSF96IGaBOUojFTVitxl3gZF2Iip%2Fn4T%2BkTXLTkqE3lAKtlhxuGeCUgiFuzvvSE7RjH4hprxCp6tOmn8AU2XbsRwQa2bHxsUn2xlUOOo%2BBFkhs17zXXI6wPZlzJMC5eS%2FAAaXAfR62KYJltmPX0KbP0ea7pq9eHrnalKCGJC0eK5%2B5rZl0PhklsXvEaEV7cfF%2BU232MbYXyX7q2ECm0JfxXYCRySJZ6InL%2BzAS%2F6ZDNnQZBQ4H00v2V7UlN2Ab8LyIHtEsY9vHp4LyELotSu1v3gZD9imt%2FTj8go9PBkRBWgqm3GQIsN2w1TOOjZpEcwU2TCx79nMBjqkAYxwctksz3QLM1jhminxqHsSQORlXHT68JmO0yRgVpKeH56M4TfOxipRsNQO7DhwM%2FO0c9T3KyVsYgzYjHEsldan1YThZco08uNQMK3rB09JeEfpX6sbI%2F35KHzpzIrlX6zXyevX%2BaeETZ8UvxR2vlpEfQdZupDDdseLYeU3e5Z0lWQKHSZyqOxZMO2lhqMzwYUJp9aSWkkFB%2BOt5VtrYn4HhocA&X-Amz-Signature=5a37cdb7bc81195151f518996effbbe88f42929da9074be569c3c2de514fd957&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)

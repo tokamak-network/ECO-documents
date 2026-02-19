@@ -1,0 +1,32 @@
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/e69dd697-50b5-4651-b170-9465fa50873d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YI2T3KMN%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T040547Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC0Ow6whVcSJgT3O7FuG9jMUzwuOtQKytlGeiBuY1gyUAIgSYygX9Nfqrkd%2Bz6nLLggkvtB0Ycl%2BHarS9SzaVi8zmQq%2FwMIdBAAGgw2Mzc0MjMxODM4MDUiDGmMBJBxR3NagjsAgyrcAxb4heXyraKxWAgvqKm7zQG03FFyrusbTDlOD7wELCUHILSjWNfN1dgcLRIUdLCHwlT%2BOoqX7N%2BV1jHHQHXTmZ7jcn9FLGilD5VqxmqF9q%2FB2FgA5kbuDi12aEMqjxA6qeYN0maY%2FkSAXeLz8Vz0oCgF1ObjBxM5GAuVQwVJq5b8jHz2MxMt78ehUm617i5I%2By%2F%2FkSLCZt9gb7j2J2qq9ilOuD9WQPko8DwpDjTPDljzAKNv46%2BVHDOUdmY8bKdV4WwEZ5vGVSsMjpUm2F1Xo7zjnMdhSuGJLa%2FXI1sUdH%2BvWRjOJI7QzrvHXCtoCUnL%2BVQtSjTumLJaUaEj4y%2BnCbhN4unwKBfHLQvl%2FPGSd%2BnV9MP0mLo4WVGV4FCJZ0RVBzJ8ZWGh3vt%2FBJTadWlFqwSrZrA7Ba5es%2BoTmmMeYlmpP8G5j%2BVsGGNvmx4vDAWNWS1TCEwt10l%2Fzed1aRZpyNeud0CC71NtPERzveDWjinc55iJVMCx%2BYg0SF8Y%2BpsRviPZRfQpiahW5q5n7zXqKmEHwXWUPfddNsm1oB1V2fe5Iy8qFaNaQIvaLPgLtJoWsKrSPVpAWMjhUVuv8ahEcCxlh0nOAcAni8EUu21b5lRolaTxMcqG4mb0y0bnMI7v2cwGOqUB4jqyCSMcpY6ZNymHi6Diu6h%2B2qhhW80y35gUpCXZ%2FWfnX7ez5ptwVa9plrJElbvjADdOqzBozxvplK6klR9SWJNwQY5NQH%2F35sQzmaC69qXok0gcVMeWoL7y6CzoQ4nh0aph9qXVZgYnle7Uaw0flk7I38uy7BbFJZJVLT9%2BpGEFfSbKZxfXenUz9uvw0VfstqMdYXk38LwkuzDli8auLS7GJrfH&X-Amz-Signature=4761876b083e8c1e7d053bf4941c3f2cdae2c4b0a3e4ce8a916ecc22edff881c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+# Voting power of Snapshot
+
+[https://testnet.snapshot.box/#/s-tn:cd4761.eth/proposals](https://testnet.snapshot.box/#/s-tn:cd4761.eth/proposals)
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/9d403559-378e-46d7-a3cb-646f935d4ced/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YI2T3KMN%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T040547Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC0Ow6whVcSJgT3O7FuG9jMUzwuOtQKytlGeiBuY1gyUAIgSYygX9Nfqrkd%2Bz6nLLggkvtB0Ycl%2BHarS9SzaVi8zmQq%2FwMIdBAAGgw2Mzc0MjMxODM4MDUiDGmMBJBxR3NagjsAgyrcAxb4heXyraKxWAgvqKm7zQG03FFyrusbTDlOD7wELCUHILSjWNfN1dgcLRIUdLCHwlT%2BOoqX7N%2BV1jHHQHXTmZ7jcn9FLGilD5VqxmqF9q%2FB2FgA5kbuDi12aEMqjxA6qeYN0maY%2FkSAXeLz8Vz0oCgF1ObjBxM5GAuVQwVJq5b8jHz2MxMt78ehUm617i5I%2By%2F%2FkSLCZt9gb7j2J2qq9ilOuD9WQPko8DwpDjTPDljzAKNv46%2BVHDOUdmY8bKdV4WwEZ5vGVSsMjpUm2F1Xo7zjnMdhSuGJLa%2FXI1sUdH%2BvWRjOJI7QzrvHXCtoCUnL%2BVQtSjTumLJaUaEj4y%2BnCbhN4unwKBfHLQvl%2FPGSd%2BnV9MP0mLo4WVGV4FCJZ0RVBzJ8ZWGh3vt%2FBJTadWlFqwSrZrA7Ba5es%2BoTmmMeYlmpP8G5j%2BVsGGNvmx4vDAWNWS1TCEwt10l%2Fzed1aRZpyNeud0CC71NtPERzveDWjinc55iJVMCx%2BYg0SF8Y%2BpsRviPZRfQpiahW5q5n7zXqKmEHwXWUPfddNsm1oB1V2fe5Iy8qFaNaQIvaLPgLtJoWsKrSPVpAWMjhUVuv8ahEcCxlh0nOAcAni8EUu21b5lRolaTxMcqG4mb0y0bnMI7v2cwGOqUB4jqyCSMcpY6ZNymHi6Diu6h%2B2qhhW80y35gUpCXZ%2FWfnX7ez5ptwVa9plrJElbvjADdOqzBozxvplK6klR9SWJNwQY5NQH%2F35sQzmaC69qXok0gcVMeWoL7y6CzoQ4nh0aph9qXVZgYnle7Uaw0flk7I38uy7BbFJZJVLT9%2BpGEFfSbKZxfXenUz9uvw0VfstqMdYXk38LwkuzDli8auLS7GJrfH&X-Amz-Signature=e323e61ea1938205fc7a70ce6c9762b6a123b3015104cbc4a93d2ce14c2beed8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/2db384a5-a371-4562-a513-bf4a09911e52/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YI2T3KMN%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T040547Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC0Ow6whVcSJgT3O7FuG9jMUzwuOtQKytlGeiBuY1gyUAIgSYygX9Nfqrkd%2Bz6nLLggkvtB0Ycl%2BHarS9SzaVi8zmQq%2FwMIdBAAGgw2Mzc0MjMxODM4MDUiDGmMBJBxR3NagjsAgyrcAxb4heXyraKxWAgvqKm7zQG03FFyrusbTDlOD7wELCUHILSjWNfN1dgcLRIUdLCHwlT%2BOoqX7N%2BV1jHHQHXTmZ7jcn9FLGilD5VqxmqF9q%2FB2FgA5kbuDi12aEMqjxA6qeYN0maY%2FkSAXeLz8Vz0oCgF1ObjBxM5GAuVQwVJq5b8jHz2MxMt78ehUm617i5I%2By%2F%2FkSLCZt9gb7j2J2qq9ilOuD9WQPko8DwpDjTPDljzAKNv46%2BVHDOUdmY8bKdV4WwEZ5vGVSsMjpUm2F1Xo7zjnMdhSuGJLa%2FXI1sUdH%2BvWRjOJI7QzrvHXCtoCUnL%2BVQtSjTumLJaUaEj4y%2BnCbhN4unwKBfHLQvl%2FPGSd%2BnV9MP0mLo4WVGV4FCJZ0RVBzJ8ZWGh3vt%2FBJTadWlFqwSrZrA7Ba5es%2BoTmmMeYlmpP8G5j%2BVsGGNvmx4vDAWNWS1TCEwt10l%2Fzed1aRZpyNeud0CC71NtPERzveDWjinc55iJVMCx%2BYg0SF8Y%2BpsRviPZRfQpiahW5q5n7zXqKmEHwXWUPfddNsm1oB1V2fe5Iy8qFaNaQIvaLPgLtJoWsKrSPVpAWMjhUVuv8ahEcCxlh0nOAcAni8EUu21b5lRolaTxMcqG4mb0y0bnMI7v2cwGOqUB4jqyCSMcpY6ZNymHi6Diu6h%2B2qhhW80y35gUpCXZ%2FWfnX7ez5ptwVa9plrJElbvjADdOqzBozxvplK6klR9SWJNwQY5NQH%2F35sQzmaC69qXok0gcVMeWoL7y6CzoQ4nh0aph9qXVZgYnle7Uaw0flk7I38uy7BbFJZJVLT9%2BpGEFfSbKZxfXenUz9uvw0VfstqMdYXk38LwkuzDli8auLS7GJrfH&X-Amz-Signature=a4cf23c2eb41f2c665e20371e5abb26906c931065bfc2e57d1a9299198adb29f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+- [etherscan](https://sepolia.etherscan.io/address/0x8F7AB8C5A57D5429B409D3515e2D847dE3f1986D#readContract)
+- Will request to the SYB team about the change getScore function to balanceOf 
+
+# Current Voting Strategy
+
+- 100% Sybil score based on PoU(Proof of Uniqueness)
+- To get the Sybil score, the user has to send `deposit` and `vouch` transaction.
+- 기존 스테이킹과 연계가 되어있어야함
+
+# Combined Strategy
+
+- Combined Tokamak related assets(Staked TON, WTON, TON…) with PoU score.
+- The formula is not determined yet.
+- If the combined strategy is selected, we have to implement a contract for the combined strategy. 
+- 2 types of combined strategy
+  - Users must have a Sybil score(Sybil score * (other assets..))
+  - Sybil score is not mandatory (Sybil score + (other assets…))
+- The Tokamak DAO will have permission to control the parameters of the formula
+
+llm + 기본 버전하나
+
+타임라인 공유

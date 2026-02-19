@@ -1,0 +1,10 @@
+# Obsidian - personal settings (exclude from shared repo)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/hotkeys.json
+
+# OS files
+.DS_Store
+Thumbs.db

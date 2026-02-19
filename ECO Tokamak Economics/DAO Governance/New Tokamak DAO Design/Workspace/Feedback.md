@@ -1,0 +1,10 @@
+- L2 Operator의 시뇨리지는 L2 운영비로 사용된다. L2 Depositor에게 분배하면 운영 비용이 부족해질 수 있다.
+- 시뇨리지 부분은 백서를 따르되, vTON 분배와 관련해서만 DAO 거버넌스 설계를 진행한다.
+- Thanos 외에도 ZKP-Channel 같은 다른 L2도 존재하므로 이를 함께 고려해야 한다.
+- Staker는 L1에 스테이킹한 유저이며, L2 Depositor는 L2에 예치하여 TVL을 높이는 주체이다.
+- L2 Depositor에게 vTON을 주되 L1에서 주는 것과 L2에서 주는 방식이 있다:
+  - L1: 예치 즉시 vTON을 지급한다. 이 경우 L2에서 출금한 후 L1에서 다시 요청하여 vTON을 추가로 받을 수 있는 공격 벡터가 발생한다.
+  - L2: L2 잔액을 기준으로 vTON을 지급한다. 단, 해당 토큰을 L2에서 L1으로 이동시켜야 한다.
+- vTON 지급 여부는 Operator가 결정한다.
+- 다양한 Layer 2가 생길 수 있으므로, Layer 1에서 vTON을 분배하는 모델로
+- Offchian Voting < Onchain Voting

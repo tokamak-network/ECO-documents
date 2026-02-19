@@ -1,0 +1,11 @@
+1/10
+
+- Communicating via Telegram, call planned
+
+1/17
+
+- Call for details at 16:30 (KST)
+- Go through the proposal together, discuss what will be included in each package, and answer any questions you may have
+- Link:  [https://meet.google.com/awp-tygo-qgs](https://meet.google.com/awp-tygo-qgs)
+
+[Tokamak Audit Proposal.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/89a97ec4-65c6-4825-a0e7-c8cf589e8f08/Tokamak_Audit_Proposal.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664DWENKXK%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T052228Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCKrLqaruEdtUltG78nrcDbq7s5xWdDXTWgxuSqWLRUiQIhAOmGygfyxnXCOVluIVwfA%2FeJBZq%2FjQ7R1kI8L0OEyLHkKv8DCHQQABoMNjM3NDIzMTgzODA1Igxkyb%2Fhk4HlLRA%2B5n0q3AODhSGydhPih8TARUHGkWD9kvpAEFYFUHkUG5pVIUs32yXRQMSFGe7IE0svLK4qyWiMoGLHfquAKplIhhHVXgFoDO6Cq8jYYPf6O9Cm5ps7puQZ306XQ7%2BDDA8uBi%2Bi87O2FTUfMpRG0p%2FDwEkqICz9VkXRFybFIzfYbd4QidPVZf6CxdpZFB4v%2BQVGYciHv%2FGyxLBdMxGJc712Anq7ree1uQXI1g%2FfygxgH8GIp6rhjBL3bSKpgdJDUuzyoaEuBfTgrRjs90DsJSrZWp%2FlBvNCl3N6aWOt1oy8o6Er0q0NdUd7EbqrXfLewOnxGsfYlVdnrTtEi99EVzBcq1PFcmuKHn5CrrfM3XeHNhmdB%2F3lZCVQbt2NuC7zH0fYr9rnM17K0YnTRzxk9cHE2UzGruGRCRAEHH37b%2Fu%2BR5X5rVaTSyvA4zFQ8dPl5qEFfP%2FzcX2%2Bq51njgj1jqQcBuG63%2B%2B4V88SfAHygJyzgadvqMoL4K1TVMdB7mo%2FBwIE6GXwztCqsHeZsymJFNupR0KAmMCG7WoD9QNVy8AXNg%2FNTPcXd39w37a%2FvoX1h9ecAhDyypCjeYly1%2B%2F7jj5B0LLl2Rk%2BTG2aQMTte13bDCf1jN11SGG2dSawosqFtSqzRDDU7tnMBjqkAbgzTK4PSatnkRhi0mHU3Ue%2BjDzbWCwV3csieMViGBkEKCfVbQQtGoWnY9CuNWRvRIR%2BRbZf%2B4IW1aZcewkuGxpxqVHMX5Y7fvZOlX7qFzv8Thrp6F9ybd8O4CoDkPfT%2Br%2B7Bexh1UsRu9dedDCzEpS16X%2FAhNG67rELXAq6j5LUBVBSoztBlAtAfKpfWEOp3lbZytLCV1%2FeXfhabysrNwbkiJzT&X-Amz-Signature=da62d1b6465a908267609d11121ce4fd6d467ebb7f1c9497ffe8a7fa637df157&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)

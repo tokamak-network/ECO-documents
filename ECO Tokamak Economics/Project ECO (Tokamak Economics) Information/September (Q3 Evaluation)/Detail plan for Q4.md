@@ -1,0 +1,13 @@
+## Details tasks
+
+- In this quarter L2 Economics team will be working on 3 types of task
+
+### Simple staking patch
+
+### Staking V2 & FW
+
+### Renewal price dashboard
+
+## Budget request
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/fd161eaa-fd44-43c9-a919-0ec7d16dc530/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RKORTPIC%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T050403Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHpQa%2Fk18KQQXsFnMRgd5vsjIweYis75yYkJ5bwPXnbpAiB1iGAghKbu%2FjxENfZUzsVjeuQ73kTdYilvYOb7i4y%2BfSr%2FAwh1EAAaDDYzNzQyMzE4MzgwNSIMtZj4Tekb0fbsTCDRKtwD9NhrnVTJzas7dOc2H6PCBJZNtQXi0FfV7NtXDz6P1Zc%2BqPYOpg%2B8bv0mXBKL7YXIZoiHLUhWYPL8%2FKWxz%2FF6LUUqlJuOcY5urVB%2FXDc3ySNFjB0T2mfILN3k6BH71mBmOS013%2FzOMWPdJTzMy5KKd1CAAWnZwUG2puTPgVQj8kTheVNbIHGweYLRBoJj4PaT9hAHkubMOeEL8C4FVQp5SiZShPw3K4xHq5ANCgpZDaEuDP63422b1pqNZFkXPDki126C8Xo7d5Jw4ni5%2B0da%2BepSvUiqVM8f86H%2BwjOX2TlzywMHLB5tEIyzHE%2BlPRBHXcKo8i4O%2F%2B2KAvWjb7KdITohKLhZ4OLccn7BZjmvlO5VAuwEY9CSBvGvi9aDEB3vNE9tA%2FAfsWyAycAEJXpWoy9ptUTzWNl8vBSc8%2FwfLFMs7F63WOxIyZJs4LBXrQs%2B3mkZt3cXs2nMarZvtFmCScuu7ToeRyUjZjhHlS6wWxinoAwtKVYmcJRRx9UCvVrN%2FbSbFQGuPbfGyBpCmf22qYmMQoPxJ5raZTS3d5Q7FGE98s%2FQGbs4lzDw1fpQvv6rqlTHFhsM86XUezrkF7GlEby5kWTZcCieqsr0GVyvNteCOB%2FvAu6yd8nhzeIw6J%2FazAY6pgE0UAfATWOehG5HUfa1cji2JEWlue2iQgS8XuX6qRweO57YgEm2hPmZkWST3m6WphPM%2BANLOD6HLe9FEqr5XKEqqUyOIWAYwGxXN4Nv%2FZ%2FB41ZFRUCXfbDvkAzV3hCaYlDL6%2BUAcE8WeH21h%2B6dFXqKuSKAW4F6o1nmuvA%2B9R75om0IzFCvVcLk1bTmrtL5dezRl5FqF0lgtBt8canHNaQ0Hj%2FsmUsX&X-Amz-Signature=6e13456be538480110d58653ac48cce4eca40fc94736e50791a4af297cfd0a1f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)

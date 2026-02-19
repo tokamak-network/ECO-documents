@@ -1,0 +1,111 @@
+### Contract scope  
+
+- DAOCommitteeProxy2.sol [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/proxy/DAOCommitteeProxy2.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/proxy/DAOCommitteeProxy2.sol)
+- DAOCommittee_V1.sol  [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/DAOCommittee_V1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/DAOCommittee_V1.sol) 
+- DAOCommitteeOwner.sol [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/DAOCommitteeOwner.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/DAOCommitteeOwner.sol)
+- SeigManagerV1_3.sol : [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/stake/managers/SeigManagerV1_3.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/stake/managers/SeigManagerV1_3.sol) 
+- DepositManagerV1_1.sol: [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/stake/managers/DepositManagerV1_1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/stake/managers/DepositManagerV1_1.sol)
+- L1BridgeRegistryV1_1.sol  [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/L1BridgeRegistryV1_1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/L1BridgeRegistryV1_1.sol)
+- Layer2ManagerV1_1.sol [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/Layer2ManagerV1_1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/Layer2ManagerV1_1.sol)
+- OperatorManagerV1_1.sol [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/OperatorManagerV1_1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/layer2/OperatorManagerV1_1.sol)
+- CandidateAddOnV1_1.sol [https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/CandidateAddOnV1_1.sol](https://github.com/tokamak-network/ton-staking-v2/blob/v2.5-audit-request/contracts/dao/CandidateAddOnV1_1.sol)
+
+Minor 이상만체크
+
+- 총 발견 이슈 : 2+10+1+6+1+1 = 21
+- Major = 1+2 = 3
+- Medium = 6+1+2+1 = 10
+- Minor = 2+3+2+1 = 8
+- DAOCommitteeProxy2 (2)
+  - Minor (2)
+    - DAP-01M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/262](https://github.com/tokamak-network/ton-staking-v2/issues/262)
+      - 문제 : DAOCommitteeProxy2:_setImplementation2 함수는 _alive 상태가 false로 설정되어 있어도 지정된 주소에 코드가 존재해야합니다.
+      - 해결 내용 : false로 설정되어 있으면 지정된 주소에 대한 코드검사를 하지 않습니다.
+    - DAP-02M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/263](https://github.com/tokamak-network/ton-staking-v2/issues/263)
+      - 문제 : DAOCommitteeProxy2::setSelectorImplementations2 함수는 사용하지 않을 특정 selector에 대해 비활성화가 불가능합니다.
+      - 해결 내용 : unsetSelectorImplementations2함수를 추가하여서 특정 selector 비활성화 기능 추가
+- DAOCommittee_V1 (10)
+  - Minor (3)
+    - DAO-03M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/266](https://github.com/tokamak-network/ton-staking-v2/issues/266)
+      - 문제 : DAOCommittee_V1::byteToUnit256 함수는 오류 선택기를 건너뛰기 위해 이유 선언을 4바이트만큼 오프셋해야 하지만, 잘못된 방식으로 이를 수행합니다.
+      - 해결 내용 : 사용하지 않는 함수여서 함수를 삭제하였습니다.
+    - DAO-04M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/267](https://github.com/tokamak-network/ton-staking-v2/issues/267)
+      - 문제 : DAOCommittee_V1::createCandidate 함수는 관리 변형에 적용되는 여러 Modifier를 적용하지 않습니다.
+      - 해결 내용 : Modifier 검사 추가
+    - DAO-05M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/268](https://github.com/tokamak-network/ton-staking-v2/issues/268)
+      - 문제 : DAOCommittee_V1::onApprove 함수는 claimWTON 구현이 호출되는 것을 방지하여 WTON 인출을 금지하려고 시도하지만, claimERC20 함수는 WTON 인수로 잘못 호출될 수 있습니다.
+      - 해결 내용 : DAOVault에서 TON출금을 금지하기위한 로직으로 WTON출금은 가능하기 때문에 문제가 아니여서 수정하지 않습니다.
+  - Medium (6)
+    - DAO-04S3
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/260](https://github.com/tokamak-network/ton-staking-v2/issues/260)
+      - 문제 : 연결된 명령문은 EIP-20 표준 전달 함수의 반환된 bool 값을 제대로 검증하지 않습니다. 표준에 따라 호출자는 false가 반환되지 않는다고 가정해서는 안 됩니다.
+      - 해결 내용 : safeERC20으로 변경하여서 true, false값을 제대로 검증하도록 변경하였습니다.
+    - DAO-06M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/269](https://github.com/tokamak-network/ton-staking-v2/issues/269)
+      - 문제 : DAOCommittee_V1::castVote 함수는 반대 투표만을 평가하기 때문에 abstain 단계에서 특정 의제의 정족수가 충족되었는지 여부를 잘못 평가합니다.
+      - 해결 내용 : abstain 단계에서 전체 투표수와 남은 투표수 계산을 넣어서 계산을 진행하여서 잘못된 평가가 일어나지 않게 하였습니다.
+    - DAO-07M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/270](https://github.com/tokamak-network/ton-staking-v2/issues/270)
+      - 문제 : Candidate::_getCoinageToken 구현에 따르면, 후보자가 사용하는 코인 토큰은 레이어 2 후보인지 여부에 따라 달라집니다. DAOCommittee_V1::operatorAmountCheck 함수는 이를 고려하지 않아 잘못되거나 실행 불가능한 코인 인스턴스를 생성합니다.
+      - 해결 내용 : operatorCheck함수를 추가하고 해당 함수에서는 레이어2 후보의 여부에 따라서 다른 로직이 작동하도록 하였습니다.
+    - DAO-08M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/271](https://github.com/tokamak-network/ton-staking-v2/issues/271)
+      - 문제 : DAOCommittee_V1::changeMember 함수를 사용하면 후보자가 기존 멤버를 각 멤버의 ICandidate::totalStaked 평가에서 단일 wei 차이로 교체할 수 있습니다. 우리는 이러한 특성이 불공평하고 조작되기 쉽다고 생각합니다.
+      - 해결 내용 : 의도한 로직으로 문제되는 부분이 아니여서 수정하지 않았습니다.
+    - DAO-09M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/272](https://github.com/tokamak-network/ton-staking-v2/issues/272)
+      - 문제 : TON 구현에서는 EIP-165 표준을 통해 지원을 신호하기 위해 DAOCommittee_V1::onApprove 함수가 호출되어야 하는 계약을 예상하지만 DAOCommittee_V1::supportsInterface 함수는 그러한 신호를 보내지 않습니다.
+      - 해결 내용 : 사용되지 않는 supportsInterface함수를 삭제하였습니다.
+    - DAO-10M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/273](https://github.com/tokamak-network/ton-staking-v2/issues/273)
+      - 문제 : DAOCommittee_V1::onApprove 함수는 모든 사용자가 시스템에서 의제를 생성할 수 있도록 허용하며, 여기에는 실행 불가능한 의제까지 포함될 수 있으므로 현재 안전하지 않습니다.
+      - 해결 내용 : 안전을 위한 require문을 추가하였습니다.
+  - Major (1)
+    - DAO-11M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/274](https://github.com/tokamak-network/ton-staking-v2/issues/274)
+      - 문제 : DAOCommittee_V1::changeMember 및 DAOCommittee_V1::retireMember 함수는 빈도에 시간 제한을 두지 않으므로 단일 멤버가 충분한 ICandidate::totalStaked 평가가 있는 한 단일 트랜잭션에서 모든 기존 후보를 교체할 수 있습니다.
+      - 해결 내용 : changeMember로 Member가 된 이후부터는 cooldownTime이 지난 후 changeMember가 가능하게 하였고, retireMember를 호출한 Member는 blackList에 등록되어서 더 이상 멤버가 될 수 없도록 하였습니다.
+- DAOCommitteeOwner (1)
+  - Medium (1)
+    - DAC-01M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/261](https://github.com/tokamak-network/ton-staking-v2/issues/261)
+      - 문제 : DAOCommitteeOwner::decreaseMaxMember 함수 구현은 멤버 조회가 addressZero 주소로 평가되더라도 CandidateInfo 데이터 항목의 rewardPeriod를 재설정합니다. 불공평한 양의 보상이 0 주소에 빚을 졌기 때문에 우리는 이 특성을 유효하지 않다고 생각합니다.
+      - 해결 내용 : addressZero주소일때는 해당 로직을 사용하지 않게 변경하였습니다.
+- SeigManagerV1_3 (6)
+  - Minor (2)
+    - SM3-03M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/151](https://github.com/tokamak-network/ton-staking-v2/issues/151)
+    - SM3-04M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/152](https://github.com/tokamak-network/ton-staking-v2/issues/152)
+  - Medium (2)
+    - SM3-05M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/153](https://github.com/tokamak-network/ton-staking-v2/issues/153)
+    - SM3-06M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/154](https://github.com/tokamak-network/ton-staking-v2/issues/154)
+  - Major (2)
+    - SM3-07M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/155](https://github.com/tokamak-network/ton-staking-v2/issues/155)
+    - SM3-08M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/156](https://github.com/tokamak-network/ton-staking-v2/issues/156)
+      - 문제 : 
+      - 해결 내용 : Changed code to distribute seigniorage to layer2 even when non-layer2 user calls `updateSeigniorage`.
+- DepositManagerV1_1 (1)
+  - Minor (1)
+    - DMV-01M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/114](https://github.com/tokamak-network/ton-staking-v2/issues/114)
+      - 문제 : 참조된 바이트 메모리 페이로드는 '0x'로 정의되며, 이는 길이가 2인 페이로드와 그 안에 0과 x개의 문자를 포함하게 됩니다.
+      - 해결 내용 : 0x가 아닌 empty bytes로 변경
+- L1BridgeRegistryV1_1
+- Layer2ManagerV1_1
+- OperatorManagerV1_1
+- CandidateAddOnV1_1 (1)
+  - Medium (1)
+    - CAO-01M
+      - [https://github.com/tokamak-network/ton-staking-v2/issues/81](https://github.com/tokamak-network/ton-staking-v2/issues/81)
+      - 문제 : initialize 함수는 다시 호출되는 것을 방지하지 않으므로 CandidateAddOnV1_1은 임의의 횟수만큼 다시 초기화될 수 있습니다.
+      - 해결 내용 : 호출 후 재호출 방지

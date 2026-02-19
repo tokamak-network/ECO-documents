@@ -1,0 +1,754 @@
+# The basics concept of services 
+
+[https://docs.google.com/presentation/d/19rKQoBhNQ2tHhfWJBRbGn2BbGcLUvWPnvfofaOyLQj0/edit#slide=id.g1ee16850fbf_0_54](https://docs.google.com/presentation/d/19rKQoBhNQ2tHhfWJBRbGn2BbGcLUvWPnvfofaOyLQj0/edit#slide=id.g1ee16850fbf_0_54)
+
+[[Function description of TON Staking V2 (deprecated) ]] 
+
+# Change log
+
+- v0_1 : 2023.3.29 : initial document 
+- **v0_2 : 2023.4.4 :  **[** **](https://github.com/tokamak-network/tokamak-staking-v2/tree/TSV2_2_dao_committee)**(current document) **
+  - modify createCandidate , createOptimismSequencer function 
+  - modify event of CreatedCandidate
+  - modify event of Staked
+  - modify createCandidate function 
+- v0_3 : 2023.4.19 
+  -  [ ](https://github.com/tokamak-network/tokamak-staking-v2/tree/TSV2_3_fast_withdraw)[[(3rd) Contract Usage Guide ( included fast withdraw)]] 
+
+# Repo 
+
+- v0_2 : [https://github.com/tokamak-network/tokamak-staking-v2/tree/TSV2_2_dao_committee](https://github.com/tokamak-network/tokamak-staking-v2/tree/TSV2_2_dao_committee)
+
+# ABI 
+
+- v0_2 : [https://github.com/tokamak-network/tokamak-staking-v2/tree/TSV2_2_dao_committee/artifacts/contracts](https://github.com/tokamak-network/tokamak-staking-v2/tree/TSV2_2_dao_committee/artifacts/contracts) 
+
+# Structure 
+
+```javascript
+
+library Layer2
+{
+
+    struct **Layer2Info** {
+        address layers;
+        uint32 index;
+    }
+
+    struct **Layer2Holdings** {
+        uint256 securityDeposit;     // ton unit
+        uint256 seigs;               // ton unit
+    }
+
+}
+
+**library LibOperator**
+{
+    struct **Info** {
+        address operator;
+        uint32 sequencerIndex;
+        uint16 commission;  // denomitor 10000 , 
+    }
+
+    function getKey(
+        address operator,
+        uint32 sequencerIndex
+    ) external pure returns (bytes32 key_) {
+        key_ = bytes32(keccak256(abi.encodePacked(operator, sequencerIndex)));
+    }
+
+}
+
+**library LibOptimism**
+{
+    struct **Info** {
+        address addressManager;
+        address l1Messenger;
+        address l1Bridge;
+        address l2ton;
+    }
+
+    function getKey(
+        address addressManager,
+        address l1Messenger,
+        address l1Bridge,
+        address l2ton
+    ) external pure returns (bytes32 key_) {
+        key_ = bytes32(keccak256(abi.encodePacked(addressManager, l1Messenger, l1Bridge, l2ton)));
+    }
+}
+
+library LibStake
+{
+    struct **StakeInfo** {
+        uint256 stakePrincipal;
+        uint256 bondPrincipal;
+        // uint256 fwPrincipal;
+        uint256 stakelton;
+        uint256 bondlton;
+        // uint256 fwlton;
+        bool stake;
+        uint16 fwFee;
+    }
+
+    struct **WithdrawalReqeust** {
+        uint32 withdrawableBlockNumber;
+        uint128 amount;
+        bool processed;
+    }
+
+}
+```
+
+# Storage
+
+## SeigManagerV2
+
+```javascript
+IERC20 public ton;
+address public wton;
+address public dao;
+address public stosDistribute;
+address public seigManagerV1;
+address public tot;
+address public layer2Manager;
+address public optimismSequencer;
+address public candidate;
+
+uint256 public seigPerBlock;
+uint256 public lastSeigBlock;
+uint256 public startBlock;
+uint256 public indexLton; // for staker or bonder
+
+uint16 public ratesDao;   // divided ratesUnits
+uint16 public ratesStosHolders; // divided ratesUnits
+uint16 public ratesTonStakers; // divided ratesUnits
+uint16 public ratesUnits; // divided uint. 10000
+uint32 public minimumBlocksForUpdateSeig; // the number of block
+```
+
+## Layer2Manager
+
+```javascript
+IERC20 public ton;
+address public seigManagerV2;
+address public optimismSequencer;
+address public candidate;
+
+uint256 public minimumDepositForSequencer;  // 초기 시퀀서의 최소 디파짓 금액,
+uint256 public minimumDepositForCandidate;  // candidate의 최소 스테이킹 금액,
+
+uint256 public delayBlocksForWithdraw;
+uint256 public maxLayer2Count;              // 배포시 디폴트 5개로 함.
+
+uint256 public totalSecurityDeposit; //시퀀서의 총 담보금
+uint256 public totalSeigs; //아직 배분되지 않은 시퀀서를 위한 시뇨리지
+
+//====================
+uint32[] public optimismSequencerIndexes ;
+mapping (uint32 => bytes32) public optimismSequencerNames;
+mapping (uint32 => bytes32) public candidateNames;
+
+mapping (uint32 => Layer2.Layer2Holdings) public holdings;
+
+mapping (bytes32 => bool) public layerKeys;   // 이미 생성된 키는 true 로 설정 
+
+//==================
+uint32[] public candidatesIndexes ; // 길이가 총 candidate 개수
+uint32 public indexSequencers ;  // 계속 증가만 함. 시퀀서 인덱스로 사용
+uint32 public indexCandidates ;  // 계속 증가만 함. candidate 인덱스로 사용
+
+uint16 public ratioSecurityDepositOfTvl; //TVL의 몇 퍼센트를 시퀀서의 최소 담보금으로 할것인가 
+```
+
+## OptimismSequencer  
+
+```javascript
+address public ton;
+address public seigManagerV2;
+address public layer2Manager;
+uint256 public totalStakedLton;
+
+mapping (uint32 => uint256) public layerStakedLton;
+
+// layer2Index => account => StakeInfo
+mapping (uint32 => mapping(address => LibStake.StakeInfo)) public layerStakes;  
+
+// layer2Index => msg.sender => withdrawal requests (언스테이크시 등록 )
+mapping (uint32 => mapping (address => LibStake.WithdrawalReqeust[])) public withdrawalRequests;
+
+// layer2Index => msg.sender => index
+mapping (uint32 => mapping (address => uint256)) public withdrawalRequestIndex;
+
+// pending unstaked amount
+// layer2Index => msg.sender => ton amount
+mapping (uint32 => mapping (address => uint256)) public pendingUnstaked;
+
+// layer2Index => ton amount
+mapping (uint32 => uint256) public pendingUnstakedLayer2;
+
+// msg.sender =>  ton amount
+mapping (address => uint256) public pendingUnstakedAccount;
+
+// layer2Index - info
+mapping (uint32 => bytes) public layerInfo;
+
+address[] public stakeAccountList; 
+```
+
+## Candidate  
+
+```javascript
+address public ton;
+address public seigManagerV2;
+address public layer2Manager;
+uint256 public totalStakedLton;
+
+mapping (uint32 => uint256) public layerStakedLton;
+
+// layer2Index => account => StakeInfo
+mapping (uint32 => mapping(address => LibStake.StakeInfo)) public layerStakes;  
+
+// layer2Index => msg.sender => withdrawal requests (언스테이크시 등록 )
+mapping (uint32 => mapping (address => LibStake.WithdrawalReqeust[])) public withdrawalRequests;
+
+// layer2Index => msg.sender => index
+mapping (uint32 => mapping (address => uint256)) public withdrawalRequestIndex;
+
+// pending unstaked amount
+// layer2Index => msg.sender => ton amount
+mapping (uint32 => mapping (address => uint256)) public pendingUnstaked;
+
+// layer2Index => ton amount
+mapping (uint32 => uint256) public pendingUnstakedLayer2;
+
+// msg.sender =>  ton amount
+mapping (address => uint256) public pendingUnstakedAccount;
+
+// layer2Index - info
+mapping (uint32 => bytes) public layerInfo;
+
+address[] public stakeAccountList; 
+```
+
+# Events
+
+- SeigManagerV2
+
+```javascript
+event UpdatedSeigniorage(
+                uint256 lastSeigBlock_,
+                uint256 increaseSeig_,
+                uint256 totalSupplyOfTon_,
+                uint256[4] amount_,
+                uint256 prevIndex_,
+                uint256 index_
+                );
+
+**** amount[4] -> [amountOfstaker, amountOfsequencer, amountOfDao, amountOfStosHolders]
+**
+event Claimed(address caller, address to, uint256 amount);
+```
+
+- Layer2Manager 
+
+```javascript
+event Claimed(uint32 _index, address _sequencer, uint256 amount);
+
+event CreatedOptimismSequencer(uint32 _index, address _sequencer, bytes32 _name, address addressManager, address l1Messenger, address l1Bridge, address l2ton, uint256 depositAmount);
+
+event CreatedCandidate(uint32 _index, address _operator, bytes32 _name, uint32 _sequencerIndex, uint16 _commission, uint256 depositAmount);
+
+event Distributed(uint256 _totalSeigs, uint256 _distributedAmount);
+
+
+event IncreasedSecurityDeposit(uint32 _index, address caller, uint256 amount);
+event DecreasedSecurityDeposit(uint32 _index, address _sequencer, uint256 amount);
+```
+
+- OptimismSequencer , Candidate 
+
+```javascript
+event Staked(uint32 _index, address sender, uint256 amount, uint256 lton, address commissionTo, uint16 commission);
+
+event Unstaked(uint32 _index, address sender, uint256 amount, uint256 lton);
+
+event Restaked(uint32 _index, address sender, uint256 amount, uint256 lton);
+
+event Withdrawal(uint32 _index, address sender, uint256 amount);
+```
+
+# Functions 
+
+## F1. Create Sequencer ( Optimism Sequencer)  
+
+- contract : Layer2Manager
+- Interface 
+```javascript
+function createOptimismSequencer(
+        bytes32 _name,
+        address addressManager,
+        address l1Messenger,
+        address l1Bridge,
+        address l2ton,
+				uint256 depositAmount
+    )
+        external
+```
+- sample  
+[sample](https://github.com/tokamak-network/tokamak-staking-v2/blob/99872bc2245be20026c98832c5a0471cfa1838ff/test/4.IntegratedTest.spec.ts#L190-L196)
+
+```javascript
+const receipt = await(
+	deployed.layer2Manager.connect(sequencer1).createOptimismSequencer(
+                    ethers.utils.formatBytes32String(name),
+                    deployed.addressManager.address,
+                    deployed.l1Messenger.address,
+                    deployed.l1Bridge.address,
+                    deployed.l2ton.address,
+										depositAmount
+                )).wait();
+```
+- comments 
+  - You should approve the depositAmount of TON to Layer2Manager.
+  - The depositAmount is changed according to layer2 TVL. 
+**depositAmount** ≥ 
+
+### Query ratioSecurityDepositOfTvl  
+
+- contract : Layer2Manager
+- interface :
+```javascript
+function ratioSecurityDepositOfTvl() public returns (uint26)
+
+result value is used by divided 10000.
+ex ) 500 -> 500 / 10000 = 0.05 
+```
+
+### Query minimumSecurityDepositAmount  
+
+- contract : Layer2Manager
+- interface :
+```javascript
+function minimumSecurityDepositAmount(address l1Bridge, address l2ton) public view returns (uint256 amount)
+```
+
+## F2. Query all Sequencers  
+
+- contract : Layer2Manager
+- Interface
+```javascript
+function getAllLayers()
+        external view
+        returns (
+            bytes32[] memory optimismSequencerNames_,
+            uint32[] memory optimismSequencerIndexes_,
+            Layer2.Layer2Holdings[] memory holdings_,
+            bytes[] memory infos_
+            )
+
+** bytes's format of **info (one of infos_) **: 
+**info** = abi.encodePacked(addressManager, l1Messenger, l1Bridge, l2ton) 
+
+**info **is composed of **20 bytes (addressManager address) | 20 bytes (l1Messenger address) | 20 bytes (l1Bridge address)| 20 bytes (l2ton address)** , it is 80 bytes.
+```
+- sample 
+[sample](https://github.com/tokamak-network/tokamak-staking-v2/blob/99872bc2245be20026c98832c5a0471cfa1838ff/test/4.IntegratedTest.spec.ts#L237)
+
+```javascript
+let getAllLayersAfter = await deployed.layer2Manager.getAllLayers();
+```
+
+## F3. Create Candiate 
+
+- contract : Layer2Manager
+- Interface
+```javascript
+function createCandidate(
+        uint32 _sequenceIndex,
+        bytes32 _name,
+				uint16 _commission,
+				uint256 stakeAmount
+    )
+```
+- sample 
+[sample](https://github.com/tokamak-network/tokamak-staking-v2/blob/274f0b3c7fc66eb04dc62022be6e42c20cd8dd1e/test/4.IntegratedTest.spec.ts#L287-L292)
+
+```javascript
+const receipt = await(deployed.layer2Manager.connect(addr1).createCandidate(
+                sequenceIndex,
+                ethers.utils.formatBytes32String(name),
+								commission,
+								stakeAmount
+            )).wait();
+```
+- comments 
+  - You should approve the stakeAmount of TON.
+    - stakeAmount ≥ minimumDepositForCandidate
+  - You will stake the stakeAmount of TON through createCandidate function. 
+
+### Query minimumDepositForCandidate  
+
+- contract : Layer2Manager
+- interface :
+```javascript
+function minimumDepositForCandidate() public view returns (uint256 amount)
+```
+
+## F4. Query all Candidates   
+
+- contract : Layer2Manager
+- Interface
+```javascript
+function getAllCandidates()
+        external view
+        returns (
+            bytes32[] memory candidateNames_,
+            uint32[] memory candidateNamesIndexes_,
+            bytes[] memory infos_
+            )
+
+** bytes's format of **info (one of infos_) **: 
+**info** = abi.encodePacked(operator, sequencerIndex, commission) 
+ 
+**info **is composed of **20 bytes (operator address) | 4 bytes (**sequencerIndex**) | 2 bytes (**commission), it is 26 bytes.
+
+**commission** is used by multiplying 10000.
+ex) 0.5% -> 0.005 => commission : 50 , we should use it like 50 / 10000 = 0.005 .
+```
+- sample 
+[sample](https://github.com/tokamak-network/tokamak-staking-v2/blob/99872bc2245be20026c98832c5a0471cfa1838ff/test/4.IntegratedTest.spec.ts#L312)
+
+```javascript
+let getAllCandidatesAfter = await deployed.layer2Manager.getAllCandidates();
+```
+
+## F5. View Sequencers’s info  
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function layerInfo(uint32 layerIndex) public returns (bytes) 
+
+Retuen bytes is same to F2's info.
+```
+
+## F6. View Candidate’s info  
+
+- contract : Candidate
+- Interface
+```javascript
+function layerInfo(uint32 layerIndex) public returns (bytes) 
+
+Retuen bytes is same to F4's info.
+```
+
+## F7. Check if the Sequencer is already registered 
+
+- contract : Layer2Manager
+- Interface
+```javascript
+function existedLayer2Index(uint32 _index) external view returns (bool exist_) 
+```
+- contract : OptimismSequencer
+- Interface
+```javascript
+function layerInfo(uint32 _index) external view returns (bool bytes) 
+
+if returnbytes's length is 0, it is not existed .
+
+```
+
+## F8. Check if the Candidate is already registered 
+
+- contract : Layer2Manager
+- Interface
+```javascript
+function existedLayer2Index(uint32 _index) external view returns (bool exist_) 
+
+
+```
+- contract : Candidate
+- Interface
+```javascript
+function layerInfo(uint32 _index) external view returns (bool bytes) 
+
+if returnbytes's length is 0, it is not existed .
+
+```
+
+## F9. The total staked amount ( sequncer + candidate )  
+
+- contract : SeigManager
+- Interface
+```javascript
+function getTotalLton() public view returns (uint256 amount)
+```
+
+## F10. The total staked amount of Sequencer  
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function getTotalLton() public view returns (uint256 amount)
+```
+
+## F11. The total staked amount of Candidate  
+
+- contract : Candidate
+- Interface
+```javascript
+function getTotalLton() public view returns (uint256 amount)
+```
+
+## F12. The staked amount of special sequencer  
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function balanceOfLton(uint32 _index) public view returns (uint256 amount)
+```
+
+## F13. The staked amount of special candidate
+
+- contract : Candidate
+- Interface
+```javascript
+function balanceOfLton(uint32 _index) public view returns (uint256 amount)
+```
+
+## F14. The staked amount of special sequencer's account
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function balanceOfLton(uint32 _index, address account) public view returns (uint256 amount)
+```
+
+## F15. The staked amount of special candidate's account
+
+- contract : Candidate
+- Interface
+```javascript
+function balanceOfLton(uint32 _index, address account) public view returns (uint256 amount)
+```
+
+## F16. Total pending amount  by unstaking on a specific sequencer 
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function pendingUnstakedLayer2(uint32 _index) public view returns (uint256 amount)
+```
+
+## F17. Total pending amount  by unstaking on a specific candidate 
+
+- contract : Candidate
+- Interface
+```javascript
+function pendingUnstakedLayer2(uint32 _index) public view returns (uint256 amount)
+```
+
+## F18. Total pending amount  by unstaking on a specific sequencer’s account 
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function getPendingUnstakedAmount(uint32 _index, address account) public view returns (uint256)
+```
+
+## F19. Total pending amount  by unstaking on a specific candidate’s account
+
+- contract : Candidate
+- Interface
+```javascript
+function getPendingUnstakedAmount(uint32 _index, address account) public view returns (uint256)
+```
+
+## F20. Total pending amount of account on sequencer
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function pendingUnstakedAccount(address account) public view returns (uint256)
+```
+
+## F21. Total pending amount of account on candidate
+
+- contract : Candidate
+- Interface
+```javascript
+function pendingUnstakedAccount(address account) public view returns (uint256)
+```
+
+## F22. Query accounts that have staked on a specific sequencer
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function getStakeAccountList() public view returns (address[] memory)
+```
+
+## F23. Query accounts that have staked on a specific candidate
+
+- contract : Candidate
+- Interface
+```javascript
+function getStakeAccountList() public view returns (address[] memory)
+```
+
+## F24. Query accounts that have staked on a specific candidate
+
+- contract : Candidate
+- Interface
+```javascript
+function getStakeAccountList() public view returns (address[] memory)
+```
+
+## F25. Update Seigniorage
+
+- Execute update seigniorage (immediate interest payment) 
+  - contract : SeigManager2
+  - Interface 
+`SeigManager2.runUpdateSeigniorage()`
+
+```javascript
+function runUpdateSeigniorage() public  returns (bool res)
+```
+
+sample
+- We can know the amount that can be issued when seignorage is executed
+  - contract : SeigManager2
+  - Interface 
+`SeigManager2.mintableSeigsAmount()`
+
+```javascript
+function mintableSeigsAmount() external view returns (uint256 amount)
+```
+
+ 
+
+## F26. Query the seigniorage amount to distribute to sequencers
+
+- contract : Layer2Manager
+- Interface
+```javascript
+function totalSeigs() public view returns (address[] memory)
+```
+
+## F27. Distribute the seigniorage amount to sequencers
+
+- contract : Layer2Manager
+- Interface
+```javascript
+function distribute() external 
+```
+
+## F28. Query the sequencer's seignorage query
+
+- contract : Layer2Manager
+- Interface
+```javascript
+function layerHoldings(uint32 layerKey_) external view returns (**Layer2.Layer2Holdings** memory)
+
+
+ struct **Layer2Holdings** {
+        uint256 securityDeposit;     // ton unit
+**        uint256 seigs;               // this is seignorage of sequencer 
+**    }
+```
+
+## F29. Claim to the sequencer's seignorage  
+
+- contract : Layer2Manager
+- Interface
+```javascript
+unction claim(uint32 layerIndex) external
+```
+
+## F30. Stake to the special sequencer 
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function stake(uint32 layerIndex, uint256 amount) public 
+```
+
+## F31. Stake to the special candidate 
+
+- When a non-operator account stakes, the commission rate is staked to the operator.
+- contract : Candidate
+- Interface
+```javascript
+function stake(uint32 candidateIndex, uint256 amount) public 
+```
+
+## F32. Unstake to the special sequencer 
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function unstake(uint32 _index, uint256 lton_) external
+```
+
+## F33. Unstake to the special candidate 
+
+- contract : Candidate
+- Interface
+```javascript
+function unstake(uint32 _index, uint256 lton_) external
+```
+
+## F34. Restake to the special sequencer 
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function restake(uint32 _index) public
+```
+
+## F35. Restake to the special candidate 
+
+- contract : Candidate
+- Interface
+```javascript
+function restake(uint32 _index) public
+```
+
+## F36. Multi-restake to the special sequencer 
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function restakeMulti(uint32 _index, uint256 n) public
+```
+
+## F37. Multi-restake to the special candidate 
+
+- contract : Candidate
+- Interface
+```javascript
+function restakeMulti(uint32 _index, uint256 n) public
+```
+
+## F38. Withdraw to the special sequencer 
+
+- contract : OptimismSequencer
+- Interface
+```javascript
+function withdraw(uint32 _index) public
+```
+
+## F39. Withdraw to the special candidate 
+
+- contract : Candidate
+- Interface
+```javascript
+function withdraw(uint32 _index) public
+```
+
+# Addresses on Goerli 
+
+```javascript
+
+```

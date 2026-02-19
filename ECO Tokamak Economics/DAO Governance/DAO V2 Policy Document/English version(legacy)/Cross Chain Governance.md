@@ -1,0 +1,1 @@
+1. We can deploy cross-chain governance on Target L2 (Optimism, Arbitrum)

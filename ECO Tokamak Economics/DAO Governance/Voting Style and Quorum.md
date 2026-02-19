@@ -1,0 +1,6 @@
+- **Quadratic Voting (QV)**: Also known as “plural voting.”
+- **Preference Expression**: Similar to rank-choice voting, allowing voters to express preferences.
+- **Conviction Weighting**: Enables voters to weigh the intensity of their convictions.
+- **Incentive Alignment**: Helps align voter incentives and balance power.
+- **Participation Encouragement**: Promotes increased voter participation.
+- **Comparison**: Offers a more balanced approach compared to one-person-one-vote or one-token-one-vote systems.

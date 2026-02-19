@@ -1,0 +1,6 @@
+- [https://www.trailofbits.com/](https://www.trailofbits.com/)
+- 2025.01.10 요청드림
+  - 신청 페이지 - [https://www.trailofbits.com/contact/](https://www.trailofbits.com/contact/)
+  - 이메일 사용
+  - Contract scope - https://www.notion.so/tokamak/Audit-Contents-Of-Ton-Staking-V2-5-175d96a400a380779395cba6edc3bf0d 링크 scope로 제출
+- 2025.01.15 기준 - 아직 응답이 오지않음

@@ -1,0 +1,8 @@
+- [x] Calculator
+- [x] toggle
+- [x] contract method test
+- [ ] graph
+- [x] wallet modal
+- [ ] call api after tx is finished
+- [ ] mobile
+- [x] sorting

@@ -1,0 +1,27 @@
+- [https://omniscia.io/](https://omniscia.io/)
+- Requested 25.01.10
+  - Support 2 types
+  - Security audits - Audit documents can be public or private
+  - Investor Reports
+- Reference- [https://tokamak.notion.site/Audit-Contents-Of-Ton-Staking-V2-5-175d96a400a380779395cba6edc3bf0d](https://tokamak.notion.site/Audit-Contents-Of-Ton-Staking-V2-5-175d96a400a380779395cba6edc3bf0d)
+- Omniscia
+  - example report - [https://linktr.ee/omniscia](https://linktr.ee/omniscia)
+- Received pdf
+[01_13_2025_Omniscia_Audit_Proposal_Tokamak_Stakingv2.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/7b538654-dfe2-455b-91c3-ba17bd4c4b73/01_13_2025_Omniscia_Audit_Proposal_Tokamak_Stakingv2.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466R5RLWQAC%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T064231Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCvflwjOByNvix4%2Fic9t6Z0Y4l2AMqMgBKMxyF3huP2XgIgMuF8%2BM1dM4DwHT2GIPELCPX%2BaYtggD7Ax6WW1nDrgZQq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDG0DFmnVHgMECIrAnCrcA3KuqoqeyDMNUgHlHP44%2BIvtpcGo4a2%2Bv2Ebi9J1%2BD0lisJAPFFsdYrN6C%2FKqCFhiw17o8olxMCkV4x%2BRaAzNK1p1civKxeycSpH63zsk6yaJfccK58Kv%2BasR7T%2FUh1XurjCtT7%2Fnjt36x1T%2Fe1%2FZ%2BfkT0NHeaUkjjrL2QUrULtGX%2FhA5%2F3YdyWZEKijyZRjAXnFSfEknBsCIANssXrKAF7YohYHt5QhXbsVBK%2BFAGVSL6DJJdt4Y6KIC6jlVVtNu2vTYrZa%2B%2F%2BzP6sgfIWCRHMwkdY%2FFC1QUuo2H8BTDicl57NQg8om3oHhZiI4q60Pqp7MYgKBDuV4tLP8%2Fk4mgCBwK4PYaFZo19IUC%2BingA8qBSRcMEeQWrG0cVeTdoDnAlgBQtwc6ukhCIDl162dH2npHKwi3CxQCb3YWYDWf1bocaU4ArzAhUAkJRO%2Ffqz4A8rH1KMlAFBjyPh31wVsGTFg8GZsugq%2BOiix9K8NYkdgVDQQO60QH1I5MO01uc0H7fXcyR7H1B1LE5q2k4sMFkYsOmtXyE9Ug7eh1TlR5z83HWP5WgREJTmcrzdMuHnC03jZ4RKiLdJ3fQJd%2Bo9s4JLLGJOOu6jyhem3HsyFrlvOURuu4sbeLgtF9IyKMO3D2swGOqUBDv2GV6uqQ8QOY9A8MHqz6wl2FywADw0ayiADAnJaRTr4zYwCZIUyaco0cVp6eq3GZe5gsQcI04j7GxzL953A9wpydRJh6PvMzEcOon002%2BvY4lAPIHUxAk07KZ5I6EXqp6OM54%2F5iTsc8LST3NZZbzmeh7Dgvfu3LkWmQ%2F6FzT96VOmNsMv8CZtN6uzcJOvCkvq7fR4yW87DUheG0ks%2BtTTDlQml&X-Amz-Signature=a10d51b5dd593f32fbd6f6728cfe6c9bf89264adc6ddefc85c80b1fb0e3671d7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+- Standard: Preliminary report delivered by 2025-02-26
+- example
+  - **Euler Finance (v2):**
+    - [https://omniscia.io/reports/euler-finance-vault-kit-66000e2fe7dba400187a4aed](https://omniscia.io/reports/euler-finance-vault-kit-66000e2fe7dba400187a4aed)
+    - [https://omniscia.io/reports/euler-finance-evk-price-oracles-660812035fc1c30018641b22](https://omniscia.io/reports/euler-finance-evk-price-oracles-660812035fc1c30018641b22)
+    - [https://omniscia.io/reports/euler-finance-ethereum-vault-connector-6602c8d3423c1b0018ff01b6](https://omniscia.io/reports/euler-finance-ethereum-vault-connector-6602c8d3423c1b0018ff01b6)
+  - **Maverick Protocol:**
+    - [https://omniscia.io/reports/maverick-protocol-reward-infrastructure-6640b0f15d6e470018156df6/](https://omniscia.io/reports/maverick-protocol-reward-infrastructure-6640b0f15d6e470018156df6/)
+    - [https://omniscia.io/reports/maverick-protocol-amm-supplemental-661a5c8517f92b00186f940a/](https://omniscia.io/reports/maverick-protocol-amm-supplemental-661a5c8517f92b00186f940a/)
+  - **Tren Finance:**
+    - [https://omniscia.io/reports/tren-finance-protocol-implementation-669a7ac304bcc60018f62232/](https://omniscia.io/reports/tren-finance-protocol-implementation-669a7ac304bcc60018f62232/)
+  - **More Market:**
+    - [https://omniscia.io/reports/more-markets-lending-system-66e4531ba8b97c00185ccc1e/](https://omniscia.io/reports/more-markets-lending-system-66e4531ba8b97c00185ccc1e/)
+  - **Astrolabs Dao:**
+    - [https://omniscia.io/reports/astrolab-dao-base-strategy-contracts-65e1bcecc671710018ae0d4f/](https://omniscia.io/reports/astrolab-dao-base-strategy-contracts-65e1bcecc671710018ae0d4f/)
+- 
+![](images/b781560ea90a.png)

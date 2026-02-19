@@ -1,0 +1,34 @@
+## seigManagerV2 
+
+- ton address
+  -  0x68c1F9620aeC7F2913430aD6daC1bb16D8444F00
+- wton address
+  -  0xe86fCf5213C785AcF9a8BFfEeDEfA9a2199f7Da6
+- tot  
+  -  [0x8526cF3F0b50A39c7F1320c5aa43dA45a14d1635](https://goerli.etherscan.io/address/0x8526cF3F0b50A39c7F1320c5aa43dA45a14d1635)
+- seigManagerV1 
+  -  0x446ece59ef429B774Ff116432bbB123f1915D9E3
+- layer2ManagerProxy 배포한후 사용
+- optimismSequencerProxy 배포한후 사용
+- candidateProxy 배포한후 사용
+- seigPerBlock : the amount of seigniorage issued per block 
+  - [3920000000000000000](https://etherscan.io/unitconverter?wei=3920000000000000000000000000)
+- minimumBlocksForUpdateSeig : ( unused now, if you want to use, you can use) you can execute “update seigniorage” only once during  this blocks. 
+  - **2400**
+- ratesTonStakers : Give seigniorage as much as the staked percentage and give the remaining seigniorage to TonStakers what percentage
+  - 0.4 → 4000 ( current V1 ) 
+- ratesDao : Give seigniorage as much as the staked percentage and give the remaining seigniorage to DAO what percentage
+  - 0.[5](https://etherscan.io/unitconverter?wei=500000000000000000000000000) → 5000 ( current V1 ) 
+- ratesStosHolders : Give seigniorage as much as the staked percentage and give the remaining seigniorage to stos holders what percentage
+  - 0.1 → 1000  ( current V1 ) 
+- ratesUnits : 10000 
+- dao address
+  -  0xb0B9c6076D46E333A8314ccC242992A625931C99
+- sTosHolders (powerTon address)
+  -   [0x031B5b13Df847eB10c14451EB2a354EfEE23Cc94](https://goerli.etherscan.io/address/0x031B5b13Df847eB10c14451EB2a354EfEE23Cc94)
+- minimumDepositForSequencer : minimum security deposit amount of sequencer
+  - 
+- minimumDepositForCandidate : minimum staking  amount of candidate
+  - 
+- delayBlocksForWithdraw : the number of delay blocks to withdrawal after unstaking
+  - 93046  ( current V1 ) 
