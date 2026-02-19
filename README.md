@@ -19,7 +19,7 @@ git clone https://github.com/tokamak-network/ECO-documents.git
 ### 3. Install Obsidian Git Plugin (Team Sync)
 
 1. Obsidian → Settings → Community plugins → **Turn on community plugins**
-2. Browse → Search **Obsidian Git** → Install → Enable
+2. Browse → Search **Obsidian Git** (by [Vinzent03](https://github.com/Vinzent03/obsidian-git)) → Install → Enable
 3. Plugin settings:
    - **Auto pull interval**: `5` (pulls latest changes every 5 minutes)
    - **Auto push interval**: `5` (pushes your changes every 5 minutes)
