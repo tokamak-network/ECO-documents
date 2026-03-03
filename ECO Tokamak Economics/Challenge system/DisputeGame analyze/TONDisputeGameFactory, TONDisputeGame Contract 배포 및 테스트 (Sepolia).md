@@ -19,7 +19,7 @@ cp env.example .env
 npx hardhat run scripts/disputeGame/deploy.js --network sepolia
 ```
 1. 배포 결과
-![](images/4a872e86357c.png)
+![](images/eea3eae1440d.png)
 
   1. TONDisputeGameFactory : [0xC76db768DC3f88dbF0A2610D4071C4c64E897686](https://sepolia.etherscan.io/address/0xC76db768DC3f88dbF0A2610D4071C4c64E897686)
   1. TONDisputeGame : [0x6dC3b0725CC98AEe44FaB5De983173513774799c](https://sepolia.etherscan.io/address/0xF4d2C862FAC965a018911BD189a3F80B874D0437#code)
@@ -34,12 +34,12 @@ npx hardhat verify deployed-address --network sepolia
 ```
 1. Verify 결과
   1. TONDisputeGame
-![](images/1fabf7ea7c97.png)
+![](images/8f102735b658.png)
   1. TONDisputeGameFactory
-![](images/876b30868201.png)
+![](images/a07a99c8b8a2.png)
 1. TONDisputeGameFactory Test
   1. npx hardhat test test/TONDisputeGame.test.js --network sepoliaFork 
-![](images/8dd0895f3007.png)
+![](images/dea4e3005da6.png)
 1. 재배포
 ```javascript
 npx hardhat run scripts/disputeGame/deploy.js --network sepolia
@@ -51,7 +51,7 @@ TONFaultDisputeGame : 0x9d03F2D99798AA55Fd6dd7f1C62168B15688bd6a
 TONDisputeGameFactory: 0x48A295c7B3dFB1AE35BEd693dcB1C3180c50Ace6
 ```
 
-![](images/0224e7342c3b.png)
+![](images/754481daed77.png)
 1. Verify 결과
 ```javascript
 // 1. TONDisputeGame
@@ -63,9 +63,9 @@ npx hardhat verify deployed-address --network sepolia
 ```
 
   1. TONDisputeGame
-![](images/c7ed1eacda95.png)
+![](images/4e98dba1b4e9.png)
   1. TONDisputeGameFactory
-![](images/7ee9816e3684.png)
+![](images/9f3da1f5969b.png)
 1. Create & Attack Test
 ```solidity
 # 1-1. Invalid Claim으로 게임 생성 (자동으로 GAME_ADDRESS 업데이트됨)
@@ -87,12 +87,12 @@ node scripts/disputeGame/AttackAndDefend.js status
   1. Create
     1. tx : [https://sepolia.etherscan.io/tx/0x0c0e6146acdd5bcb6c87ce4e7a77b82e59a979e7ae617e75ed87a9c477f5b57c](https://sepolia.etherscan.io/tx/0x0c0e6146acdd5bcb6c87ce4e7a77b82e59a979e7ae617e75ed87a9c477f5b57c)
     1. Result
-![](images/a88a8993c0d9.png)
+![](images/51fefe7a7e4f.png)
   1. Attack
     1. tx : [https://sepolia.etherscan.io/tx/0x36419941c1cdbaa31f4090bb2f94617bdcc750f990abf28efe8597198568f18b](https://sepolia.etherscan.io/tx/0x36419941c1cdbaa31f4090bb2f94617bdcc750f990abf28efe8597198568f18b)
     1. Result 
-![](images/77d5511414f7.png)
+![](images/b97de8fca14a.png)
   1. Defend
     1. tx : [https://sepolia.etherscan.io/tx/0xca597500ab4300b867201b209478d8454c4355c33dfcb956ece0913f6f60c9f5](https://sepolia.etherscan.io/tx/0xca597500ab4300b867201b209478d8454c4355c33dfcb956ece0913f6f60c9f5)
     1. Result 
-![](images/0484414ef321.png)
+![](images/bd57143a90be.png)

@@ -4,10 +4,35 @@
 
 ### Simple staking patch
 
+- **Motivation**
+  - To solve vulnerability and improve usability of staking related service
+- **Goals**
+  - contract upgrade & test
+  - implement subgraph for new staking contracts
+  - connect subgraph with front-end
+  - front-end update(staking & dao)
+  - fix staking mobile version & open it to public
+
 ### Staking V2 & FW
+
+- **Motivation**
+  - To provide liquidity for the fast withdrawal request and make enable FW from Tokamak L2
+- **Goals**
+  - Research about how to implement FW based on current contract
+    - If it is possible it reduce a lot of migration resource
+  - Implement contract based on new model
+  - make storyboard
+  - implement subgraph
+  - If model is fixed until November, V2 & FW service will be open at Q1, 2024
 
 ### Renewal price dashboard
 
+- **Motivation**
+  - Provide better UX/UI about price dashboard and use it to new DAO model
+- Goals
+  - Research how to make it (3rd party or in-house)
+  - adopt our model to service
+
 ## Budget request
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/fd161eaa-fd44-43c9-a919-0ec7d16dc530/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664OKTKVLV%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T050337Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCXrqptBX%2BMfywJ07Kd4k2D0qBjLG%2BI4k%2BLTzJXBXdzjAIhAPAOAWlRhCE9umfD%2FiTuU87NE5hd%2F5i4%2FY9y238LekTPKv8DCHQQABoMNjM3NDIzMTgzODA1Igwzig9qI3E3NFkI134q3APYlhlqcZxvHeiRKUQewgiOprVLDdKMAkhZsWo%2F06ATm27uv5XFuEQVh0u1U6rFpaVI4zg96IBh6TYL001Ul0Tgopeq%2FPc4%2FqWPaVVPWccdZVFPVloMOZiV8k8v7t6sTtyRpniM7cr8q7tzq9pZDyeEaXD8rg%2BBR0W%2F7IMLia8%2F3aGylT8FijUB6YCRZ5K%2F7gcLZnzJTMxrHjBkMrnbxck17WMS%2FHwyx5C%2FHXhl1tQsGrD8xsMvSh4bGSZVVy6NTqAvbubzFI3i4TaD77Gzvoim861DQ5wxpw8cNBx%2Faw0vQ8khYLgYiLCdBJSdhtzUuie35%2BPRNCV%2Bq2seT3Rj8VyOmO%2FUk1rMiDi9k%2BEm%2FaKT8lnU5NhNmJFWzdzQaFxmunKTl6rVdlZ3I5SjyoCWAATfJz269ySEbq7YQYyKUVsmQJqUl5yuGcPUjXUmKDYHJrrICo0oUKxJ%2BA5z%2FK9JfDv2jm4JBCrMQZIShCzKl9GuR2%2FJVyqwpRxCH0dNY2LIE3FwMbua%2FhHHJaH%2BnjsUz5KxdUMt6TOD9e6l%2BeiODgEDdP6fh2M7PMsGv2EAc4nntxPyYXTHG5aoF0YnbqCw%2FDNPIQq%2F%2Fg2aEedv2snVeqdiSrmsccNZH7GpIxqJjzCy8dnMBjqkAeRJABQuLCuc3YlJxJnsLO8kFVGU6Rok6AHqLExOK4k2n3NXyt4YqvbnlTbguY3bPOEepdzTTcKIXmdyIaJ9%2BBt6lBD9DVIwQt549%2FQjidCfnyamosbXrxSfEZm9ChNxdAdxEotAJcADJFN18uyMrEd0Mk%2F%2FPHgT5PpjgRpFeHf6ag6R7HpXAFfEAUK6%2FVTEBG7gGFSksLm6HPqUXhD5W3RFRw7Q&X-Amz-Signature=1081375ae55cabbf4dda330c7070e7dfc5b1d9cc3b2b24b9bb141349b465980e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/fd161eaa-fd44-43c9-a919-0ec7d16dc530/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YVGU2WSI%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T093738Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCSppK4huQD4RdlmwIuz7GmKqm2ZdDYssjCv0VYLufzzAIhANl3y%2B%2FbsH8W6qGMYmcGO4Q3yy%2FRNiD14qllQ8ohbFEQKv8DCHoQABoMNjM3NDIzMTgzODA1IgxvaRgNDAt9AefM5d4q3AMNvvR65I0PyYItX0Y2Q19JnXtTGIr2iPobSPn8iwGooiXtyyo6p%2FghoFJXJUSbJCnanqbWXvjVf06AzTlmf%2FUhbmg0aR09QS%2FVhzpVaxjQKuXEKRRwecJjdeYXR5MYkxE0YNuhNlllMUdm5oUxcRI1AbqAD8BFqfjng8p09U1%2FHbFpX5PQHRTRzuFXRPFGqd%2FYv9esBVIbU2h2AB8Q2Zf%2Bc8zeLPiasqIYWva9ITC83SJwP5CEePhu4gYi5viVFnADVRptC%2Ffv2FfKEK1hW4dF6MLp%2FZDu9cUCprUWAc1YteETvey9KTR4SUfjAu%2BEm1%2BBdxzsm7%2Fxl6hi%2FzQ9hjYJ7jh3z3gFch4DwYAUBVzomRKImhTTCyoMne%2FI4gbUplKlax9CzYuKoeGQZ0Xy63xhqBMFMICx%2B4JVWQ49ev9uAaj%2FUcJTLAvXBRYml%2FGPLMTAdTS8ZDyXuTddKzDqKT9qswrZ5VAFF2PlV08DiM%2B2S1IRdce1s72WJmfu%2BDIcK%2F9QnaY1hCxlkAml2dskXp1BfOFKHLmNkGZsfdRXMBqXpQ%2Fdk2gdwVu6jM1duQuIoTaP1u57O6cJBzbv5hu9WstxxchUFiFid6hLo1awlaKZ4zFnJPfiomALCSdJkzDQmtvMBjqkAXFvAXaywqsbXRw2t8lrPENpcNhOHhYyH8EYcc%2FsNn23UX%2Bk%2Fds27Zexk0nqEPSZ9b%2FhjR%2BVLeFYdR13A7uGlBQYZP62CSSl1ti7prE2hBotUcAiB6H4bYvEPCnEYYxm2PWb6EYPBYVhK0hDQqUwJPcrBW7P%2FdPPDbAaTS0gonTACzDS5Ka4%2B5SPhVZz1UTRJlujOEovJFmUQ6XWGRkPeQ66tOXW&X-Amz-Signature=924e5788ccb247b96e1f0522d5a48985f6576e2ea348f63c7d47ab642efc4f27&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)

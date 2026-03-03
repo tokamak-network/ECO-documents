@@ -242,3 +242,94 @@ Security Council 구성원의 변경(해임 및 선출)은 DAO 투표를 통해 
 | Security Council | 임기 | 제한 없음 | 일/년 단위 | 4.4 |
 
 ## 부록: DAO 거버넌스 공격 사례 분석
+
+본 부록은 블록체인 생태계에서 발생한 주요 DAO 거버넌스 공격 및 문제 사례를 체계적으로 정리한다. 각 사례는 Tokamak Network vTON DAO 설계의 방어 메커니즘 근거로 활용된다.
+
+**사례 총괄표**
+
+| # | 프로토콜 | 연도 | 공격 유형 | 피해 | 핵심 경위 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Beanstalk | 2022 | Flash Loan | $182M | $1B 대출로 67% 확보, 단일 블록 내 제안-투표-실행-탈취 |
+| 2 | Aragon | 2023 | Treasury 탈취 | $155M | 시총 < Treasury 차익 노림. 45일간 47% 축적 후 청산 강제 |
+| 3 | Radiant | 2024 | 다중서명 탈취 | $50M | 11명 중 3명 서명 필요. 악성 PDF로 정확히 3명 장악 |
+| 4 | Compound | 2024 | 투표권 집중 | $24M | 단일 주체가 쿼럼의 81%(325K COMP) 축적, 자기 볼트에 자금 할당 제안 통과 |
+| 5 | Balancer | 2022 | 배출 조작 | $1.8M | veBAL 35% 확보 후 저볼륨 풀로 과도한 토큰 배출 유도 |
+| 6 | Build Finance | 2022 | 적대적 탈취 | $470K | 알림 시스템 무력화 후 제안 제출, 0표 반대로 통과 |
+| 7 | Uniswap | 2020-24 | 위임 집중 | - | 4년간 지니계수 0.881→0.943, 참여자 88% 감소 |
+| 8 | Optimism | 2024 | 이해충돌 | - | Delegate가 자신의 컨설팅 고객 지지, 관계 미공개 |
+| 9 | Arbitrum | 2024-25 | 인센티브 실패 | - | 소급 규칙 변경으로 활성 delegate 49명→21명 |
+| 10 | Aave | 2024 | 타이밍 조작 | - | 크리스마스 연휴에 브랜드 소유권 제안 강행 |
+
+**1. Beanstalk Flash Loan 공격 (2022)**
+
+2022년 4월 17일, Beanstalk에서 역대 가장 정교한 거버넌스 공격이 발생했다. 공격자는 악의적 제안 2개(BIP-18, BIP-19)를 제출하고 24시간 긴급 제안 기간을 기다렸다. 그리고 단일 트랜잭션 안에서 모든 것을 실행했다. Aave, Uniswap, SushiSwap에서 $1B 이상을 Flash Loan으로 차입한 뒤, 토큰을 Beanstalk "Silo"에 예치하여 거버넌스 토큰을 생성했다. 이로써 67% 투표권을 확보하여 긴급 실행에 필요한 초다수 요건을 충족했다. 악의적 제안을 통과시키고 즉시 실행하여 $182M을 탈취한 뒤 Flash Loan을 상환했다. 전 과정이 단일 블록 안에서 완료되었다. 핵심 취약점은 `emergencyCommit` 함수가 투표와 실행을 동일 블록에서 허용했다는 점이다. 또한 투표권 계산에 스냅샷이 적용되지 않아 방금 획득한 토큰으로도 즉시 투표할 수 있었다.
+
+**교훈**: 투표권은 제안 생성 시점의 스냅샷 기준으로 계산해야 한다. 투표와 실행은 반드시 분리되어야 하며, 신규 토큰에 대한 투표권 유예 기간이 필요하다.
+
+**2. Aragon "RFV Raiders" 공격 (2023)**
+
+Aragon은 구조적 취약점을 안고 있었다. 시가총액은 약 $129M이었지만 Treasury에는 $177-200M이 쌓여 있었다. 토큰을 전량 매입한 뒤 Treasury를 청산하면 차익이 남는 구조였다. "RFV Raiders"라 불리는 공격자 그룹이 이를 간파했다. 약 45일간 Discord에 침투하여 커뮤니티 동향을 파악하면서 ANT 토큰을 시장에서 조용히 매집했다. 토큰 래핑을 통해 47% 이상의 투표권을 확보한 뒤 Treasury 전액 청산 제안을 준비했다. 결국 Aragon Association은 프로젝트 해산을 결정했고, 0.0025376 ETH/ANT 비율로 총 $155M을 상환했다. 사실상 공격자의 목표가 달성된 셈이다.
+
+**교훈**: Treasury 규모가 시총을 초과하면 "합법적 약탈"의 표적이 된다. Treasury 인출 상한, 차등 쿼럼, 장기 축적 모니터링이 필수적이다.
+
+**3. Radiant Capital 키 탈취 (2024)**
+
+2024년 10월, Radiant Capital에서 $50M이 탈취되었다. 이 사건은 다중서명 설계의 근본적인 함정을 보여준다. Radiant는 11명의 서명자를 두었지만, 실행에 필요한 서명은 3개뿐이었다(3/11 = 27%). 공격자는 악성코드가 포함된 PDF 파일을 배포하여 정확히 3명의 서명자를 장악했다. 그것으로 충분했다. 다중서명 지갑의 통제권을 획득하여 $50M을 탈취했다. 11명이라는 숫자는 의미가 없었다. 3명만 뚫리면 끝이었기 때문이다. L2Beat는 이 사건 이후 Security Council의 최소 요건으로 "8명 이상의 서명자, 75% 이상의 임계값"을 권고하고 있다.
+
+**교훈**: 다중서명의 보안은 서명자 수보다 임계값이 중요하다. 임계값은 최소 70-75% 이상이어야 의미 있는 보안을 제공한다. 3명만 장악하면 뚫리는 구조는 11명이 있어도 무의미하다.
+
+**4. Compound "Golden Boys" 공격 (2024)**
+
+2024년 7월, "Humpy"로 알려진 공격자가 Bybit 거래소에서 조직적으로 COMP 토큰을 인출하기 시작했다. 최종적으로 축적한 물량은 325,333 COMP로, Compound의 쿼럼 요건 400,000 COMP의 81%에 해당했다. Humpy는 두 차례 실패한 제안 끝에 Proposal 289를 제출했다. 제안 내용은 $24M 상당의 COMP를 자신이 통제하는 "goldCOMP" 볼트에 할당하는 것이었다. 주말 타이밍을 노려 delegate들의 대응이 어려운 시점에 투표를 진행했고, 최종 결과는 682,191 찬성 대 633,636 반대(51.84%)로 통과되었다. 커뮤니티의 긴급 조율로 Humpy와 협상이 이루어졌고, 자금 할당은 실행되었으나 향후 거버넌스 개선 논의가 촉발되었다.
+
+**교훈**: 쿼럼은 "최소 참여 요건"일 뿐, 대량 보유자의 영향력을 제한하지 못한다. 단일 주체의 투표권 상한과 주말/휴일 블랙아웃 기간이 필요하다.
+
+**5. Balancer veBAL 집중 공격 (2022)**
+
+Compound 공격과 동일한 공격자 Humpy가 Balancer에서도 활동했다. 그는 전체 veBAL의 35%를 축적한 뒤 Gauge 투표를 조작했다. 자신이 통제하는 저볼륨 CREAM/WETH 풀로 BAL 토큰 배출을 유도한 것이다. 결과는 극단적이었다. 해당 풀은 6주간 $17,846의 프로토콜 수익만 발생시켰지만, 동일 기간 $1.8M의 BAL 배출을 받았다. 수익 대비 배출 비율이 약 100:1에 달했다. Balancer DAO는 이후 Gauge Framework V1을 도입하여 단일 풀 최대 배출 상한을 10-15%로 설정했고, Humpy와 "평화 협정"을 체결했다.
+
+**교훈**: 시뇨리지나 토큰 배출 기반 시스템에서는 배출 상한과 프로토콜 수익 연계 메커니즘이 필수적이다. veToken 집중 자체를 제한하는 장치도 고려해야 한다.
+
+**6. Build Finance DAO 적대적 탈취 (2022)**
+
+Build Finance 공격은 단순하면서도 치명적이었다. 공격자(ENS: Suho.eth)는 먼저 제안 알림 봇과 gitbook 문서를 비활성화했다. 커뮤니티가 새 제안을 인지할 수 없는 상황을 만든 것이다. 그 상태에서 거버넌스 탈취 제안을 제출했다. 아무도 제안의 존재를 몰랐기 때문에 반대표는 0표였고, 제안은 그대로 통과되었다. 전체 Treasury 약 $470,000가 탈취되었다. 공격자는 "규칙대로 행동했을 뿐"이라고 주장했고, 프로토콜은 사실상 종료되었다. Code is Law의 한계가 적나라하게 드러난 사례다.
+
+**교훈**: Timelock, 최소 투표 참여 요건, 다중 알림 시스템은 선택이 아닌 필수다. 단일 실패점을 제거해야 한다.
+
+**7. Uniswap 위임 집중화 (2020-2024)**
+
+학술 연구에서 21,791명의 Uniswap 투표자와 68개 거버넌스 제안을 4년간 분석한 결과, 위임 제도의 의도치 않은 부작용이 드러났다. 위임 도입 전 투표권 분포의 지니계수는 0.881이었다. 4년 후 이 수치는 0.943으로 상승했다. 불평등이 6.6% 증가한 것이다. 제안당 평균 참여자 수는 503명에서 267명으로 88% 감소했다. 상위 1%가 전체 투표권의 47.5%를 장악했고, 기술 관련 제안에서는 집중도가 99.97%에 달해 사실상 독점 상태였다. "누군가 대신 해줄 것"이라는 심리적 효과가 작용한 것으로 분석된다. 위임 상한이 없었고, 비활성 delegate에 대한 조치도 없었으며, 대형 delegate로의 쏠림 현상이 심화되었다.
+
+**교훈**: 위임은 참여율을 높이려는 의도와 달리 오히려 불평등과 무관심을 심화시킬 수 있다. 위임 상한, 활동 요건, 자동 만료 등의 보완책이 필요하다.
+
+**8. Optimism Griff Green 이해충돌 (2024)**
+
+Griff Green은 Optimism의 주요 Delegate였다. 동시에 Giveth 창립자이자 General Magic 공동창립자이기도 했다. 문제는 그랜트 심사 과정에서 드러났다. Green은 자신의 컨설팅 고객인 프로젝트들을 지지했다. 해당 컨설팅은 그랜트 금액의 7-50% 수수료를 수취하는 구조였다. 그러나 Green은 이 이해충돌 관계를 투표 전에 공개하지 않았다. 커뮤니티 논쟁 후 "marginal vote가 아니었으므로 실질적 피해 없음"이라는 판정이 내려졌다. 그러나 이 사건을 계기로 Optimism은 필수 이해충돌 공시 규정을 도입했고, Badgeholder Conflict of Interest Disclosure 제도를 시행하게 되었다.
+
+**교훈**: Delegate의 이해충돌 공시는 선택이 아닌 의무여야 한다. 사전 공시 없는 투표는 무효 처리하는 등 강제 메커니즘이 필요하다.
+
+**9. Arbitrum Delegate Incentive Program 실패 (2024-2025)**
+
+Arbitrum DAO는 delegate 참여를 독려하기 위해 연간 $1.5M 규모의 인센티브 프로그램을 도입했다. 초기에는 활성 delegate가 증가하는 효과가 있었다. 문제는 버전 1.6/1.7 업데이트에서 발생했다. 소급 규칙 변경이 단행된 것이다. 진입 장벽이 10배 상향되었고(50K → 500K ARB), delegate 보상은 약 40% 삭감되었다. 반면 프로그램 관리자 보상은 25% 증가했다. 대규모 비활성 delegate는 방치되었고, 소규모 delegate에게 불리한 규칙이 적용되었다. 결과는 참담했다. 2024년 12월 49명이었던 활성 delegate 수는 2025년 2월 21명으로 57% 감소했다. 커뮤니티에서는 "후원 시스템"이라는 비판이 제기되었고, v1.5로 복귀하자는 제안이 논의 중이다.
+
+**교훈**: Delegate 인센티브는 명확하고 예측 가능해야 한다. 소급 규칙 변경은 신뢰를 파괴한다. 진입 장벽과 보상 구조는 균형을 맞춰야 한다.
+
+**10. Aave Labs 크리스마스 투표 논란 (2024)**
+
+2024년 12월, Aave Labs가 "Aave" 브랜드 소유권 이전 제안을 제출했다. 포럼에서 5일만 논의한 뒤 Snapshot 투표로 강행했다. 제안 저자의 동의 없이 투표 단계로 이동한 것이다. 투표 기간은 12월 23일부터 26일까지였다. 크리스마스 연휴와 정확히 겹쳤다. 설상가상으로 창업자 Stani Kulechov가 투표 직전 $10-15M 상당의 AAVE를 매입했다. "적대적 인수 시도"라는 비판이 제기되었다. 결과적으로 제안은 부결되었다. 반대 55.29%, 기권 41.21%, 찬성 3.50%로, 기록적인 180만 AAVE가 투표에 참여했다. 커뮤니티의 반발이 그만큼 컸다는 의미다.
+
+**교훈**: 주요 공휴일 전후 중요 제안을 금지하는 블랙아웃 기간, 저자 동의 요건, 최소 논의 기간 강제가 필요하다. 타이밍 조작은 참여율을 왜곡하고 거버넌스 정당성을 훼손한다.
+
+**참고 문헌**
+
+1. [*DeSpread Research, "The Compound Finance Governance Attack: A Recap and Its Implications" (2024)*](https://research.despread.io/compound-finance-governance-attack/)
+1. [*Messari, "Governor Note: The veBAL Wars" (2022)*](https://messari.io/report/governor-note-the-vebal-wars)
+1. [*Blockworks, "Arca Offers Their 2 Cents on Aragon DAO Attack Allegations" (2023)*](https://blockworks.co/news/arca-aragon-dao-attack-allegations)
+1. [*The Block, "Build Finance DAO suffers 'hostile governance takeover'" (2022)*](https://www.theblock.co/post/134180/build-finance-dao-suffers-hostile-governance-takeover-loses-470000)
+1. [*PANews, "A Study of Uniswap On-Chain Voting: Implications for Power, Apathy, and Evolution" (2024)*](https://www.panewslab.com/en/articles/7c66f3fa-b71d-4fa0-898d-243cf083e8a8)
+1. [*DL News, "Griff Green's disclosure 'mistake' sparks heated debate among Optimism DAO" (2024)*](https://www.dlnews.com/articles/defi/green-offers-mea-culpa-to-optimism-dao-over-grants-disclosure/)
+1. [*The Defiant, "Arbitrum DAO Votes on $1.5 Million Program to Reward Active Delegates" (2024)*](https://thedefiant.io/news/blockchains/arbitrum-dao-votes-on-usd1-5-million-program-to-reward-active-delegates)
+1. [*Arbitrum Proposals, "Revert the Delegate Incentive Program (DIP) to Version 1.5" (2025)*](https://forum.arbitrum.foundation/t/proposal-revert-the-delegate-incentive-program-dip-to-version-1-5/29867)
+1. [*DL News, "Aave Labs critics lose key DAO vote — for now" (2024)*](https://www.dlnews.com/articles/defi/aave-labs-critics-lose-key-dao-vote-for-now/)
+1. [*Arbitrum Foundation, "Security Council: A conceptual overview" (2024)*](https://docs.arbitrum.foundation/concepts/security-council)
+1. [*ENS Docs, "ENS DAO Security Council" (2024)*](https://docs.ens.domains/dao/security-council/)

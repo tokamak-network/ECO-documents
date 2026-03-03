@@ -143,7 +143,7 @@ Sequencers are the lifeblood of the L2, responsible for maintaining the chain’
 
 [Image: Sequencer Payoff]
 
-![](images/70c338bb0503.png)
+![](images/b4c4c94459f2.png)
 
 ### The Validator: The Rational Choice is Honesty
 
@@ -154,7 +154,7 @@ The system is carefully designed so that the expected cost of being offline or d
 
 [Image: Validator Payoff]
 
-![](images/8f72de211710.png)
+![](images/6e451324a8f7.png)
 
 ### The User: Time is Money
 

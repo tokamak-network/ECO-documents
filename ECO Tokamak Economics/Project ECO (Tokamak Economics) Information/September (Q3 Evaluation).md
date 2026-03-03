@@ -24,7 +24,7 @@ Current Task for team
 
 **<Original road map (in Q3)>**
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/d42e5549-6183-4bef-9f28-e61aa0d65af6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XBV4X7FA%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T043641Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDlX7NLwff4ByDBOlqeiVzF6wWZQcBljb8qIGBQlLwHswIgBW5CUcgD1FPeuXaBPdmwebYSh0Zf%2BlF0QwZ%2Fuhk8ibQq%2FwMIdBAAGgw2Mzc0MjMxODM4MDUiDKoU69xgdULsXPYOeCrcA0iT2Tge273kZ4yf%2BIHHkri8nBxdgPw%2BcEt5qFFh65J2TIUD%2FL6Y%2B%2F5l5fbwQN8EcAufTmGEjQZEv19vCYu9U%2FCKKfMxXfoG3W0Jkdp9HM5G8T%2FyRilOxGAuKPbhKmiYfJF427AbKotzIO1oRTjG0qNd0n2hj6rG%2F2Lf48%2FwupiiHJLg%2F9nN%2FtiWjHietD66o%2F%2FX187kxWzzdLD%2FP0LmJXGukSIVRq%2FzisFqLvgR6A%2F6H%2BYUu%2FqwLFv3pGgYDfrvOR9K1B5Jrc2gQ%2Fb%2FQVGJPTi9Zmw%2B2ctdRMApf5juUMLFPC%2FMe4M%2BCApxr4bRUiKBVE4BDBDEqNgEiLlZxVq%2BtJtq519vZcwVOHtrIZXmktXQHZsLHrFjsKCMwlCtvQxEexxcLpzZsazqiCAXamzJm%2FZsrypzYyPoQRMfhY%2FH42r2TG%2BQvDUntC4MrKSwi9%2F9xAzPUZvfkt0eeoBy7WM8sly5HZDjm%2B3hlwlhgTscS2XXISJcgPFOGmf7U%2B%2B8Nfsndq4K9GvO4ug2tGykE%2Bg%2FoSLNbUpgPcIFyYZSc49fj1V5qmMfI3eVqmS%2FyqqNd43UgwoXTvjPDr7IATZJ%2Bh2QGrJAch%2FcfyBXPscDDj%2B78kadWMILtdKKjoStkleLMKzw2cwGOqUBsIZKNIN2tfFpM%2BOh6I8Z6PI%2FOTHe%2BgHdoQQEH9rN%2Fgj%2FCmX%2FlS5IVG9pwjpUAn9N%2F4tF3WDQMMrk9tMvitGQHcMSxqEVgJ3HtChDWNJ0i9Vw6D%2FPMNAHWJfuCKLLjAc5M9kBe1bEHekUjzJCHxXZyMwcKmMUMvBOMpVYPH75gGfGiigIYGxRqLaSUul0%2BsxcoomgOYtnGPqwWsEDiNaKisJLKwO6&X-Amz-Signature=a0ca8d4ebc3e40e00aa2ef39ec1ce8082c1d6709681b7d61b4bbd8304b083c94&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/d42e5549-6183-4bef-9f28-e61aa0d65af6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q7L2Q2H5%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T091041Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBh0U8UdeadCo%2BlW4Cxb4jHhL3t%2BDDYx86StpcJKFDPsAiAO0JE%2FwSsyeD%2FSxnezTM%2BMV%2F788d3bdUUw7bzAaTGfIyr%2FAwh6EAAaDDYzNzQyMzE4MzgwNSIMSuxzeRnDnVclboK9KtwD%2B8028oWJ6hAYCAWyhP9Ph2oXaemOaqd2somfTl5lEPi4d8nqMy4NlA674xyt719gKH5PXdotPqXZ8CCT6iJrV4vy4IqOWf23ZQ11f7anUP7cS40EY1yCYSlHpl%2FxudhZ6OVmF3Gxv60NhME5esOnUlK7S9ihhlRw5QPwyPgBaI240mgVnPIgA1k6pQ9eQ1AvPAV5gPaWfvTqsrkZnq%2F2o%2BoeRJYq4UPz%2Brrq11VYGo2komffqGyUk%2Ft3eOEJ0AnhRz7w%2BO2X%2BE9ApEUbQd3HCnHxLShisIqdDSuDmYO9dV%2FRF10zXq%2Be00iO29wQ9zVnRFLoqlJmFiEuL3O%2FfkTXxPNsQEaM2WHeUYf8MSC3LxBCa0m88b3E3zkjfTq91UBuSUkmzMMzMWcq%2FZtLGpgQ%2FqwKMy2SrMPJCqvmahlKEGMbLAtouNTvYzm0GPF45wj6QeVczmYaxaUIlrBWR34Kw2vKRbnfUY82YHBZt%2BR%2F9qqYCnNOBhurDzR1YkIbp0MXyZFOdaP4tGnnbkpYt5PehE9c3SbTKItmgXovKQwQY46pFXLjbsQsu8YpmdQKu7PnYGF9LVRH5yeYMqMf9%2BbU3wpfWWB6qHceLMiFnXY1Rlv9okLHh0l2ad064S8wwpjbzAY6pgGjyzuJBPYk6ULEC4p2nqibOZR8F2HpubgOj4E0bMlBJSx7MKjjxRCtmu31Bv7m2GUVlVbo0FrnXtXkLTQnSbfm6DufYSszald49IiQNzNpZr%2FqFGo%2F9SyWoDm5Uy1NBqybZTXQd0qQeEdlLm61flrwDgxNA1I7G9Pwsm9B3Giox5N%2BpKNrbYC8UOVYsQu%2FZGmW%2Bb4tPOoz0vx60mdao2t1b%2Ff8eFGB&X-Amz-Signature=ab4419fdaece429327324667b829afdaab0ec3edd46f9bbbb8451b7e1f4805d7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ## Task of this quarter
 
@@ -98,23 +98,170 @@ The seigniorage distribution model will be changed once again. In the last quart
 
 ### Research: Suah, Praveen
 
+**Motivation**
+
+- Define a path for TON Governance
+- Research the two-step withdrawal flow in new optimism bedrock and understand the changes needed in our FW bridge
+
+**Goals**
+
+- Write the Governance Article series, and discuss the possible paths for progressive decentralization of TON Governance
+- Finish Slides for Design possibilities of Tokamak DAO
+
+**Progress**
+
+**Jul**
+
+- Published Governance Article 1 in medium ([Link](https://medium.com/onther-tech/layer-two-governance-part-i-d04d731cadeb))
+- Governance Article 2 (80%) ([Link](https://docs.google.com/document/d/1hhwE3kgajOMRziEp0qH65njkQzcGT_BUOUYKnpVIBZM/edit?usp=sharing))
+
+**Aug**
+
+- [Slides](https://docs.google.com/presentation/d/1trWbVQlGUGizMfRe8rbCgtQhpeObR4NJC8cNdhj9U4k/edit?usp=sharing) - FW Bridge After Optimism Bedrock
+
+**Sep**
+
+- Tokamak Network Current DAO and its problems ([Slides](https://docs.google.com/presentation/d/16x5zJGbjZL84SU_doiPhe-xw_cGMDJbCH9hSe4Efipc/edit?usp=sharing)) - To be fixed
+
 ### Contract: Zena, Harvey
+
+**Motivation**
+
+- Make the DAO V2 contract and how to preparing migration
+
+**Goals**
+
+- Finish developing DAO V2 contracts
+
+**Progress**
+
+**Jul**
+
+- Develop the DAO Contract
+  -  Develop the Contract Logic (Used together with V1 and V2): 50% ([commits](https://github.com/tokamak-network/tokamak-daoV2-contracts/commits/6.updateForV1))
+
+**Aug**
+
+- Develop the DAO Contract
+  - Develop the Contract Logic (Used together with V1 and V2): 75% (25%) ([commits](https://github.com/tokamak-network/tokamak-daoV2-contracts/commits/6.updateForV1))
+  - make the audit document: 100%(100%) ([doc](/8efb2a48abc04cd680270e951c0dbaaa))
+
+**Sep**
+
+- research the way to implement staking v2 without using TON held by DAO. [doc](/092bcac7942349b38a0cf99ae228ae7e)
+- design TON Staking V2 using powerTON [drawing](https://drive.google.com/file/d/1ONFWgNCMvdVrH5tV7IE-e27hxrJZAGZJ/view?usp=sharing)
+- A simple staking vulnerability has been discovered. [doc](/c77430f50b62453a9cc581abfc2e0bbf) 
+- develop the simple staking patch contracts  [doc](/ff9089ba2f2f4aaf82ae920605ec877e) , [repo](https://github.com/tokamak-network/ton-staking-v2) 
 
 ### Service: Jason
 
+**Motivation**
+
+- convert current dao to react-based to reduce project process time 
+
+**Goals**
+
+- publish DAO
+
+**Progress**
+
+**Sep**
+
+- tokamak-dao publish([link](https://github.com/tokamak-network/tokamak-dao-v2-interface/commit/ce5a2c3a2aeac3544622b13ea073e2108416e8fd))
+- Align staking v2 storyboard([link](https://docs.google.com/presentation/d/1OGuCoqVJlYa_hGuF6BALK0wvxCCOdwOKePM9kKNUONk/edit#slide=id.g226607b0dd0_0_54))
+
 ## Summary of Outputs
+
+---
+
+### Research & Modeling outputs
+
+|  | Article | Seminar | Slide |
+| --- | --- | --- | --- |
+| Quantity | 1 (+1) | 1 | 1 |
+
+List of outputs
+  - 1 article for new governance and another governance article proceeded.
+  - 1 seminar on how bedrock affects our FW model.
+  - 1 slide to check the entire staking storyboard.
+
+---
+
+### Development outputs 
+
+|  | progress | note |
+| --- | --- | --- |
+| DAO Contract | 100% |  |
+| DAO Front-end | 70% | To reduce implementation time, convert DAO vue to react |
+|  |  |  |
+
+---
 
 ## Contribution to the Tokamak ecosystem
 
+---
+
+### 1. Governance
+
+- The current governance model is designed when we don’t operate our L2. So we need a new governance model considering L2 environment. L2 economics team’s modeling team is researching it and it is one of the contribution points to the Tokamak ecosystem.
+
+### 2. Find vulnerability
+
+- As we mentioned above, we are trying to find another way to distribute TON. During that research, our contract team found there are severe vulnerability points in the Tokamak staking system. If this point is found by the attacker. our biggest service could be hacked.
+
+### 3. Response to urgent situation
+
+- In middle of September, vercel suspend our whole service. So, we moved our services to another account. It was not possible to build the service for unknown reasons, but it was easily resolved using the react version service worked on during the project.
+
+---
+
 ## Strengths and Weaknesses Analysis
+
+---
+
+### Strengths
+
+- There are a few strengths points in this quarter. Because we couldn’t fully focus on this project. But  I think we did what we had to do efficiently. Such as fin vulnerability, developing DAO governance model, and implementing DAO contracts.
+
+### Weaknesses
+
+- How to move V1 staker to V2.
+  - Even though we are considering an event for stakers who move their asset from V1 to V2, it is not the best solution. Give reason to users move their assets to V2 without withdrawing from our staking service.
+
+---
 
 ## Challenges Faced
 
+---
+
+**Change the model once again**
+
+- Our team’s original plan was to change the distribution ratio based on the staked amount in V2. It needs to control TON in DAO vault. And control TON in DAO vault affects our circulation supply. So we consider another way of using Power TON.
+
+**Urgent issue in staking service**
+
+- We found a vulnerability in staking contracts when we researched how to distribute seigniorage for both V1 and V2. So, we stopped the staking system and will change the staking contract.
+
+---
+
 ## Lessons Learned
+
+---
+
+| Team | Lessons |
+| --- | --- |
+| Modelling | Creating a well-defined structure for our DAO is crucial, based on our research of established DAOs in the field. We plan to integrate tools and processes from successful DAOs into our project in the coming stages. It's essential to prioritize simplicity to ensure that our users can easily grasp the system |
+| Contract | When developing a contract, I thought it was important to think about the possibility of upgrades.
+And while developing, I thought it would be nice to have an explanation of the service developed in the final document.
+In order to upgrade the service, there are inevitably cases where the contract must be upgraded, and in this case, it would be better to have documentation because it would allow you to more quickly and accurately understand how the previous code was developed.
+In the future, it seems that post-development documentation work will also be mandatory. |
+| Service | when converting the staking & dao system from Vue to React. I could understand our most important service again and how can implement it more efficiently. |
+
+---
 
 ## Q4 Roadmap
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/ac559080-8205-488d-816b-671f99f01525/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XBV4X7FA%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T043641Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDlX7NLwff4ByDBOlqeiVzF6wWZQcBljb8qIGBQlLwHswIgBW5CUcgD1FPeuXaBPdmwebYSh0Zf%2BlF0QwZ%2Fuhk8ibQq%2FwMIdBAAGgw2Mzc0MjMxODM4MDUiDKoU69xgdULsXPYOeCrcA0iT2Tge273kZ4yf%2BIHHkri8nBxdgPw%2BcEt5qFFh65J2TIUD%2FL6Y%2B%2F5l5fbwQN8EcAufTmGEjQZEv19vCYu9U%2FCKKfMxXfoG3W0Jkdp9HM5G8T%2FyRilOxGAuKPbhKmiYfJF427AbKotzIO1oRTjG0qNd0n2hj6rG%2F2Lf48%2FwupiiHJLg%2F9nN%2FtiWjHietD66o%2F%2FX187kxWzzdLD%2FP0LmJXGukSIVRq%2FzisFqLvgR6A%2F6H%2BYUu%2FqwLFv3pGgYDfrvOR9K1B5Jrc2gQ%2Fb%2FQVGJPTi9Zmw%2B2ctdRMApf5juUMLFPC%2FMe4M%2BCApxr4bRUiKBVE4BDBDEqNgEiLlZxVq%2BtJtq519vZcwVOHtrIZXmktXQHZsLHrFjsKCMwlCtvQxEexxcLpzZsazqiCAXamzJm%2FZsrypzYyPoQRMfhY%2FH42r2TG%2BQvDUntC4MrKSwi9%2F9xAzPUZvfkt0eeoBy7WM8sly5HZDjm%2B3hlwlhgTscS2XXISJcgPFOGmf7U%2B%2B8Nfsndq4K9GvO4ug2tGykE%2Bg%2FoSLNbUpgPcIFyYZSc49fj1V5qmMfI3eVqmS%2FyqqNd43UgwoXTvjPDr7IATZJ%2Bh2QGrJAch%2FcfyBXPscDDj%2B78kadWMILtdKKjoStkleLMKzw2cwGOqUBsIZKNIN2tfFpM%2BOh6I8Z6PI%2FOTHe%2BgHdoQQEH9rN%2Fgj%2FCmX%2FlS5IVG9pwjpUAn9N%2F4tF3WDQMMrk9tMvitGQHcMSxqEVgJ3HtChDWNJ0i9Vw6D%2FPMNAHWJfuCKLLjAc5M9kBe1bEHekUjzJCHxXZyMwcKmMUMvBOMpVYPH75gGfGiigIYGxRqLaSUul0%2BsxcoomgOYtnGPqwWsEDiNaKisJLKwO6&X-Amz-Signature=5f2bc545e4b9e2e195ef80769eb769ef9471246f128e356305a09d008b1e3636&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/ac559080-8205-488d-816b-671f99f01525/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q7L2Q2H5%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T091041Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBh0U8UdeadCo%2BlW4Cxb4jHhL3t%2BDDYx86StpcJKFDPsAiAO0JE%2FwSsyeD%2FSxnezTM%2BMV%2F788d3bdUUw7bzAaTGfIyr%2FAwh6EAAaDDYzNzQyMzE4MzgwNSIMSuxzeRnDnVclboK9KtwD%2B8028oWJ6hAYCAWyhP9Ph2oXaemOaqd2somfTl5lEPi4d8nqMy4NlA674xyt719gKH5PXdotPqXZ8CCT6iJrV4vy4IqOWf23ZQ11f7anUP7cS40EY1yCYSlHpl%2FxudhZ6OVmF3Gxv60NhME5esOnUlK7S9ihhlRw5QPwyPgBaI240mgVnPIgA1k6pQ9eQ1AvPAV5gPaWfvTqsrkZnq%2F2o%2BoeRJYq4UPz%2Brrq11VYGo2komffqGyUk%2Ft3eOEJ0AnhRz7w%2BO2X%2BE9ApEUbQd3HCnHxLShisIqdDSuDmYO9dV%2FRF10zXq%2Be00iO29wQ9zVnRFLoqlJmFiEuL3O%2FfkTXxPNsQEaM2WHeUYf8MSC3LxBCa0m88b3E3zkjfTq91UBuSUkmzMMzMWcq%2FZtLGpgQ%2FqwKMy2SrMPJCqvmahlKEGMbLAtouNTvYzm0GPF45wj6QeVczmYaxaUIlrBWR34Kw2vKRbnfUY82YHBZt%2BR%2F9qqYCnNOBhurDzR1YkIbp0MXyZFOdaP4tGnnbkpYt5PehE9c3SbTKItmgXovKQwQY46pFXLjbsQsu8YpmdQKu7PnYGF9LVRH5yeYMqMf9%2BbU3wpfWWB6qHceLMiFnXY1Rlv9okLHh0l2ad064S8wwpjbzAY6pgGjyzuJBPYk6ULEC4p2nqibOZR8F2HpubgOj4E0bMlBJSx7MKjjxRCtmu31Bv7m2GUVlVbo0FrnXtXkLTQnSbfm6DufYSszald49IiQNzNpZr%2FqFGo%2F9SyWoDm5Uy1NBqybZTXQd0qQeEdlLm61flrwDgxNA1I7G9Pwsm9B3Giox5N%2BpKNrbYC8UOVYsQu%2FZGmW%2Bb4tPOoz0vx60mdao2t1b%2Ff8eFGB&X-Amz-Signature=5c64194a321a19b61e39254943ca1fe060c635a230e17aae1ae755c5d055df29&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ## Q4 2023: What will we do?
 
@@ -132,19 +279,98 @@ The seigniorage distribution model will be changed once again. In the last quart
 
 ### Simple staking patch (~ November)
 
+- **Motivation**
+  - To solve vulnerability and improve usability of staking related service
+- **Goals**
+  - contract upgrade & test
+  - implement subgraph for new staking contracts
+  - connect subgraph with front-end
+  - front-end update(staking & dao)
+  - fix staking mobile version & open it to public
+
 ### Staking V2 & FW (~ December)
 
+- **Motivation**
+  - To provide liquidity for the fast withdrawal request and make enable FW from Tokamak L2
+- **Goals**
+  - Research about how to implement FW based on current contract
+    - If it is possible it reduce a lot of migration resource
+  - Implement contract based on new model
+  - make storyboard
+  - implement subgraph
+  - If model is fixed until November, V2 & FW service will be open at Q1, 2024
+
 ### Renewal price dashboard
+
+- **Motivation**
+  - Provide better UX/UI about price dashboard and use it to new DAO model
+- Goals
+  - Research how to make it (3rd party or in-house)
+  - adopt our model to service
 
 ## Detail task per each team
 
 ### Research: Suah, Praveen
 
+**Motivation**
+
+- Revamping our Price Dashboard
+- Define the structure for Tokamak DAO
+- Support design team with UX/UI 
+
+**Goals**
+
+- Token Price Dashboard
+  - Organize Data according to the design needs
+  - Publish Dashboard
+- Seminar - Tokamak DAO - Scope of Improvement and Possibilities
+- Propose a refined structure for Tokamak DAO
+- Revisit & improve staking v2 and FW storyboard
+
 ### Contract: Zena, Harvey
+
+**Motivation**
+
+- TON Staking service supports Fast Withdraw.
+- Enables layer 2 operators to receive seigniorage.  
+- A candidate for TON Staking V2 must also be able to become a candidate for DAO.
+- A simple staking vulnerability has been discovered and must be resolved.
+
+**Goals**
+
+- Develop and modify contracts to support Fast Withdraw in the TON Staking service.
+- Develop and modify contracts so that layer 2 operators can receive seigniorage.
+- Develop and modify the DAO system so that both TON Staking V1 and V2 can be used.
+- Contract development and migration to patch simple staking vulnerabilities
 
 ### Service: Jason
 
+**Motivation**
+
+- re-implement price dashboard
+- new service for staking & dao
+
+**Goals**
+
+- implement a new price dashboard
+- change DAO API(change contract address and test)
+- Implement v2 service
+  - Staking V2 subgraph(L1)
+  - FW subgraph(L2)
+  - fee server
+  - Staking V2 interface
+
 ### Plan & Design: Ryan, Monica
+
+**Motivation**
+
+- TON staking v2 service page should cater to both legacy and new users. Our goal is to incentivize users to transition to v2 while ensuring a seamless and straightforward process.
+
+**Goals**
+
+- Present new storyboard and design to replace [price.tokamak.network](http://price.tokamak.network/) 
+  - We will also show comprehensive view of how TON tokens are distributed
+- Present updated storyboard + design for TON staking v2 and FW 
 
 ## Budget Request
 

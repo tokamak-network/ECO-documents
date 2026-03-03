@@ -64,7 +64,7 @@ $p_{\mathrm{fraud}}^{\mathrm{shared}} = (0.001)^{12} = 10^{-36}$
 $\frac{p_{\mathrm{fraud}}^{\mathrm{shared}}}{p_{\mathrm{fraud}}^{\mathrm{partition}}}
 = (10^{-3})^{v(1 - 1/r)} = (10^{-3})^{8} = 10^{-24}$
 - **Graph for Comparison:**
-![](images/86c910f9986f.png)
+![](images/a93dabdbf41c.png)
 
 ### **System-Level Fraud Probability**
 
@@ -121,7 +121,7 @@ $W_{\text{part}} = b$
 - Expected workload per validator:
 $W_{\text{shared}} = s\,r\,b = \frac{r\,k^\star}{v}\,b$
 - **Graph for Comparison:**
-![](images/ef2fcc0fc23d.png)
+![](images/df0a3385c7a5.png)
 
 ### **Interpretation**
 

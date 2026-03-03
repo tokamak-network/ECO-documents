@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "2f97b8fb4bdf97ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "941381dd810386c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27911ad34a28cadd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L2 Economics/(V2) Revised outline & Write up of the Whitepaper Medium post/Revised Medium Draft in more direct style.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Revised Medium Draft in more direct style"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d72302e6a635ae0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cc5bbc57285b909",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08532f386728f1fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "12f37816efff9f2d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a3df7304be4a3807",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "74e455a9f4754374",
+    "type": "split",
+    "children": [
+      {
+        "id": "3701ba0f679eb0ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "894b0c5703fc5b2b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DAO Governance/Contracts/CandidateAddOn/L1ContractVerification.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for L1ContractVerification"
+            }
+          },
+          {
+            "id": "b40162f3d9fafd86",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DAO Governance/Contracts/CandidateAddOn/L1ContractVerification.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from L1ContractVerification"
+            }
+          },
+          {
+            "id": "8e3ebd4e2b797318",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5bef0c739b0c878f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d0d9360f29121a1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DAO Governance/Contracts/CandidateAddOn/L1ContractVerification.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of L1ContractVerification"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "27911ad34a28cadd",
+  "lastOpenFiles": [
+    "Work in progress/Track B/Jason/ETH-RPG/reviews/retention-features-review-2026-03-03.md",
+    "Clients/ethrex/roadmap/PHASE-I-PLAN.md",
+    "Work in progress/Track B/Jason/Jason.md",
+    "Work in progress/Track B/Track B.md",
+    "Work in progress/Track B/Jason/ETH-RPG/ETH-RPG.md",
+    "Work in progress/Track B/Jason/ETH-RPG/wallet-test-results.md",
+    "Work in progress/Track B/Jason/ETH-RPG/wallet-test-results.json",
+    "Work in progress/Track B/Jason/ETH-RPG/uxreview-2026-02-27.md",
+    "Work in progress/Track B/Jason/ETH-RPG/todo.md",
+    "Work in progress/Track B/Jason/ETH-RPG/todo-kr.md",
+    "Work in progress/Track B/Jason/ETH-RPG/testing/wallet-test-results.md",
+    "Work in progress/Track B/Jason/ETH-RPG/testing/wallet-test-results.json",
+    "Work in progress/Track B/Jason/ETH-RPG/testing",
+    "Work in progress/Track B/Jason/ETH-RPG/survey/tokamak-survey-response.md",
+    "Work in progress/Track B/Jason/ETH-RPG/survey/tokamak-survey-googleform.md",
+    "Work in progress/Track B/Jason/ETH-RPG/survey/service-fee-negotiation.md",
+    "Work in progress/Track B/Jason/ETH-RPG/survey/service-fee-negotiation-en.md",
+    "Work in progress/Track B/Jason/ETH-RPG/survey",
+    "Work in progress/Track B/Jason/ETH-RPG/specs/strategy-gamification.md",
+    "Work in progress/Track B/Jason/ETH-RPG/specs/spec-pvp-battle.md",
+    "Work in progress/Track B/Jason/ETH-RPG/specs/spec-onchain-personality-test.md",
+    "Work in progress/Track B/Jason/ETH-RPG/specs/spec-multichain.md",
+    "Work in progress/Track B/Jason/ETH-RPG/specs/spec-balance-rebalance.md",
+    "Work in progress/Track B/Jason/ETH-RPG/specs/spec-achievements.md",
+    "Work in progress/Track B/Jason/ETH-RPG/specs",
+    "Work in progress/Track B/Jason/ETH-RPG/reviews/review-ranking-system.md",
+    "Work in progress/Track B/Jason/ETH-RPG/reviews/review-marketing-strategy.md",
+    "Work in progress/Track B/Jason/ETH-RPG/reviews/review-marketing-plan.md",
+    "Work in progress/Track B/Jason/ETH-RPG/reviews/review-fun-factor.md",
+    "Work in progress/Track B/Jason/ETH-RPG/reviews/review-full-service.md",
+    "Work in progress/Track B/Jason/ETH-RPG/reviews",
+    "Work in progress/Track B/Jason/ETH-RPG/marketing/x-post-famous-heroes.md",
+    "Work in progress/Track B/Jason/ETH-RPG/marketing/images/card-vitalik.png",
+    "Work in progress/Track B/Jason/ETH-RPG/marketing/images/card-stani.png",
+    "Work in progress/Track B/Jason/ETH-RPG/marketing/images/card-sassal.png",
+    "Work in progress/Track B/Jason/ETH-RPG/marketing/images",
+    "Work in progress/Track B/Jason/ETH-RPG/marketing",
+    "Work in progress/Track B/Jason/ETH-RPG",
+    "Work in progress/Track B/Jason",
+    "Contract Team. work progress/work plan & progress of contract team/tokamak-staking-v2/images/550b006147e5.png",
+    "DAO Governance/DAO V2 Policy Document/English version/images/49c330ea391a.png",
+    "DAO Governance/Contracts/CandidateAddOn/images/3dc39958ca79.png",
+    "DAO Governance/Contracts/CandidateAddOn/images/f943c649f839.png",
+    "DAO Governance/Contracts/CandidateAddOn/images/9021605d2dff.png",
+    "DAO Governance/Contracts/CandidateAddOn/images/7afce986fbac.png",
+    "DAO Governance/Contracts/DAOCommittee/images/1675b1681f3f.png"
+  ]
+}

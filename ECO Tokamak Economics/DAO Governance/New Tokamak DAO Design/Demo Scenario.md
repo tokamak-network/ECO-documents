@@ -2,7 +2,7 @@
 
 1. vTON은 시뇨리지를 받는 L2 Operator와 Validator에게 분배된다. DAO Treasury는 vTON을 받지 않는다.
 1. TON 대비 vTON 발행 비율은 DAO 투표로 조정할 수 있다. 발행 비율이 0이 되면 시뇨리지만 분배되고, vTON 분배는 중단된다.
-![](images/260227dd3a73.png)
+![](images/b46413a1f965.png)
 
 **데모 — vTON faucet**
 

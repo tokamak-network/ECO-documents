@@ -30,7 +30,7 @@
     1. Layer2Manager.distribute
     1. Layer2Manager.claim(key) 
 
-![](images/6fecff07c09d.png)
+![](images/550b006147e5.png)
 1. L2 에서 Fast Withdraw 요청시 어떻게 liquidity를 지급할 것인가? 
   1. L1: FwReceipt 
     1. 유동성 제공자에 의한 빠른 출금 지원 함수    

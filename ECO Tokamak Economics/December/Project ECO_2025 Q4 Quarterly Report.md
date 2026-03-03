@@ -150,7 +150,7 @@ We invested considerable effort in documentation and communication, including up
 - **Price API V2.0**
   - Optimize AWS resources
 
-![](images/75f2508cfb67.png)
+![](images/ca16cb7c0a2c.png)
 
   - Optimize cost **$456**(in Sep) → **$229**(in Nov)
 

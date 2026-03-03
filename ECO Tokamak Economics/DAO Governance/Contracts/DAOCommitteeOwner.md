@@ -2,12 +2,12 @@
 
 ### Storage Layout
 
-![*DAOCommitteeProxy2.sol*](images/2905824a7e22.png)
+![*DAOCommitteeProxy2.sol*](images/d5169d9f5b4b.png)
 
-![*DAOCommitteeOwner.sol*](images/6a405b2949ba.png)
+![*DAOCommitteeOwner.sol*](images/3b577fb3418c.png)
 
 > ***DAOCommitteeProxy2, DAOCommitteeOwner, 그리고 DAOCommittee_V1 컨트랙트의 storage layout은 모두 동일하다.***
-> ![](images/32427fb3a131.png)
+> ![](images/409dd0967db6.png)
 
 ### Functions
 

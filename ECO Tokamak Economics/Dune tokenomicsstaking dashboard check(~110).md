@@ -16,7 +16,7 @@ Kevin
 - [x] old whitepaper is depricated. New is economics paper. [https://github.com/tokamak-network/papers/blob/master/cryptoeconomics/tokamak-cryptoeconomics-en.md](https://github.com/tokamak-network/papers/blob/master/cryptoeconomics/tokamak-cryptoeconomics-en.md)
 
 A: I remove the whitepaper link. leaving only the economics paper.
-![](images/fb20e6c4de62.png)
+![](images/38f46af22ede.png)
 
 - [x] upbit ton supply : why data is differ from [https://price.tokamak.network/](https://price.tokamak.network/) ?
 
@@ -34,9 +34,9 @@ total_supply + seig - burned_supply - 178111.66690985573
 #At this calculation seig is 3.92*((max(number)-2)-10837698)
 ```
 
-![](images/4dc5a07d8292.png)
+![](images/6f5515e2f954.png)
 
-![](images/9a601aa005a4.png)
+![](images/93d6f7c96b0d.png)
 
 - [x] top 10 holders : can we add text lable each of account? most of them is smart contract, so we need explanation
 - [x] Token Vesting Graph : In graph, why DAO peaks and disappear suddenly from the middle? And more fundamentally, do we need a vesting graph(and other vesting sections too)? All TON’s vesting period is over, and I think we have to re-consider its value of display.

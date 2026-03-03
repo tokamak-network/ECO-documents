@@ -20,10 +20,10 @@ Create the fake rollupConfig contract through the create function of MockSystemC
 - To create MockSystemConfig, click the [createMockSystemConfig's write ](https://sepolia.etherscan.io/address/0x5f4c9422b13dDae3B909dd96F3BB713c6eEe65Ff#writeContract#F1)button (_name is not currently supported, you can put anything right now).
   - _name: abc
 
-![](images/c32b41df9704.png)
+![](images/8430e06c6c23.png)
 - You can find “mockSystemConfig” address on ‘Logs’ tab page.
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/058b51f1-736c-48ec-90ba-436f963328a9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-10-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.32.47.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U64WZAOF%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T045608Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC96KzLBU8pqEHy8iGGmj%2FQ6zvyngQmcgSjRFo6FwMGXgIgbk%2B3pUPfkQLC%2F8DE1HR5iHPQro7dv5MOjf2g%2B3zky70q%2FwMIdBAAGgw2Mzc0MjMxODM4MDUiDGdALuUVatbniMQrBSrcA%2F9kI%2B7XApC59QXKAkHO4xUtKee2pnTnd9ZJvFx46xSSXJWG0pmdqOT6deutEucqgjkwNIBcza3sz%2BnNIk%2F%2FZyeIyEqgaroCdjQ5zKYXLhWkGzCoILYvZOGsYTUlCu4TtxP9YJsukObtEO3pYy7oqPs%2BFditm5xxQxWOQVfZ38nmdIt%2FVxR2uC5O6Y0UaY72hzxd%2BIV%2FJCYN6WVjTiutJXBHiqKcVTeKHLfAPlxijcFTy43LvLlDfKM1EUQoMMsd%2F6Fv29p%2FD4Sc62iOv2Rzh2TICSCv6CYhxoRHvyMXvHIkqKN81vpmE06WWyTg7rhitWtihGFAL99ZBcFi7FHJp1b6KOs4if%2F1xvPj7lGPmOwzmAKre5PSJbeDnP9kA5OklerBJvU%2FM1RTQL6ocQWNfxtfWeg8M5P5AsI3VKHMC6q%2FaSmQTFY9aHKyrAOa2eGEF5htvEGtME%2Bk%2B8OqJ%2BSWbloGg6dXOjB6RPMEwmtUM2%2F2A5I8zo61Gsj5W9YJZ5Ubc4jvzDxXvastMnuVtoceYC2rxxETQNeBbgKCyQxFGXLFQlSISEJyjSTHCYahoyorXsnZlpES%2FX4ET%2FCgZe4%2FkkF1DRa0AFqvH3Rx7iz6aslTaeYL5CX3SkP43InFMI%2Fv2cwGOqUBVIFoaSV0DpdoJIle%2F5TCmJqk24R2okjlbqxJ6i6Vk9bHE0XY43Q6Az1WvEmoXPNkUXH4w25SiWgkderjXvG4g6bV6FfCZIfdR6mz15gQjKo6lDnP1TnkGUaIMT0JdbJyKgxyXiubFYGPrBo%2BSSXhtM6uHoEJFvaNcoOCUP9XnUDDzrlDuasR9fcvOSq8w51polE%2BkkXrFc7MmEUrZ07Fmk7LRbre&X-Amz-Signature=bab22c3969fbe1686c00153c9fbcd55f04fb45028b3a56abd760500466aafc1b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/058b51f1-736c-48ec-90ba-436f963328a9/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-10-01_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.32.47.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YVBWSNOG%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T093121Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCqCHHcIo4hIgtwL83GuiZ0CJiQh0Wy%2BiiTI%2F%2BSw75eVgIgfvBs9b%2FjSG9CU1zS70nP3jhjJ9oBic%2FiQo%2B5Bz17mqwq%2FwMIehAAGgw2Mzc0MjMxODM4MDUiDPkTdlX6%2FOeREveGfircAyo212dMNLhA3Sm3EDNnSeXLwEUox3z%2FCd3xCNwKNlcWHjK03BmCepB5nbsJhPcSTlBG6LJDOCex%2Fl3joyAXL8thSRkTzL4dQdnSQNsvs%2FVsW3HJsR1a7gHoXllP1bakk%2FwQlnrwnIQZ6ULZy4tAcLSyoyFJvLFmd2ydU2zIShLXtGX5lYK93fXJy%2BBQMAR%2FXHEGP02RibkFTzZyjkY2RsVao1%2BudbRfD51PRVG1rdQHJ9%2BT0z%2B%2F7VQz%2FIdU5x60rMe2kH57l4Dd3FTonlRXFoKiv29bRm6Ju7JWBDimu1ezBthM137gBKJ0K%2BagALkoayigQ8r8BpPSwM8HpafNWMX19mXfP0f7D3ciFObTmQr%2BDK6wZIYnuGSIgFd52s2ohZUc2ES40bt228jOodjuwo56Fv7do0HRFD07u%2BUbYtD9ASX6%2BWSpcoE9RFkksWRQHQPwdNNIGbJ5ry7FKIi3OMgc3W36QxtqVmQk8x5pgnkoPcstmMkVSuwZ%2BO9JzCgvcaNdf1Bj%2BupcNwjX%2BjS5k4v5kvq%2FraeqiKvKQA1Lb3cOoeU8TY%2BlIz4sYkfucrn4ETKjoXG9r8r7HdL3NLTeO%2B%2BIYsbh%2FooMul4%2BMfwCFlaAfba2UY%2BfCjbPG3%2BBMNyZ28wGOqUBQRtzGuXWaHFHgBi%2FAmYh8SQXoQw6iDF1O2p%2F6TvpowMrQZbEOc3GaEMZOlC4ry9pTq%2FWmxBOr0NE0avtTIfPYPKaSndUdcOiq%2Ff0axLaDC08DS3vW%2BfteBH6sNTarcHXdcfgfnUsP2QJEHlbm2QJrofT%2BQ5pMoiAswPKzd5O4eV%2Fzv0CLLCY%2F%2FoRJiy3UMDntawrolZUOIPzLQJiNeSMDYRDl43l&X-Amz-Signature=30faae242d31baa3fb03346491d8f671eff579b4f4dcc87a2bd6e03bdc79f223&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ## Step 2. Register rollupConfig 
 
@@ -55,13 +55,13 @@ After completing Step 2, you can create and register as a DAO Candidate with L2 
   - spender: 0x0fDb12aF5Fece558d17237E2D252EC5dbA25396b 
   - amount: 1000100000000000000000
 
-![](images/1b61f39409a7.png)
+![](images/4a7d2b6af748.png)
 1. [C](https://sepolia.etherscan.io/address/0x0fDb12aF5Fece558d17237E2D252EC5dbA25396b#writeProxyContract#F5)[reate and register as a Candidate with L2](https://sepolia.etherscan.io/address/0x0fDb12aF5Fece558d17237E2D252EC5dbA25396b#writeProxyContract#F5) to Layer2Manager
 - rollupConfig: *(*[*rollupConfig*](/10ad96a400a38051a8c4f9755c62f179#113d96a400a380429e9ec6d33ccccf97)* used during step 2)*
 - amount: 1000100000000000000000
 - flagTon: true
 - memo: * (*[*candidate name*](/10ad96a400a38051a8c4f9755c62f179#111d96a400a380b7a62dfbaba8d19a9b)* used during step 2)*
-![](images/2e0365453c6f.png)
+![](images/251b474a1a5c.png)
 
 ## **Step 4. Check that registered Candidate with L2 shows up as DAO candidate**
 

@@ -274,7 +274,7 @@ event listening
     - 영향 받는 스키마
       - Layer2, Sequencer/Candidate, User, Transaction
 
-![](images/6cbe99344e4e.png)
+![](images/1b627360edb9.png)
     - **handleTransaction:** handleStake, handleWithdraw 등
     - **수량 관련:** staked amount, pending amount, lton
     - 해당 candidate에 staking한 유저들, 수량, pending 물량 확인 가능

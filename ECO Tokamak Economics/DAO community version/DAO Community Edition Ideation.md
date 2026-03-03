@@ -48,13 +48,13 @@ Below is an example of what works.
 ### UI
 
 - Landing page (Explore)
-![](images/e6c5467ee133.png)
+![](images/e2e4a5c9a371.png)
 - Details page
   - Overview
-![](images/2d63e21bb5bd.png)
+![](images/df8cd4f1ee9e.png)
   - Proposals
-![](images/4f1b934e3177.png)
+![](images/2f9635291cb9.png)
   - Leaderboard
-![](images/e3c2c2f69bc3.png)
+![](images/0c30e7ee0f5a.png)
   - Discussions
-![](images/e4dd1de9ffe5.png)
+![](images/e944bd023859.png)

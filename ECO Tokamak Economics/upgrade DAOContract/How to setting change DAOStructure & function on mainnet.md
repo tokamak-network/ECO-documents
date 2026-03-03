@@ -11,14 +11,14 @@
 1. setAliveImplementation2 : DAOCommitteeProxy2 → DAOCommitteeOwner
   1. Set to use DAOCommitteeOwner logic using the setAliveImplementation2 function.
   1. [https://sepolia.etherscan.io/address/0xa2101482b28e3d99ff6ced517ba41eff4971a386#writeProxyContract#F4](https://sepolia.etherscan.io/address/0xa2101482b28e3d99ff6ced517ba41eff4971a386#writeProxyContract#F4) (this is just example) (After step 2, it will be updated later on the mainnet etherscan.)
-![](images/d362ca65db04.png)
+![](images/05764cce81db.png)
   1. input data
     1. newImplementation : DAOCommitteeOwner_Address
     1. _alive : true
 1. setImplementation2 : DAOCommitteeProxy2 → DAOCommitteeOwner
   1. Set to use DAOCommitteeOwner logic using the setImplementation2 function.
   1. [https://sepolia.etherscan.io/address/0xa2101482b28e3d99ff6ced517ba41eff4971a386#writeProxyContract#F5](https://sepolia.etherscan.io/address/0xa2101482b28e3d99ff6ced517ba41eff4971a386#writeProxyContract#F5) (this is just example) (After step 2, it will be updated later on the mainnet etherscan.)
-![](images/8276e5d59867.png)
+![](images/eb93bec663d2.png)
   1. input data
     1. newImplementation : DAOCommitteeOwner_Address
     1. _index : 1
@@ -33,7 +33,7 @@
   1. How to set layer2CandidateFactory and layer2Manager values
   1. using the etherscan Custom ABI
   1. etherscan login and click the my profile and click Custom ABIs
-![](images/a26fc6bca763.png)
+![](images/12c8bf457cde.png)
   1. Click Add
     1. Title : DAOCommitteeOwner (any name is okay)
     1. Address : 0xDD9f0cCc044B0781289Ee318e5971b0139602C26 (DAOProxyAddress)
@@ -68,6 +68,6 @@
     }]
 ```
   1. Result
-![](images/0785a910b9c1.png)
+![](images/16636587d7f1.png)
   1. Available from DAOProxyContract for etherscan.
-![](images/27e53dbc2667.png)
+![](images/b6a8ac79a83c.png)

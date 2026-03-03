@@ -2,7 +2,7 @@
   1. [https://github.com/Uniswap/permit2](https://github.com/Uniswap/permit2)
   1. deploy script : `forge script --broadcast --rpc-url https://goerli.optimism.tokamak.network --private-key <프라이빗키> --verify script/DeployPermit2.s.sol:DeployPermit2`
 
-![](images/492c5b119f21.png)
+![](images/f8b341a25ad1.png)
 
   - CREATE2 Deployer가 tokamak goerli에 0x4e59b44847b379578588920ca78fbf26c0b4956c의 주소로 존재하지 않는다. 
     - CREATE2를 사용해서 똑같은 주소인0x4e59b44847b379578588920ca78fbf26c0b4956c 의 주소로 CREATE2 Deployer라는 것을 배포해야하는지 확인필요…

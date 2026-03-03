@@ -116,16 +116,16 @@ Do you have any suggestions for improving the Setup guide?
   - Issues (also left these on GitHub issues on each repo)
     - What is this Reconnect button for? It doesn’t seem to work for something. 
 
-![](images/9dbb0bfb32c9.png)
+![](images/1ba0774b5d6f.png)
 
     - This copy button doesn’t work for me 
 
-![](images/e6a23becad19.png)
+![](images/832b4273ab8e.png)
 
     - The status bar isn't fixed — it keeps repeatedly switching between them
-![](images/9406c8b1ccae.png)
+![](images/63464f0d9929.png)
 
-![](images/d67cf148ef7a.png)
+![](images/ef42e25e1f68.png)
 
 Harvey
 > Note: You may refer to your above testing feedback and include relevant links to support your responses in this questionnaire.
@@ -181,19 +181,19 @@ The agenda was executed well and the screen was updated well according to the ex
 
     - View Details updateSeigniorage Test (it works well)
       - before updateSeigniorage 
-![](images/93b6e43e46f5.png)
+![](images/2b8eaddd064c.png)
       - after updateSeigniorage
-![](images/e6a8f306ee05.png)
+![](images/de597bbcd682.png)
     - Create Agenda
       - Submit to Repository (When you don't clone the Tokamak DAO Metadata Repository to your personal repo)
-![](images/7f7a5f2e96c6.png)
+![](images/84fc4c175774.png)
       - After cloning the Tokamak DAO Metadata Repository into my personal repo, and set Token
-![](images/1a47b1a48c3c.png)
+![](images/42621bf7f401.png)
       - ghp_Token Test Pass
-![](images/073645e3411a.png)
+![](images/04ce976d132b.png)
     - Agenda - **Save an agenda metadata  locally **
       - Verify Success
-![](images/d27ebce2c12e.png)
+![](images/fb80ba6d3167.png)
   1. **Documentation & UX**
   - **Was the **[**Execution Guide**](https://github.com/tokamak-network/dao-community-version/blob/main/sample-1/README.md#execution-guide)**, **[**Environment Configuration**](https://github.com/tokamak-network/dao-community-version/blob/main/sample-1/README.md#environment-configuration)**, ppt helpful?**
 - [x] Very helpful

@@ -1,5 +1,13 @@
 # Considerations 
 
+Operator 컨트랙은 추후 레이어에서 다중 시퀀서(오퍼레이터)를 지원할 가능성이 있다는 것을 염두에 두고 설계되어야 한다. 
+
+Operator 컨트랙는 
+
+Layer2Candiate 에서 onlyCandidate 만 사용할 수 있는 함수가 있다. 
+
+- 
+
 # Abi
 
 # Storage 

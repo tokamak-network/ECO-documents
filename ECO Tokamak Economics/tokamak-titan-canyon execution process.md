@@ -108,9 +108,9 @@ Run 'source /Users/harvey/.zshenv' or start a new terminal session to use foundr
 Then, simply run 'foundryup' to install Foundry.
 ```
   1. run foundryup
-![](images/2f17b4f522e2.png)
+![](images/523ad4596d87.png)
   1. check forge
-![](images/cb38c4cf0e0f.png)
+![](images/7396d7160c1c.png)
   1. 
 1.  How to install geth (to solve geth --version)
   1. Installation Note Link ([https://geth.ethereum.org/docs/getting-started/installing-geth](https://geth.ethereum.org/docs/getting-started/installing-geth))
@@ -144,7 +144,7 @@ Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ```
   1. check geth
-![](images/792ec9371447.png)
+![](images/42167899de33.png)
 1. retry
 ```shell
 > make devnet-up   

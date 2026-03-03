@@ -344,9 +344,9 @@ candidateAddOn : 0x0990385f7bB5b97e2250635C0391f0FfB1fd781b
     - Withdraw 동작확인 : 
       - [https://sepolia.etherscan.io/tx/0x134d4f84946ab6802fc5149900f296e23bb59a28daee5e95f62638f512e201a3](https://sepolia.etherscan.io/tx/0x134d4f84946ab6802fc5149900f296e23bb59a28daee5e95f62638f512e201a3)
         - 동작은 정상인데, 프론트에서 나온 etherscan 링크가 에러가나옵니다. 
-![](images/84b433bef755.png)
+![](images/0b1e7a2a42a0.png)
 
-![](images/58f5c5a3672b.png)
+![](images/f1163091d01f.png)
     - Update Seigniorage : [https://sepolia.etherscan.io/tx/0x917d67ee547dca6a80d4491706a5cf6ef53533ce72bf6f1c3381ed7c298a66bd](https://sepolia.etherscan.io/tx/0x917d67ee547dca6a80d4491706a5cf6ef53533ce72bf6f1c3381ed7c298a66bd)
 
 #  (10) [Zena] rejectCandidateAddOn “Thanos Sepolia V2” 

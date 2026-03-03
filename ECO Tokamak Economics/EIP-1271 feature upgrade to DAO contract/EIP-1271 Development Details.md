@@ -164,7 +164,7 @@ npx hardhat node --fork https://sepolia.infura.io/v3/{YOUR_INFURA_KEY}
 npx hardhat test test/erc1271-test.ts --network local
 ```
 1. Test Result
-![](images/d8aa409cd773.png)
+![](images/9ef5796bd541.png)
 
 ## 7. Changed signature verification logic
 

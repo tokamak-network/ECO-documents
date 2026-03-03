@@ -7,10 +7,10 @@
 
 - Tally like propose interface
 Add action
-![](images/796ed8b19742.png)
+![](images/03c146e9837f.png)
 
 Impact overview
-![](images/ddd899189627.png)
+![](images/3e103243d64a.png)
 
 # Agendas
 

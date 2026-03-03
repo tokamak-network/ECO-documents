@@ -13,7 +13,7 @@ I looked around and couldn't find anything about the L2 implementation in the of
 
 - In the call held on 24.11.18, L2 decided to proceed with the operation of the Executor. ([https://tokamak-network.slack.com/archives/C07JU6K4KDY/p1731914839830779?thread_ts=1731898123.191729&cid=C07JU6K4KDY](https://tokamak-network.slack.com/archives/C07JU6K4KDY/p1731914839830779?thread_ts=1731898123.191729&cid=C07JU6K4KDY))
 - L2 DAO Structure
-![](images/e9cebcf790e5.png)
+![](images/69f94749ce5f.png)
 - As shown in the figure above, only an Executor exists in L2, and after all decisions are made in L1, the L1 Executor manages the L2 Contract through the L2 Executor.
 - Uniswap Governance Contract : [governance/contracts at master · Uniswap/governance](https://github.com/Uniswap/governance/tree/master/contracts)
 - Arbitrum DAO Executor Proxy (L1, L2 same) : [https://etherscan.io/address/0x3ffFbAdAF827559da092217e474760E2b2c3CeDd#code](https://etherscan.io/address/0x3ffFbAdAF827559da092217e474760E2b2c3CeDd#code)

@@ -23,9 +23,9 @@ repo : [https://github.com/tokamak-network/L2-FastWithdraw](https://github.com/t
 ## 컨트랙트 구성
 
 1. 기본기능
-![](images/660c5999c8f6.png)
+![](images/dd6b4e1ebe56.png)
 
-![](images/8374f65eb247.png)
+![](images/98103ca5bb21.png)
 
   1. 현재 구성은 TON, ERC20 내부로직은 다르지만 Request, Provider가 하는 행동은 같습니다.
   1. Request는 RequestFW, Provider는 ProvideFW 각 function 실행으로 FW과정은 끝납니다.
@@ -35,9 +35,9 @@ repo : [https://github.com/tokamak-network/L2-FastWithdraw](https://github.com/t
   1. edit은 L1에서 요청시에는 totalAmount를 줄이는 방향으로만 가능합니다.
   1. 
     1. cancel
-![](images/97271a2b9f72.png)
+![](images/0f9b3e8f56e3.png)
     1. Edit
-![](images/73f88ddf7b15.png)
+![](images/1ca3c8020116.png)
     1. 
 
 ## 테스트 방법
@@ -46,7 +46,7 @@ repo : [https://github.com/tokamak-network/L2-FastWithdraw](https://github.com/t
   1. [https://github.com/tokamak-network/tokamak-titan-canyon/tree/develop-L2-FWContract](https://github.com/tokamak-network/tokamak-titan-canyon/tree/develop-L2-FWContract) 에서 make build
   1. build 후 make devnet-up 으로 docker 실행
   1. 실행 후 확인
-![](images/734730db4ef1.png)
+![](images/22d5fe5a4f14.png)
 1. new test environment
   1. repo : [https://github.com/tokamak-network/L2-FastWithdraw](https://github.com/tokamak-network/L2-FastWithdraw) 
   1. .env.example를 복사하여서 .env로 변경 (PRIVATE_KEY, PRIVATE_KEY2 값 세팅)
@@ -122,7 +122,7 @@ cast send --from 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 --rpc-url http://127
     1. wallet은 L2에서 requestFW를 요청 (totalAmount = 3TON, fwAmount = 2TON)
     1. user1은 L1에서 providerFW를 요청 
     1. 결과
-![](images/2847c8f00f03.png)
+![](images/572878c4bd1b.png)
     1. 결과 해석
       1. FW실행 전 
         1. Wallet 금액 (요청자)
@@ -146,7 +146,7 @@ cast send --from 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 --rpc-url http://127
     1. wallet은 L2에서 requestFW를 요청 (totalAmount = 3 Token, fwAmount = 2Token)
     1. user1은 L1에서 providerFW를 요청 
     1. 결과
-![](images/3dbb09ca7faa.png)
+![](images/3d7b83bc1d80.png)
     1. 결과 해석
       1. FW실행 전 
         1. Wallet 금액 (요청자)
@@ -174,7 +174,7 @@ cast send --from 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 --rpc-url http://127
     1. wallet은 L2에서 requestFW를 요청 (totalAmount = 3 ETH, fwAmount = 2 ETH)
     1. user1은 L1에서 providerFW를 요청 
     1. 결과
-![](images/054ed5ad8588.png)
+![](images/c456bed93a5a.png)
     1. 결과해석
       1. FW실행 전 
         1. Wallet 금액 (요청자)

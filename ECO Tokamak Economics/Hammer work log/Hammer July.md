@@ -11,7 +11,7 @@
       - Claude code 기반 코드 분석을 통해 Solidity 함수 단위 테스트 시나리오 자동 생성
       - 테스트 커버리지 목표 : 각 컨트랙트 당 95% 이상의 커버리지 확보
       - 테스트 케이스 작성을 위한 프롬프트 개발 진행 중
-![](images/26db3316c647.png)
+![](images/41096489a499.png)
   - DRB 컨트랙트(Commit-Reveal2) 리뷰 진행
     - **Foundry 도구 확장 (inline assembly 커버리지 측정)**
       - Foundry에서 inline assembly (Yul) 코드의 커버리지 미집계 문제 분석
@@ -20,7 +20,7 @@
       - 정확한 커버리지 측정은 어렵지만 커버리지가 점진적으로 개선되는 것은 확인 가능
       - 저장소 : [https://github.com/hooki/foundry](https://github.com/hooki/foundry)
       - 커밋 : [https://github.com/hooki/foundry/commit/5d8039cc68ec76408c0d702c04c3c264598e5652](https://github.com/hooki/foundry/commit/5d8039cc68ec76408c0d702c04c3c264598e5652)
-![](images/5521dc65013c.png)
+![](images/8e4fe0e00db0.png)
   - Verifier.sol 스마트 컨트랙트 보안 검토 (Project OOO)
     - 관련 내용 학습 및 코드 분석 진행 중
 - 7월 3주차 (25.07.16~25.07.22) 

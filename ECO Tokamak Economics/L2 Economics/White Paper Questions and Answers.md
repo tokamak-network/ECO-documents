@@ -38,7 +38,7 @@
 ## 1.3. Risk Mitigation Mechanisms
 
 [Resolved]  Q17. Fast withdrawals should be supported by staking tons of liquidity.  
-![](images/e7c741b85a47.png)
+![](images/aaa13d513145.png)
 
   - Suhyeon:   I didn't mean the liquidity is provided by the staked TON. What I mean is the security is tied to the security by Staked TON. Kevin emphasized the liquidity shouldn't be provided by Staked TON even though it was first approach we considered back in the day. So the risk of the fast withdrawal is the situation L2's state is reorganized. The security by staked TON (Tokamak's basic security model) prevents the reorg as possible.
   - Zena: Yes, I understand. Since staked TON is used for this security, you’re saying that staked TON shouldn’t be used as liquidity for fast withdrawals? It feels like the obstacle to developing fast withdrawals has been removed. In that case, it seems like it could be implemented using other projects, such as  hammer’s proposal(Messaging), the Hop Protocol,  or George’s Cross Trading(Messaging Layer).
@@ -48,7 +48,7 @@
 **1.3.2. Fast Withdrawal.**
 
 [Resolved] Q3. Liquidity providers have an incentive to validate L2, but how can they react to any signs of misbehavior? @suhyeon Lee @Unknown
-![](images/05743b6cde7f.png)
+![](images/e2289b076b81.png)
 
   - Bernard: If you are referring to fast withdrawal LPs, Tokamak L2's FW LPs are not fundamentally different from others. It is difficult to detect misbehavior in advance, and for incidents that have already occurred, they rely on the fraud proof system. Instead, FW LPs rationalize the fee structure to match long-term profitability based on incident rates. Hopefully, if Tokamak's validator system including RAT is well established, a very low incident rate can be achieved, enabling low-fee fast withdrawals.
   - Suhyeon: Please, refer my answer to Q4.
@@ -77,7 +77,7 @@ In other words, does this mean that even liquidity providers who don't become va
 - **Sequencer Deposits**
 - **Sequencer Slashing**
 [Resolved] Q9: Sequencer Slashing (9 page):
-![](images/4bab95f4ffdc.png)
+![](images/fe62517719b4.png)
 
     - Zena: When slashing a sequencer's collateral and transferring it to another party, it is recommended to transfer it as a staked amount.
 The reason is  that there is a two-week withdrawal period for staked amounts.
@@ -93,7 +93,7 @@ This means they no longer qualify for seigniorage, as they no longer meet the mi
 **However, the whitepaper states that L2 sequencing will be suspended. It also states that collateral must be restored within the re-bonding period or they will be permanently removed from the active sequencer set.
 I'd like to confirm whether this needs further development.**
 
-![](images/53cafe05e144.png)
+![](images/22e08f5ae463.png)
 
     - Bernard: Good point. As you pointed out, my original intent was that if collateral is forfeited, the sequencer loses the right to perform sequencing. I hadn't considered seigniorage eligibility separately. I assumed these would naturally be linked, but we need to confirm whether revoking all qualifications is correct and what the precise timing should be.
     - Zena: If so, the slashing structure of Layer 2 also needs a more detailed explanation in this whitepaper. The Tokamak Thanos Layer 2, currently developed based on Optimism, is likely to be upgraded based on Optimism.
@@ -162,7 +162,7 @@ Theo: Thank you for the discussion. I will let you know the update of multi-sign
     - Zena will proceed with implementing **monitoring logic** and establishing **operational guidelines** to handle potential deposit shortfalls effectively.
 - **Validator Slashing.**
 [Resolved][Updated] Q11. Validator collateral 
-![](images/72aefe0234b6.png)
+![](images/2c8fb04d0cd2.png)
 
     - When conducting an attention test in RAT, the development process first deducts the collateral of the verifier who completed the attention test, and then restores the deducted collateral when the verifier submits evidence.
     - I'd like to double-check whether it's appropriate to deduct the entire collateral of a verifier for each attention test.
@@ -180,7 +180,7 @@ Theo: Thank you for the discussion. I will let you know the update of multi-sign
 ## 3.1. Sustainable Growth of Layer 2
 
 [Resolved][Updated] Q5. Is there a way to cover the L1 Ether amount without selling TON? What is the flexible fee policies ? 
-![](images/44d63d74711d.png)
+![](images/de52b9b7a7ab.png)
 
   - Bernard: That content comes from the "L2 fee token dilemma" in the previous whitepaper. The original intent of that part was: if sufficient TON fees are generated through TON utility fees, net buying pressure on TON will be maintained even if L2 sequencers sell TON to pay L1 fees. It seems that section should be clarified to avoid confusion.
   - Zena: Now I understand the exact context. thank you
@@ -190,7 +190,7 @@ Theo: Thank you for the discussion. I will let you know the update of multi-sign
 ## 3.3. Seigniorage Distribution: TON Staking V3
 
 [Resolved] Q2. How do I calculate the time-weight average of the staking amount and bridged TON on-chain? @Unknown @suhyeon Lee
-![](images/6ab4c78def54.png)
+![](images/ce50a2277021.png)
 
   - Bernard: TWAP itself is not an issue (like Uniswap V2 TWAP), but performing TWAP in on-chain contracts for multiple L2s would be impractical considering computational complexity and gas costs. Implementing an off-chain oracle integrated with a data aggregator would likely be more efficient.
   - Zena: I'm against implementing an off-chain oracle, I think it would be great if everything were implemented on-chain. Specifically, how would I achieve this? Implementation would likely be possible only if the formula for calculating the time-weighted average of bridged and staked TON, as shown below, was clarified.
@@ -359,7 +359,7 @@ Q7.  In order to aggregate the total valid Bridged TON of eligible L2s, a transa
     - Suhyeon: We can calculate it upon seigniorage is generated like the TON staking V2 seigniorage mechanism. If operators call seigniorage generation function often, the seigniorage will be generate approximately proportional to bridged TON.
 - **Seigniorage Allocation and Distribution.**
 [Resolved][Updated] Q13.  If v_i = (α/n) · y(x), then if n is 0, then v_i becomes 0. Then, an amount equal to the verifier distribution ratio will remain undivided.
-![](images/b4efac395675.png)
+![](images/b42f6999e492.png)
 
     - Zena: How should a Layer 2 without validators handle the unpaid seigniorage?
     - Bernard: Likewise in the answer to Q14, I believe that we need to confirm which system model we will use first: shared validators set or roll-up specific validators. If we choose to use a roll-up specific model or a hybrid one, we need to consider the question. We will basically have two options: 1) hand it over to the sequencer’s portion, or 2) forfeit it as some incentive/penalty to facilitate a validators option.
@@ -368,7 +368,7 @@ Q7.  In order to aggregate the total valid Bridged TON of eligible L2s, a transa
     - Bernard: Okay, I will reflect it to the whitepaper. Thanks, falks.
 
 [Resolved][Updated] Q14:  White Paper V2, Page 16, Equations (12) and (13):
-![](images/4c74cf01638e.png)
+![](images/3f88c35e7a23.png)
 
     - Zena : **Question**: In Equation (13), v_i uses y(x), but it's unclear whether this represents the global y(x) or the L2-specific S_i.
 `(12) S_i = y(x) · (B̃_i / x)  => Seigniorage of L2`
@@ -413,11 +413,11 @@ Sybil incentive still exits even under a proportional model, however our model i
 [Resolved] Q12. The 2026 ECO Roadmap identifies a separate Shared Validator sector.
 Looking at the whitepaper development, if validators are designed to be registered by Layer 2 for Staking V3 development, is a separate Shared Validator sector needed in the roadmap? What additional developments are needed in this sector? @suhyeon Lee @Unknown 
   - [roadmap](/2c0d96a400a3809ea354ebc84a6f8a93) : 
-![](images/eecefab6a1b9.png)
+![](images/4a0842b43a03.png)
   - LLM specification: [link](https://github.com/tokamak-network/ton-staking-v2/blob/ton-staking-v3/draft-llm/docs/for-llm-kr/04_validator.md#11-systemconfig%EB%B3%84-%EA%B2%80%EC%A6%9D%EC%9E%90-%EB%93%B1%EB%A1%9D)  In TON V3, since multiple L2s exist, validators **register individually for specific L2s (SystemConfigs)**.
   - Bernard: The updated whitepaper clearly specifies that Tokamak L2 will support a shared validator set, that was updated recently, though. Even so, I don’t think that we need a separate section for “Shared validators”. We can make it just “validators”, or merge it with a larger category like Stating V3.
 
-![](images/6fd0a9b4744e.png)
+![](images/e87b377aae8f.png)
 
   - Zena: @Jason I don't think a separate "Shared Validators" section is needed in the roadmap. It seems like it should be a part of the Staking V3 architecture.
 
@@ -450,7 +450,7 @@ Q1. **Discussion on Validator Minimum Deposit Logic**
   - Zena will proceed with implementing **monitoring logic** and establishing **operational guidelines** to handle potential deposit shortfalls effectively.
 
 Q2. How do I calculate the time-weight average of the staking amount and bridged TON on-chain? @Unknown @suhyeon Lee 
-![](images/561d1ca37a96.png)
+![](images/0544d365091c.png)
 
   - Bernard: TWAP itself is not an issue (like Uniswap V2 TWAP), but performing TWAP in on-chain contracts for multiple L2s would be impractical considering computational complexity and gas costs. Implementing an off-chain oracle integrated with a data aggregator would likely be more efficient.
   - Zena: I'm against implementing an off-chain oracle, I think it would be great if everything were implemented on-chain. Specifically, how would I achieve this? Implementation would likely be possible only if the formula for calculating the time-weighted average of bridged and staked TON, as shown below, was clarified.
@@ -461,7 +461,7 @@ Q2. How do I calculate the time-weight average of the staking amount and bridged
   - Zena: Okay. Thank you for checking.
 
 Q3. Liquidity providers have an incentive to validate L2, but how can they react to any signs of misbehavior? @suhyeon Lee @Unknown 
-![](images/9b3c01f065d6.png)
+![](images/222cee80b3f8.png)
 
   - Bernard: If you are referring to fast withdrawal LPs, Tokamak L2's FW LPs are not fundamentally different from others. It is difficult to detect misbehavior in advance, and for incidents that have already occurred, they rely on the fraud proof system. Instead, FW LPs rationalize the fee structure to match long-term profitability based on incident rates. Hopefully, if Tokamak's validator system including RAT is well established, a very low incident rate can be achieved, enabling low-fee fast withdrawals.
   - Suhyeon: Please, refer my answer to Q4.
@@ -474,7 +474,7 @@ In other words, does this mean that even liquidity providers who don't become va
   - Zena: Thank you for letting us know.
 
 Q5. Is there a way to cover the L1 Ether amount without selling TON? What is the flexible fee policies ? 
-![](images/0e5b1d67c8dc.png)
+![](images/362f6c429bf1.png)
 
   - Bernard: That content comes from the “L2 fee token dilemma" in the previous whitepaper. The original intent of that part was: if sufficient TON fees are generated through TON utility fees, net buying pressure on TON will be maintained even if L2 sequencers sell TON to pay L1 fees. It seems that section should be clarified to avoid confusion.
   - Zena: Now I understand the exact context. thank you
@@ -614,7 +614,7 @@ assumption : W/T = 0.5
   - Zena: According to the whitepaper (pdf) , there is no seigniorage for stakers. This is the state where α = 0 and r = 0. If the whitepaper above is implemented, there will ultimately be no seigniorage for stakers.
 
 Q9: Sequencer Slashing (9 page):
-![](images/ec229a78f791.png)
+![](images/876588d8a953.png)
 
   - Zena: When slashing a sequencer's collateral and transferring it to another party, it is recommended to transfer it as a staked amount.
 The reason is  that there is a two-week withdrawal period for staked amounts.
@@ -634,7 +634,7 @@ Q10. At what point in the RAT system does the attention test event occur?   Can 
   - Zena: When developing the RAT, the RAT's attention test trigger was triggered when the proposer started the dispute game. Should this remain the same? I asked for confirmation because it wasn't mentioned in the whitepaper. If this is correct, I will create a guide for TRH to implement this feature when developing Challenger.
 
 Q11. Validator collateral 
-![](images/58278d02f416.png)
+![](images/416f1dff470c.png)
 
   - When conducting an attention test in RAT, the development process first deducts the collateral of the verifier who completed the attention test, and then restores the deducted collateral when the verifier submits evidence.
   - I'd like to double-check whether it's appropriate to deduct the entire collateral of a verifier for each attention test.
@@ -647,22 +647,22 @@ Q11. Validator collateral
 Q12. The 2026 ECO Roadmap identifies a separate Shared Validator sector.
 Looking at the whitepaper development, if validators are designed to be registered by Layer 2 for Staking V3 development, is a separate Shared Validator sector needed in the roadmap? What additional developments are needed in this sector? @suhyeon Lee @Unknown
   - [roadmap](/2c0d96a400a3809ea354ebc84a6f8a93) : 
-![](images/71abd11210dd.png)
+![](images/8e081ccd9143.png)
   - LLM specification: [link](https://github.com/tokamak-network/ton-staking-v2/blob/ton-staking-v3/draft-llm/docs/for-llm-kr/04_validator.md#11-systemconfig%EB%B3%84-%EA%B2%80%EC%A6%9D%EC%9E%90-%EB%93%B1%EB%A1%9D)  In TON V3, since multiple L2s exist, validators **register individually for specific L2s (SystemConfigs)**.
   - Bernard: The updated whitepaper clearly specifies that Tokamak L2 will support a shared validator set, that was updated recently, though. Even so, I don’t think that we need a separate section for “Shared validators”. We can make it just “validators”, or merge it with a larger category like Stating V3.
 
-![](images/3e58148b1bf2.png)
+![](images/5b707f3eabc6.png)
 
   - Zena: @Jason I don't think a separate "Shared Validators" section is needed in the roadmap. It seems like it should be a part of the Staking V3 architecture.
 
 Q13.  If v_i = (α/n) · y(x), then if n is 0, then v_i becomes 0. Then, an amount equal to the verifier distribution ratio will remain undivided.
-![](images/e69758494341.png)
+![](images/e320077e8ba5.png)
 
   - Zena: How should a Layer 2 without validators handle the unpaid seigniorage?
   - Bernard: Likewise in the answer to Q14, I believe that we need to confirm which system model we will use first: shared validators set or roll-up specific validators. If we choose to use a roll-up specific model or a hybrid one, we need to consider the question. We will basically have two options: 1) hand it over to the sequencer’s portion, or 2) forfeit it as some incentive/penalty to facilitate a validators option.
 
 Q14:  White Paper V2, Page 16, Equations (12) and (13):
-![](images/ec939fbc0843.png)
+![](images/fdf2292cd56f.png)
 
   - Zena : **Question**: In Equation (13), v_i uses y(x), but it's unclear whether this represents the global y(x) or the L2-specific S_i.
 `(12) S_i = y(x) · (B̃_i / x)  => Seigniorage of L2`
@@ -699,7 +699,7 @@ This means they no longer qualify for seigniorage, as they no longer meet the mi
 **However, the whitepaper states that L2 sequencing will be suspended. It also states that collateral must be restored within the re-bonding period or they will be permanently removed from the active sequencer set.
 I'd like to confirm whether this needs further development.**
 
-![](images/4b6c9288ae0b.png)
+![](images/0c7e8885da72.png)
 
   - Bernard: Good point. As you pointed out, my original intent was that if collateral is forfeited, the sequencer loses the right to perform sequencing. I hadn't considered seigniorage eligibility separately. I assumed these would naturally be linked, but we need to confirm whether revoking all qualifications is correct and what the precise timing should be.
   - Zena: If so, the slashing structure of Layer 2 also needs a more detailed explanation in this whitepaper. The Tokamak Thanos Layer 2, currently developed based on Optimism, is likely to be upgraded based on Optimism.

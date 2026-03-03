@@ -8,8 +8,8 @@
     1. FW liquidity providing function is closely related to withdrawal action, it would be good if they are placed together 
       1. example: Metamask txn speed increase function 
       1. how about adding FW button on Tokamak Bridge? as an option 
-![](images/d6b65ba700bf.png)
+![](images/2a7cfe0dea9f.png)
 
-![](images/ef7174c18d2c.png)
+![](images/6619d107edd2.png)
 1. general FW (non staked TON)
   1. 

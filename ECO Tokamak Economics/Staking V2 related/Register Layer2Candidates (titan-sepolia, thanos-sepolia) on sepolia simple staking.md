@@ -219,11 +219,11 @@ npx hardhat test test/layer2/sepolia_test/1.updateSeigs.ts
 
   - CandidateLayer의 경우, l2TotalSeigs (L2시퀀서에게 할당되는 시뇨리지) 할당 금액을 이벤트에서 확인할 수 있다. 다오 Candidate이기 때문에 layer2Seigs (해당 Layer2 시퀀서에서 정산된 금액)은 없는 것을 이벤트에서 확인할 수 있다. 
 
-![](images/384ff01ab88e.png)
+![](images/82dc931c6316.png)
 
   - Layer2Candidate (TitanCandidate) 의 경우, l2TotalSeigs (L2시퀀서에게 할당되는 시뇨리지) 할당 금액을 이벤트에서 확인할 수 있다.   layer2Seigs (해당 Layer2 시퀀서에서 정산된 금액) 가 할당된것을 이벤트에서 확인할 수 있다. 
 
-![](images/6b33216a398e.png)
+![](images/f02d7c254af4.png)
 1. test withdrawAndDepositL2 function of Layer2Candidate [code](https://github.com/tokamak-network/ton-staking-v2/blob/deploy_sepolia_v2/test/layer2/sepolia_test/2.withdrawAndDepositL2.ts) 
 ```typescript
 npx hardhat test test/layer2/sepolia_test/2.withdrawAndDepositL2.ts
@@ -232,21 +232,21 @@ npx hardhat test test/layer2/sepolia_test/2.withdrawAndDepositL2.ts
 
   - withdrawAndDepositL2 한 금액만큼 스테이킹 금액이 줄어들고, 이벤트에 해당 금액이 withdrawAndDepositL2 된것을 확인할 수 있다. 
 
-![](images/b6370216d0d7.png)
+![](images/4681774fc333.png)
 1. test to execute updateSeignorage and Claim concurrently of Operator(sequencer)     [code](https://github.com/tokamak-network/ton-staking-v2/blob/deploy_sepolia_v2/test/layer2/sepolia_test/3.updateSeigsAndClaim.ts)
 ```javascript
 npx hardhat test test/layer2/sepolia_test/3.updateSeigsAndClaim.ts
 // blockNumber: 5892966
 ```
 
-![](images/330deb381d2f.png)
+![](images/f784a4b99654.png)
 1. test to execute updateSeignorage and Staking concurrently of Operator(sequencer)  [code](https://github.com/tokamak-network/ton-staking-v2/blob/deploy_sepolia_v2/test/layer2/sepolia_test/4.updateSeigsAndStake.ts) 
 ```javascript
 npx hardhat test test/layer2/sepolia_test/4.updateSeigsAndStake.ts
 // blockNumber: 5892966
 ```
 
-![](images/7e435ae326b3.png)
+![](images/8b06f68e7e22.png)
 
 # Upgrade Operator Implementation
 

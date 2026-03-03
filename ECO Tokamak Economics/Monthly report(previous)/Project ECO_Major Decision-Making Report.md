@@ -24,20 +24,20 @@
 - L1 settlement modeling was finished but we changed the FW model to L2 settlement. And it causes a delay.
 - L2 settlement FW is implemented in project BEE.
 - **Decision-making evidence:** [video link](https://drive.google.com/file/d/1ZAX9ZXEeychmHGiTYWvRoTbW2KNCrQD6/view), [slide](https://docs.google.com/presentation/d/1bcXhBlm5uboiUvcbDIT9PhbN0RzFAVphtxFnnwKatPg/edit#slide=id.p)
-![](images/e6f689979e73.png)
+![](images/cdb19425a093.png)
 
-![](images/16895e647728.png)
+![](images/bc6c930a35a3.png)
 
-![](images/26ad13ff0bf0.png)
+![](images/d567e9a7092f.png)
 
-![](images/b3a1cf63c5a6.png)
+![](images/d8c52af99abe.png)
 
 ### **Cause 2:**  Lack of Human Resource
 
 - In Q2, One of the team members, who was in charge of modeling DAO took part in too many projects (Core Team, TRH). So, there is less progress in Q2.
 - We expect we can open DAO V2 this year. Currently, our goal is to open DAO V2 in Q1, 2025
 - **Decision-making evidence**
-![](images/f4acc8cbf08f.png)
+![](images/e5267752f6b2.png)
 
 ### Cause 3: Suspend Implementation Staking-Based FW
 
@@ -55,6 +55,6 @@
 - If we don’t consider it. It could be a attack point.
 - So we postponed about it.
 - **Decision-making evidence:** 
-![](images/c0054e03e408.png)
+![](images/43af0bc48b83.png)
 
-![](images/7ffeb6aa9f26.png)
+![](images/06a882be7ab9.png)

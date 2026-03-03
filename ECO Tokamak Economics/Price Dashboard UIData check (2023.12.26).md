@@ -34,41 +34,41 @@ Suah
 Praveen
 - [x] Update the tool tip message of FDV : Fully Diluted Valuation =  Total Supply * Price per TON
 
-![](images/6af894cafa0c.png)
+![](images/bed98fe6ff79.png)
 
 - [x] Update the formula for C1 like this : C1 = Total Supply - DAO Vault - Staked - Vested
 
-![](images/e8eff57bfb79.png)
+![](images/5866cd2352a2.png)
 
 - [x] For the tool tip message of Circulating Supply(Upbit Standard), add the formula, Circulating Supply (Upbit Standard) = Total Supply - DAO Vault - Vested
 
-![](images/f337d40f3e77.png)
+![](images/9229bdd757ce.png)
 
 - [x] Spelling mistake : Replace ETHereum to Ethereum
 
-![](images/769bbe4e5e9d.png)
+![](images/5c69d9a50282.png)
 
 - [x] Update the formula on the tooltip for Circulating supply like  : Circulating Supply = Total Supply - DAO Vault - Staked - Vested
 
-![](images/106b944ececf.png)
+![](images/c1eb607d12f8.png)
 
 - [x] Replace “Pools” with “Uniswap V3 Pools”
 
-![](images/5c33d3bcf2d9.png)
+![](images/e237b7d5adc0.png)
 
 - [x] Remove †† from Burned Parameter 
 
-![](images/359dab702a17.png)
+![](images/fc66207fa363.png)
 
 - [x] Remove space between C1 and ? (Tooltip)
 
  
 
-![](images/c462ea131d2d.png)
+![](images/1764ba289f2a.png)
 
 - [x] Replace  “Dune Dashboard”  with “Buy TOS” and give link : [https://tokamaknetwork.gitbook.io/home/03-information/buy-tos](https://tokamaknetwork.gitbook.io/home/03-information/buy-tos)
 
-![](images/cf5323691231.png)
+![](images/162328b9dd5b.png)
 
 - [x] Update the Buy TON link : [https://tokamaknetwork.gitbook.io/home/03-information/buy-ton](https://tokamaknetwork.gitbook.io/home/03-information/buy-ton)
 

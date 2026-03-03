@@ -67,4 +67,4 @@ ERC20Mintable public ton;
 - **`We creates an agenda that calls seigManager.renounceWTONMinter(), and executes the agenda for seigManager.renounceWTONMinter through the DAO page.`**
 [https://dao.tokamak.network/#/propose](https://dao.tokamak.network/#/propose)
 
-![](images/1f1e80e98dfc.png)
+![](images/db46383b06ab.png)

@@ -60,7 +60,7 @@
 
 ## **3. 전체 흐름 요약 (시퀀스 다이어그램)**
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/5b5ca3a3-0115-41fc-a1fa-b41bd43dd86a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667ZL4TKN6%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T044956Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGEN6fzraABC8EL2FtUnwYcsBtkN%2Bo0Nk26zFHGbQrTkAiEA9PFU7qMkxjGQjmWxpLbq4Es6%2BUA62JDKelIYYR2CzT4q%2FwMIdBAAGgw2Mzc0MjMxODM4MDUiDNE1kFHAkDycanAQ4ircA%2BTf2dNgMiwrZCZeExYmvdOpy4VZuUzFAvnDqkJMrGj7AVEcDkw1ncml0RHtiVPJKT%2BFstBn0ryCLALdQlAftNTagavLvQJ1I0xOMTa3BoIjwxogrkjWNe%2F8%2Fv9XlkpVfgBWUFICZ7Gly%2Bt%2Frn3riTjei7sD%2F1weNYZsRi60XAYdctHV3WjjXIRqorVHY%2FL2%2B%2F4rHr1DM2r%2FRSRFX7%2B%2B992V10UY9ipF1whkcMyKDovIY%2FTcp2vFAYCFD2mu3n61XgFoWVB%2B5Bjg%2BErBhL6IrmEdH5bcBCkUxeySgqar3hkEQ2DpzYFHZU5F78oHRhYE9aHWQQ5XvGgxILljK3sFxh90iSaQkGCcPIJCpP6iPHcXCv08A2qbvwnvRXd3Tc%2B9fyQ4R9yTYRtz5T%2FXo707AdPF0jLyB0r0WPVa4VeIe7BXaCoq%2FNRbRVvFRKnso88YRtjlc6yBz6jz69KIglLeUsmNsLo%2FiqMGM4kVYlyfW6X%2BueGwloKQbtigGmdO2PLOKSUa3zPGXAGFDSESZV%2BvHWC290NNp9fNowBiEQGBMk9H3i4VRAlyiy6DEXJ9S8yHZ8BAikrSFHRNHM0AkX9rddHso5VthMWkKsvxODnb%2By%2Bu%2FYbNL0v8oTt0b7SQMJDv2cwGOqUBBWZit3sytfli4lGwenG%2BTUeCwZKd%2F6oDtqLwoWL4Uo9ARWR8Weertqgn%2FsobuJ1W41vO0qA90MXliKwcCVvsK7hA7DrdYb3Zrzgs9E3yQqlUoEtxIQlO5e%2BB31icjdxyCk7iIYECihzpxqq0Dd%2BHMMaFptrQMEwkQiZwm3Am8wkUvmdTMD%2FswUtYz6Zaj59XZ1oD5dvsdZ%2FcP4t0oGUMHyZ0Nx4L&X-Amz-Signature=a2f132d1a3465888a573a81ee97c1e85db647a4376d7e804f2a2c760f2d162c6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/5b5ca3a3-0115-41fc-a1fa-b41bd43dd86a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QCNH7FIC%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T092403Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBR7J0EQDt1MZJTd4iMVk8DlTk6WLd3CXnRQpt5KUKAZAiEAkEAEEvebxLqwklG2tKbG5Wz1ZOzq78Rpp3zXzmf4L5Eq%2FwMIehAAGgw2Mzc0MjMxODM4MDUiDB6279g%2B%2FFDbNmfGZCrcA67ug4ZjNlbJr7j7ItBqzG%2BeRRU0TyeZARCUNoNuI7e4P241PuVAJ70%2FA5%2Bv6b2W46%2FNvXr2Zq%2F92KyoTL2sm0Xs%2B2B7PjESnQmzRpq9uY%2FKP7%2BPKz4kTr7CdEhbS4lyrbn5dyg%2FMPkfROy4wHW2cjX%2FNezHwxSYb2rZYMBnCAnw4qebU6llDlxP8V1O1tkUxUCMm4cZV4Aa6%2BuxzJKaiTjwO%2FdImt17v56O%2Be5oPOOnY3fMdiufDAzUOhsLDqgCW2p0QqnZ9PXc1Ji%2BrN58q8cfCqtBKS6xr4%2FgiDiNyLqf3FTQvsku9KWv5E78%2FB1KVKHxAzuW%2BkAZnb%2B1kSINccDLjpE6XuL2051EQjiGxQg9iot3bEXneIplfCXvSIO063%2Fnx1U%2F0HuKhxFtf56vc4rXsbbayyqBsu%2BO2jYXtamNamnWSn65ehxwvqxdDGguHr9ygMg4v%2BlCoIEH1yzEYRZ69mu3tF%2F8CzmAhD9ifO1zCRNeo8uAuCljNWZrLSIf%2FQNt3NrJquNALkOiLEP3w8nYokc3Bwt2Ex3KH8M07xDSB2DVjRK%2BjgLMFP3An6yLl%2BoEZDjwGZZtB06Z0vTf3uuuI3jQ48CP8%2FqLct0Xq%2BQ%2BQRfUbTUiL0ruPQFJMMGY28wGOqUBFtHeez7QuCPyrlJok3Wwi001ZduNkViRq0Y7ttVOVsj679CxJ8xul1Kq6PylpxCqiUc6zwwUkLARdB8v%2B5XiRRsdbBmgSl8JPZz9YzOnb7t77tWz73MHwT4tw0RkSXGoGnx4IQR%2FFTdoovOZy%2BDiYxyK7s5YaCRex71fqzK8tf81gTjOzfp9kKsmXQ3paxSmQUXZrnFZEbkR8s%2Fldu9rNfywfOaD&X-Amz-Signature=e6c541f5cb0e3938afb0532a61e9c9f5f803101525fccc4187f6ca1a9ba683b0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ## **4. 실제 테스트 on Sepolia **
 
@@ -110,14 +110,14 @@ const extraData = ethers.AbiCoder.defaultAbiCoder().encode(
 - Optimism-Sepolia Node를 로컬에서 연동해서 테스트 진행하였음.
 - 테스트 결과
   - 실제 rootClaim값
-![](images/49e4b4b38b48.png)
+![](images/5f7a1f392f6d.png)
   - block데이터공식을 이용해서 rootClaim을 만듬
-![](images/a9a67d7c6b61.png)
+![](images/76d559ebcf8b.png)
 - 남은 테스트를 하기 위한 문제점
   1. M4에서는 Optimism에서 제공하는 Docker실행이 제대로 되지않아서 intel환경에서 Docker를 실행해야함
   1. 현재 Node 연결해서 rootClaim값을 만드는 테스트까지는 성공하였음
   1. 그러나 Node 용량 부족으로 현재 sync에러가 나서 추가 테스트를 위해서 용량을 추가할 수 있는 기기를 구입함 (**용량을 추가해야 테스트가 가능함**)
-![](images/d9b0dfa67d9e.png)
+![](images/e3c7cf37bb1d.png)
 
 ## **5. 실제 Sepolia에 TON으로 변경된 DisputeGame 개발전 Contract값 및 함수들 확인**
 
@@ -320,11 +320,11 @@ function getRequiredBond(Position _position) public view returns (uint256 requir
 ```
   1. 게임의 깊이에 따라 가스 비용을 증가시키기 위해서 배율(Multiplier)를 구한뒤 maxGas를 계산합니다. (게임의 깊이가 깊어질수록 계산 복잡도가 증가해서 가스 비용도 이에 맞게 증가하도록 설계되어있음)
     1. Multiplier 공식
-![](images/f2695f2e9751.png)
+![](images/54446a805273.png)
     1. 식 변환 가능 (이 식을 활용해서 multiplier 계산)
-![](images/dee0537ccfa5.png)
+![](images/d185ab753de6.png)
     1. 최종 계산식
-![](images/3606d3d04d40.png)
+![](images/5db277dd23f4.png)
   1. 우리는 어떻게 할 것인가? 
     1. TON으로 변경함 → 어떻게?
     1. 해당 공식을 그대로 사용 (현재는 이렇게 진행)

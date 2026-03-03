@@ -15,7 +15,7 @@ If you look up the address 0x796C1f28c777b8a5851D356EBbc9DeC2ee51137F,
 
 If you search below,
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/c36aedb0-2f37-4836-97d4-381f460ecee3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-12-23_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.28.56.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z4OCP7XO%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T042128Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIB2vw6ID1HXANLSXl3L831sdV8Boyz0pXsChXwkvzB47AiAM2M%2FmTmJNK7h3O%2BLGnKCWwkgoog3j9Z1PMIRkCMqyLSr%2FAwh0EAAaDDYzNzQyMzE4MzgwNSIMQ%2F2CEuYLSdQrZjw2KtwDtN%2FHLsWRV%2BS5aIHb3JuOQ7icMxXOS4Ha1NJEl0NhByerPQzAF5Cih%2BmRNWgnJwq2YyEZKKl87OK8A7H3NAf3ky71%2Bm5YQxdT3SuN7lZNX25kw2gmVAJ7vSZQIsR87TS%2FvhMLCEV8WO1suGrlVTrEwJxAVFSqrLfRvuV4uo7QMRZW38%2BqwldNlGZehOwHyC533hy3g%2BwWj%2F96Qr%2Bsv7ViAKDCWJkIANeEx7AfvrGJDuQ9mHozxSCCaF2ba19cJ%2FS7inB6mX%2Br6kZ%2B81VPzXvRIayUf2lYf2cByiku1syOkT6P1HesqgyRbIXkgTbKPjs9SgLVOq10QpBPzlLlUTTE4Iucyz%2B9inBV3SX9guUFbM8euSxHI9HoieHTq%2FZGC19sMsvVEGFnuKod2ZUDxG%2B7YrPS1hywuECVxartz4%2FUhQhbkkYnlksZzuNebjf2jnesjSrXEmiuhNvYyqpi4X0Xl1%2B0Zwr%2FSYqiX0aem7jH4%2FAXDoXbIUr%2Byd758ewTL0dJBNT7Y8jDKCqevIsV8xGIvvhCTFx%2FtNK5%2Ff1eDo7gp6VuO9%2B%2FeOek48ajYFUHflgc52z2Ei%2Fp5lTSPUM9NxfQCRt37MWMWlWOHQ7vS8PATuNhLdQlS%2FKo16%2BxEPcwzPDZzAY6pgHenQU7gBd3kpHA4XmGwLDBJIPspLDLi1rcSUHwr5dBKLwfCJdjqEyNy50%2F2Rd7RzWxNgFkmA%2BtXi%2BV6l5cGQgwpjK%2BRLQzyEUstTccKVKhDKQZKr8CuwxEZI%2F2u4Gc7NJYTGdamaWU0mOMqroYjcx1FY07l%2BUejhWivg%2FWA12F%2FTU2gNmF%2FOK7%2Fo8N1ZyekgW%2FvusoKdVB0xhDldiOwWUnI%2BhUk%2FAe&X-Amz-Signature=406e6e0bb14b81279a46336c5abecc173ce00374606c39f00b0509a800f34f1f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/c36aedb0-2f37-4836-97d4-381f460ecee3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-12-23_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.28.56.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UELLB4GI%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T085627Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEoXJCsRnIokel%2FVzlXtsu78ps7QX%2BbFQ7GlaYiy3UwjAiEAh87nbLWdthDdzWwdZenjUpa6On3v5iQIF2ITbt6elrMq%2FwMIehAAGgw2Mzc0MjMxODM4MDUiDEM81%2FZeUjPCTTFTdyrcA8wYafkfEVGrL3PAcwD6JjY0F78kpwT05DADqpP5J58jJ%2Bfxv%2B%2F1knOSn6PfWGxxuyaf0brUbaIFLkFVoR%2FY7DcIv%2FJg4xRavUQ5B%2BsrmnojoxKENodhnfeSZjp1%2FwX4iB0UXiioYvCij18kVxyL0LB1c24LFXk8nw0M%2BYiNzBnJ24e7bvmOcklZKbcSP%2BjUx3kMWavkmJeMGDPfqMjMmiCJi1Ot7kd5XA3wzUngY8Gq16HnARNzIWneEosMXYju55qdRqtigRQr1dQIfIvEvCfjot9NhTbz01TxbH154DaUEdZsk96iM08JT%2FW%2F0rEKmF1l7LyuI3FLWvUU%2Bw1DMpQ%2FAMPsLq4sgSZDlInNZY6ax%2FfUYN1SJcw9Q74odogr7KbSSTDE2TNlZIngoZIeQkNfrVjg1bCm7E7GiqCTHyhk6SU2k0X%2BJVphIui3EnXV%2FAS67ssf0Ectj1tjWxGcWW540uSUlfTd9hXZdNaf79RbkPaRxM265JBHtMKDbEsSTYm2wGw94hNfO7CdtCr4gAL2kN4K0Yq6rCuPoE6HZZ3pGzijvrd624aNkfgQMIdkf5RdoiuwqrwJbYsf73JqOMmfw88PM3EzM8zVLTWVJnMMNybH5%2BbGT87ezLabMIWZ28wGOqUBsg%2BE%2FP%2BQqA6O2YhBgHLOZTx7JcloM6a5SVXY5mhEr9xoRopgZgnccpHBrAub1HliPK3FHmcEJJnhAd5ef67YRbn%2BTqPcUAkXU1fypu0DDnPllpCFMyRrgDXEW%2Bb7NKtofsWBnVl%2BOln9b1Lue12MaRD1YOnlMI%2Be4j97y8SPC%2FaeoUTuRgTo6YSZ%2BCDCuzhvzpn57SO6x%2FvhxQkPxoerBkAz5IKI&X-Amz-Signature=e1d181d81604809581bb5859a8f9f0b42bd9d3232a35176fee7ae2fe70c7ae46&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 To convert the amount (77075825179826438) from wei to Ether (decimals 18), divide by 10^18, so you can claim 0.077075825179826438 ETH. 
 
@@ -56,13 +56,13 @@ Go to the [L1StandardBridge contract ](https://etherscan.io/address/0x59aa194798
 
 After entering the parameters, click the write button to execute the transaction.
 
-![](images/b7d9156c6b06.png)
+![](images/6b39d20d1f58.png)
 
 **Step 5-2.  Claiming multiple assets at once
 **Go to the [L1StandardBridge contract ](https://etherscan.io/address/0x59aa194798Ba87D26Ba6bEF80B85ec465F4bbcfD#writeProxyContract)in ethersacn and click `Contract` → `Write as Proxy`.
 
 - Contract: L1StandardBridge  
-![](images/ed777db3ea65.png)
+![](images/a5d314b7f022.png)
 
   - Function: [forceWithdrawClaimAll](https://etherscan.io/address/0x59aa194798Ba87D26Ba6bEF80B85ec465F4bbcfD#writeProxyContract#F12)
     - params :  

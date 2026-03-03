@@ -140,7 +140,7 @@ Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
 
 2. And in the front-end side, we are looping to call the RPC → The RPC is DDOS-ed 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/a3090dda-8a1c-471f-addc-872e8595def4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y2K2O353%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T055249Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHLD3cflh80Ua78THakmwWOJccassXfCmf4x5aQ2vbFGAiEA5eSUgFFuWLQBGZY6rkanzTWPtW6GrTGqpYCA3w%2F3h04q%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDLOLFWpK%2BkrxJ4F45ircA1pmvV0WOimJVCdNhDAPDy8BD2k22SLBVtjkfFobXU2DUOXas%2FyOcQiOBhjo7qmuwKguuLA7A%2BREqdYtSZ%2BNniJqXvoJvGk93%2FjKdaFIeQmkxCWJKyz2kXx53MooKsB%2B9R9bEoZA6Y0jSrN85lVSMBy%2F5dKJgzG3u0wDmdr8rsdcoiPvCGEIEdf5KZrAtnvrKMmDdXxv8EglVwySThzeSk1VgHfgsYHnLEdA4sk6hkWWEz6Hx9kA72rWHuWNUoJgS9ev%2BKz9Wv0HXEs6L72ceBBp0q3yORtBduBX%2FfNjk2S5oEHxzVfyk9WUTZzP21zCikIZ5N2PDLULBkyMaEqMxT4hbuJ5aPH0dtOz4GM0SnOf9Dqb2U5Zf5UoNwha0Y%2FSPQO4Mjc2jm972o9ERcToOBDg1v8PZ6pG53WHtdQ5LrqPSCpnswyWbtCOvgv%2BMzMe1qIc%2BbynmNtk9O9cCZr6PbVgZg1kLwaYejt3%2BiRR7hoYzY6xN%2FXrXPVw2XgY52Opf8IauVi2oaiywuihXjZ2MHPgPRbnFAB4Q01wFv6h0tnpiB5y1gR%2FnwYuaCCLU7tEvhTsfLATkdo1DM%2Fyy4UCSaB3zVyhFK2QJXI2pZ1fdMknQl5CuLUlWPZGC6zHMOXE2swGOqUB9h0fQcgiI7%2Btow1Ystb5Q%2F4mCI%2BPRZWpj6posihMBZnXCFQApIGedu07veLRJEpK88runeo6xLrIjQwJuBRk7JXPpIjT%2BO3HyPfVuChialG%2FpgNxrYc%2B%2F730pJ%2BoMByYLd10GGjvKhj543CercjxLMhNOCQXUCNtktnefvObh2KkiXW35KPjjJBV7KZCt91a3TNyKt0HevxPbYd7eGG3pnfdNxDL&X-Amz-Signature=bd32aeeb435df0ab8da138d52a339d20ef3dd11efd8728de6d6708102454ce6f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](images/b3f06e8fd1d6.png)
 
     1. This error is shown on the console log
 
@@ -211,7 +211,7 @@ But the UI shows `10.99` TON can be re-staked → I can’t update to `11 TON` �
 `Unstake` shows `11 TON` → Expected result
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/8b05ccde-fed6-489f-a53b-c7684af366a6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y2K2O353%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T055249Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHLD3cflh80Ua78THakmwWOJccassXfCmf4x5aQ2vbFGAiEA5eSUgFFuWLQBGZY6rkanzTWPtW6GrTGqpYCA3w%2F3h04q%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDLOLFWpK%2BkrxJ4F45ircA1pmvV0WOimJVCdNhDAPDy8BD2k22SLBVtjkfFobXU2DUOXas%2FyOcQiOBhjo7qmuwKguuLA7A%2BREqdYtSZ%2BNniJqXvoJvGk93%2FjKdaFIeQmkxCWJKyz2kXx53MooKsB%2B9R9bEoZA6Y0jSrN85lVSMBy%2F5dKJgzG3u0wDmdr8rsdcoiPvCGEIEdf5KZrAtnvrKMmDdXxv8EglVwySThzeSk1VgHfgsYHnLEdA4sk6hkWWEz6Hx9kA72rWHuWNUoJgS9ev%2BKz9Wv0HXEs6L72ceBBp0q3yORtBduBX%2FfNjk2S5oEHxzVfyk9WUTZzP21zCikIZ5N2PDLULBkyMaEqMxT4hbuJ5aPH0dtOz4GM0SnOf9Dqb2U5Zf5UoNwha0Y%2FSPQO4Mjc2jm972o9ERcToOBDg1v8PZ6pG53WHtdQ5LrqPSCpnswyWbtCOvgv%2BMzMe1qIc%2BbynmNtk9O9cCZr6PbVgZg1kLwaYejt3%2BiRR7hoYzY6xN%2FXrXPVw2XgY52Opf8IauVi2oaiywuihXjZ2MHPgPRbnFAB4Q01wFv6h0tnpiB5y1gR%2FnwYuaCCLU7tEvhTsfLATkdo1DM%2Fyy4UCSaB3zVyhFK2QJXI2pZ1fdMknQl5CuLUlWPZGC6zHMOXE2swGOqUB9h0fQcgiI7%2Btow1Ystb5Q%2F4mCI%2BPRZWpj6posihMBZnXCFQApIGedu07veLRJEpK88runeo6xLrIjQwJuBRk7JXPpIjT%2BO3HyPfVuChialG%2FpgNxrYc%2B%2F730pJ%2BoMByYLd10GGjvKhj543CercjxLMhNOCQXUCNtktnefvObh2KkiXW35KPjjJBV7KZCt91a3TNyKt0HevxPbYd7eGG3pnfdNxDL&X-Amz-Signature=61e61e14f7f1731e11db1d63642a1cf13c7258df88e8cb4a0ab3980ebd5a5f25&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](images/37e988ede94c.png)
   1. When I click `Withdraw L2`, in the first time, I executed the withdrawal transaction successfully: [Sepolia Transaction Hash: 0x37d5d314df... | Etherscan](https://sepolia.etherscan.io/tx/0x37d5d314dfe96ad1cb4c4ad1eeeb8e5af316494de5f6041242f3c75b33bde371)
 But the UI still shows 11 TON can withdraw. If I click to Withdraw to L2 again, Metamask will show this transaction can fails
 
@@ -264,7 +264,7 @@ Please mark if you used the feature and rate your experience from 1–5 (1 = poo
 | Update Seigniorage | Y | 5 |  |
 | Claim(If you have L2) | Y | 3 |  |
   1. Terminal Errors
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/6aac4d41-bf1a-49cb-be83-ed06f90e4d2b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TPO3F2YP%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T055252Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2BI73s8tjZOgrn8Dh1VKRDgwA0t0D9lMQbkwJ2mzcgOwIhAOA26jnZdMrn80lA1U9HMqAKHP5VcQxfFFwS9WzmHG%2BRKv8DCHcQABoMNjM3NDIzMTgzODA1IgxuA7%2Fpuk%2FaMSjCc04q3APCeO9y7ZPTcECwyInV3MaGEZcy2tpe45iDq7pxMg6lQfrj0RQMY0fT1jOyHkIIM%2BzhZF%2FFXcspAVEONQVzzcO4J7zZVka4id2ClBR0eRDxE1PwchCtgHzEPfPyM%2BtTKOcAh2KDgkduCZFbauHlxOcsTPOGzy3K5mym1LHzIsCHC%2FPZseFtSEWFNIx%2FRJAfMe55uxgECQpFA8OSJU8bQA6ky%2FbGJpJM4vTr68oNSig808rFv71gUiOmU0%2FxAxErxfuc5y6AaLMl1RoVPQsZ3Iqx4OcZBVd8m4EIsalmRV66QuTtn21abiSChFhK81O9a7nBZJhgxNeL24dGGrjE4ZMAo1xel8EQZolU%2FQzNAQyJM0TCfEt4qdwa6yfx0aZlfOTiFM4UM4hs%2Fv7EVLT6GIEb2GxfirlX8pUZCyWlT5ycYqSmCQ2Ddj4gnZDk7KAq3XokdMpxzIpIKocpA5VxHNK6s2GwE7zkTpNQbdoF6Gne7pufyuSDOf05LlEg5CjlwQrmtOp%2Fao%2Fm58ZEh8yLJk6VtX8Y1Kma1FrsDnU1oJ8IGUNS2zSVrgiJhS2ov23cilYtlpg8DklhMg0oLUEFjwbqaZWgtTmKodMW0yVtTVEFQwALKmO3b3FR%2B%2FfZ6DDDw9rMBjqkAcfGfgkGBkw6EXA8f%2FgQmFbgC9iw9kyu1114O%2BPEXtVdqu8yoIVyuNaOlR8qOOsL7oDndcyfdLLvaPKL1TrmTcv2wJYLXGIYMw6CXTirAe5J0mlJDa0VlCNFDuQTWQFfyANTvobMfJO%2B5IJlzsT7D04B2%2B4oLGVAt4N18XD%2BeAOgOrkOKs35MGAN%2FDIgWakMZYBP0waqgWwBohmA%2BzAdLErdeNtw&X-Amz-Signature=0521e60c5fcd1c3efdd5997abf283b40d0070f9016855fccea48981c5ac4be38&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](images/b8a0f543b796.png)
   1. Staking test
     1. Staked 600 TON : [Sepolia Transaction Hash: 0x47fc148301... | Etherscan](https://sepolia.etherscan.io/tx/0x47fc1483018a56b0007000e885cdedb44ba43efeb139b30e3386d67f062c7a56)
     1. Unstaked 600 TON: [sepolia.etherscan.io](https://sepolia.etherscan.io/tx/0xeab16ab25860cb949f3054598e037b62be1b51c87039a62f7dfa7c9289adde52)
@@ -510,18 +510,18 @@ Shailu
 - [ ] Although I didn’t faced any issue to run the ui on my local using npm run dev command but i got error while creating a local production build
  
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/feaa0325-bca3-4f81-81d5-c798d5d13eaf/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UZVPNH77%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T055314Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDQX%2FmtfU3d4ECLHOmJpu77DlB8i0WTXsqWskamWYotVwIgEXZ4af2y5t%2Bb5N2CXAoq%2Bn4M9EnJvYSicNFaGfbMpDMq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDPJlDFsNxhTQXE%2B6lCrcA8uXDx0ox4tHj9FJXAEjXJvOPDlxjHMpUyOr%2BNS70j9IOTVIHd1202BHUgKfYi4%2BDv%2FOpyUmcmon9fSYUBOOyBlVSTuerjlzGwbElx0JK1nZsBxjxXFWw%2BYYlsY1LVEaTAl%2Bq6Z0sAZLZBLyAO4Yt8G2QDNBdtG5mpKz0yH7FdR%2F02sWELN4TxHt5DIx24HWRMwHtW8ExDjB6qR8RUAQZWAZhHeEWv6%2B%2FK9p1Q%2FeI3T%2FhLrj5J6u5xbYHw9iM748WCoLrawnCCH5gBbhgZ942WTGAlWhG4OueruNk1andNQdrY3oUgFJnGyu9RnRjKWKyTqQZe5tHJ%2BJgYWnhtZCPwrRdSG69DnUvd162Kfsl1Yr%2Bo4Hr9jneiSDVpYUJU4cuMpy7by8S4MQYjeOINA%2FmEbZQKJ%2BT6Ax%2BknBZAkuaMNPLP%2BD0EJbifHSIbTg6teIUuRGvi6MvJ5c1OnLbRl%2BoxC7i5mJrgLoVUfiUpHmOsJaIjahREZXmJ5YX39v6Xc48k%2BSdgarFhPPSC0vVtjZ9IaRvC%2BqVIUrPcwEY%2FAo8acRJ7aNtFz57iuokvsTSxOpWwwjK52VHQf763gc3i1HFQJc4darfKqNSHiOvuT7VD6dW15ZlBlq%2F88l%2FoyuMJTE2swGOqUB8mNQfmhdHTCtxLiIIgFee9igisgU5Fe%2BcAKQjNAEVg8qV1WwWBvxBxEkFVYztqnsB5RZMfBVu9XLbXgXB5YzbudD34HZsgiR9%2FtDLyDlq331BKvkcT1biNO7hghXKw%2BA7zcOVlDjwCyUa3wzNdtusSM663CXce4o1HPBOroaYo6iO8umRb%2BKtFWwZFQt%2BB3ElDCW0eNt1zXHiNxbSGyXmLuOpsNP&X-Amz-Signature=879991f4d7f3ff61828314de506e1c479cf2589052b463ec020532054916356f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](images/997232f11b1c.png)
 
 - [ ] One suggestion about the ui which i would like to give is that the continuous scroll which is good in styling perspective, I didn’t find that user friendly. I was initially scrolling through that to find my operator thinking it’s at the bottom and then realizing that it’s a continuous scroll 😅.
 One more thing which i would like to add is that the ui could also be more screen adaptive so that depending on the screen size everything could be displayed in a single screen without the scoll as on my laptop i’m getting a scroll bar at the right side.
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/dd34bf21-5550-40b9-81ad-6a0d2fb340a7/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UZVPNH77%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T055314Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDQX%2FmtfU3d4ECLHOmJpu77DlB8i0WTXsqWskamWYotVwIgEXZ4af2y5t%2Bb5N2CXAoq%2Bn4M9EnJvYSicNFaGfbMpDMq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDPJlDFsNxhTQXE%2B6lCrcA8uXDx0ox4tHj9FJXAEjXJvOPDlxjHMpUyOr%2BNS70j9IOTVIHd1202BHUgKfYi4%2BDv%2FOpyUmcmon9fSYUBOOyBlVSTuerjlzGwbElx0JK1nZsBxjxXFWw%2BYYlsY1LVEaTAl%2Bq6Z0sAZLZBLyAO4Yt8G2QDNBdtG5mpKz0yH7FdR%2F02sWELN4TxHt5DIx24HWRMwHtW8ExDjB6qR8RUAQZWAZhHeEWv6%2B%2FK9p1Q%2FeI3T%2FhLrj5J6u5xbYHw9iM748WCoLrawnCCH5gBbhgZ942WTGAlWhG4OueruNk1andNQdrY3oUgFJnGyu9RnRjKWKyTqQZe5tHJ%2BJgYWnhtZCPwrRdSG69DnUvd162Kfsl1Yr%2Bo4Hr9jneiSDVpYUJU4cuMpy7by8S4MQYjeOINA%2FmEbZQKJ%2BT6Ax%2BknBZAkuaMNPLP%2BD0EJbifHSIbTg6teIUuRGvi6MvJ5c1OnLbRl%2BoxC7i5mJrgLoVUfiUpHmOsJaIjahREZXmJ5YX39v6Xc48k%2BSdgarFhPPSC0vVtjZ9IaRvC%2BqVIUrPcwEY%2FAo8acRJ7aNtFz57iuokvsTSxOpWwwjK52VHQf763gc3i1HFQJc4darfKqNSHiOvuT7VD6dW15ZlBlq%2F88l%2FoyuMJTE2swGOqUB8mNQfmhdHTCtxLiIIgFee9igisgU5Fe%2BcAKQjNAEVg8qV1WwWBvxBxEkFVYztqnsB5RZMfBVu9XLbXgXB5YzbudD34HZsgiR9%2FtDLyDlq331BKvkcT1biNO7hghXKw%2BA7zcOVlDjwCyUa3wzNdtusSM663CXce4o1HPBOroaYo6iO8umRb%2BKtFWwZFQt%2BB3ElDCW0eNt1zXHiNxbSGyXmLuOpsNP&X-Amz-Signature=e5a72a9657583c62be2d55039754e22d6b05891b9d4e3c108b36170cf5c9454f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](images/1a7e897d85f6.png)
 
 I also checked this for other screens like ipads and this pattern exists for those too - 
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/54fed8f0-e861-46db-9ed9-2b4e07eaf3b9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UZVPNH77%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T055314Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDQX%2FmtfU3d4ECLHOmJpu77DlB8i0WTXsqWskamWYotVwIgEXZ4af2y5t%2Bb5N2CXAoq%2Bn4M9EnJvYSicNFaGfbMpDMq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDPJlDFsNxhTQXE%2B6lCrcA8uXDx0ox4tHj9FJXAEjXJvOPDlxjHMpUyOr%2BNS70j9IOTVIHd1202BHUgKfYi4%2BDv%2FOpyUmcmon9fSYUBOOyBlVSTuerjlzGwbElx0JK1nZsBxjxXFWw%2BYYlsY1LVEaTAl%2Bq6Z0sAZLZBLyAO4Yt8G2QDNBdtG5mpKz0yH7FdR%2F02sWELN4TxHt5DIx24HWRMwHtW8ExDjB6qR8RUAQZWAZhHeEWv6%2B%2FK9p1Q%2FeI3T%2FhLrj5J6u5xbYHw9iM748WCoLrawnCCH5gBbhgZ942WTGAlWhG4OueruNk1andNQdrY3oUgFJnGyu9RnRjKWKyTqQZe5tHJ%2BJgYWnhtZCPwrRdSG69DnUvd162Kfsl1Yr%2Bo4Hr9jneiSDVpYUJU4cuMpy7by8S4MQYjeOINA%2FmEbZQKJ%2BT6Ax%2BknBZAkuaMNPLP%2BD0EJbifHSIbTg6teIUuRGvi6MvJ5c1OnLbRl%2BoxC7i5mJrgLoVUfiUpHmOsJaIjahREZXmJ5YX39v6Xc48k%2BSdgarFhPPSC0vVtjZ9IaRvC%2BqVIUrPcwEY%2FAo8acRJ7aNtFz57iuokvsTSxOpWwwjK52VHQf763gc3i1HFQJc4darfKqNSHiOvuT7VD6dW15ZlBlq%2F88l%2FoyuMJTE2swGOqUB8mNQfmhdHTCtxLiIIgFee9igisgU5Fe%2BcAKQjNAEVg8qV1WwWBvxBxEkFVYztqnsB5RZMfBVu9XLbXgXB5YzbudD34HZsgiR9%2FtDLyDlq331BKvkcT1biNO7hghXKw%2BA7zcOVlDjwCyUa3wzNdtusSM663CXce4o1HPBOroaYo6iO8umRb%2BKtFWwZFQt%2BB3ElDCW0eNt1zXHiNxbSGyXmLuOpsNP&X-Amz-Signature=b7214aed39134f26faf23d0361803cd3541aa54a96a3e064080311841c92fa51&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](images/b031dfc07be7.png)
 
 Like what i would say is if we are going for continous scroll. Then we should try to figure out ways in which the ui on different screen could be seen in a single page without scroll and the continous scroll which we have on the ui it’s size is adjusted according to the screen. I think this would be more user friendly.
 
@@ -638,13 +638,13 @@ I was successfully able to run `npm run dev`, but even being connected to the Se
 
 Initially, my MetaMask account was connected to the Ethereum mainnet. When I accessed the website, it requested a switch to the Sepolia network, which I did manually within MetaMask. Even after switching to Sepolia, the pop-up continued to appear.
 
-[File](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/17a5b267-fdea-430c-9620-a965dd70fe23/Screen_Recording_2025-05-30_at_11.01.03_AM.mov?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXRHNOE7%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T055323Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDMfdFEI3rY3%2FLNIzQsE7af3%2F1iMVF7TMV7zo46KM1HNwIgJNLeP57l8I6r%2BfZdSXGMHBKeUkpUYFf0FPmHLX081VYq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDDxHX%2FMaodUlkk1X%2ByrcA%2B9FYfqg8R99H9HUWKvH%2BPo6nFMbWNOKydbYtn2QgSiEDZww8ZA%2BEHUcvTtNsakwCUO7VgyW4i4bWVa5OS2CQlHTgZq6pLay0mBwOqT6koeNIBWrXdDZebobuBLkWYgrtxJ4FGMrHV9W6ngvRiZ2dQEufHVLrjNMuMW4VBOEkdUF00EJyAwmoyKUVb2GmdtYdALHJiVgcTPX1TWp4dJmwUidP0zK9QyGiF4vcnWaOVIJ4oQF8Ba3BddtJJ%2F54vMMMMbabSrimc3bUt1w6FIPZre2U%2BHz8QgWU3Plyou2VxqPzXI15nF9cK1GkjAEwcXxv9haV3C2e7%2FEauGa0qP0cplJtBemeipW%2ByG4AC0vFZgONLlTPYbkNfwhITJZktbY5q8etIqymMVFpI1NSq4fgqwOXrNsJdfoWJ%2BXsO2vbbi2Aa2JVLetGYiHJnoNClfOxaL539WBb4t%2FaffPrme7vSynx7hxtS7JJYNnyI0Rf%2FJ9vWpIYDIFj8%2F%2BxiHbWM%2FchJd%2F24kmx2AWUKS1CHBnXfckMvq13WKhlHClkts53mre32rjZ308hDZTI%2B%2Bhd%2FZJq%2FVaU%2BgkQHNXRB3%2FjeulwezWZszZxja35RKzlajHjBvivVHJehy5Ll5plpTYMIjE2swGOqUB6bdj%2F4tCz3dt9e3s7dp3aiAFW8Pqjbniwy%2F659Vxk67eY1P%2BFQs6vRPC7eqporDyqu90mqJ3g0n0qV6ULWRgix%2FNUL4z%2FgQIRxiXlrqfG4xHOsu9msPr7bU71IZvL5bLQW1Nb6%2Fwhu4W3KjjShec4HE01phwe%2Bvi84Xp%2B0u9oEg4Cb4vFU6CPTi0z1HiB4yZLkwz516N8hyTtwKPxWLzJU15maHg&X-Amz-Signature=da57fa6006f6a6f17b8b680e989847e9ec2516bcd4e17e4e07de58989146fa98&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[File](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/17a5b267-fdea-430c-9620-a965dd70fe23/Screen_Recording_2025-05-30_at_11.01.03_AM.mov?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XILYGN4U%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T102801Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGsHpBBaDO%2BAe%2BaK0Sm0WfI8WRoIW4xUpg8a5aqjh846AiBeZknxZn6Yr4BC1O4seys8vPOgXK888qsj1%2B2RNlU2ryr%2FAwh6EAAaDDYzNzQyMzE4MzgwNSIMoImBK1eoTVjli6OYKtwD67LmOLQsJtNDofzXA2vRLX56UwpSrOgD9p6Bpo%2FmuEtBCBn7c9atErm9HTh53ICNdhmu9wGVn7myUweA%2BT%2FeXHcUrnCLkVP961mvC4%2BvES1KEMbctEdksWngoFA1NUOtI7rlpV10XvSmrsILZGo1aTjgm%2BuKOH7A9UA0YlsDD7Nob88No5BhVcAFbt%2FfObZINd5lPAlp%2FnJUvkV0fveiUD9aJMQf2W3%2BD8ASoJg1LBtSsxQN2yxO3L0z2Gc3k064Zl9RLbCQ4CwAbqevzhILUqA7qZeyXtNZ9pULX%2B%2BTAO8XB2WLMel7eeRCyfSZluDVk5xgwmi55%2BWTklU6H%2FDpogX17ZakHD8cBkP%2BNFabDwF1mtf%2B8vu9i1BmZc1X4UEe%2FjXVEujUtgWh9Ed%2FVLoYkzqHBaP7n%2FQWtMb5PCaJ6ABIkRWcE0wqE5S%2BGII0xo9Ps2cdbhVbo1NEYEiU40p1V9Tg%2BV%2BJksZtzlzEbsJxQzc%2B5oBFmmcEDIsq6jmkeVg8uV8xxI1%2BE6AahF6uPBMa%2Bo2nNPaqDv5KK8UI632vffvQSYsg%2FLL%2BUvxWe2Lxx9vy3BUn8DkNygMxzi6OYQMERjM0HW2svePFHjhDZB0T3tfs0p6jhIo54YCbY70w2ZnbzAY6pgHl%2FIJf%2FJMxW6IWyP8dbhm8xiVvW2sMYzKQk2nh2K5G7laEy6iHNki0JO1FXPS2reykQFbVh%2B4A4yNOOMMJg2OMGGscisei3lOkuHf87SSluYtd3jTHUJobtmnLJ5rGuNJjrDDbfBy92Esvy3aZTuY99A4f6EQ2RNrQtmatsPZRe7alUzTAFLYbMOXLE3gDc1KfC48A8dZ0dFOZjXHqM5KQc1LBN9OL&X-Amz-Signature=4e40e710ad02103a1f5c18c0e7d526b9f1c513d99aaed2e012a06c454b0d6868&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 Issue 2:
 
 I ran the command npm run build and it failed.
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/64903c51-687e-448d-8297-662b977d8aa9/d2e2348d-c87f-4f8a-b87a-c493d28c6474/Screenshot_2025-05-30_at_11.31.51_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YXRHNOE7%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T055323Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDMfdFEI3rY3%2FLNIzQsE7af3%2F1iMVF7TMV7zo46KM1HNwIgJNLeP57l8I6r%2BfZdSXGMHBKeUkpUYFf0FPmHLX081VYq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDDxHX%2FMaodUlkk1X%2ByrcA%2B9FYfqg8R99H9HUWKvH%2BPo6nFMbWNOKydbYtn2QgSiEDZww8ZA%2BEHUcvTtNsakwCUO7VgyW4i4bWVa5OS2CQlHTgZq6pLay0mBwOqT6koeNIBWrXdDZebobuBLkWYgrtxJ4FGMrHV9W6ngvRiZ2dQEufHVLrjNMuMW4VBOEkdUF00EJyAwmoyKUVb2GmdtYdALHJiVgcTPX1TWp4dJmwUidP0zK9QyGiF4vcnWaOVIJ4oQF8Ba3BddtJJ%2F54vMMMMbabSrimc3bUt1w6FIPZre2U%2BHz8QgWU3Plyou2VxqPzXI15nF9cK1GkjAEwcXxv9haV3C2e7%2FEauGa0qP0cplJtBemeipW%2ByG4AC0vFZgONLlTPYbkNfwhITJZktbY5q8etIqymMVFpI1NSq4fgqwOXrNsJdfoWJ%2BXsO2vbbi2Aa2JVLetGYiHJnoNClfOxaL539WBb4t%2FaffPrme7vSynx7hxtS7JJYNnyI0Rf%2FJ9vWpIYDIFj8%2F%2BxiHbWM%2FchJd%2F24kmx2AWUKS1CHBnXfckMvq13WKhlHClkts53mre32rjZ308hDZTI%2B%2Bhd%2FZJq%2FVaU%2BgkQHNXRB3%2FjeulwezWZszZxja35RKzlajHjBvivVHJehy5Ll5plpTYMIjE2swGOqUB6bdj%2F4tCz3dt9e3s7dp3aiAFW8Pqjbniwy%2F659Vxk67eY1P%2BFQs6vRPC7eqporDyqu90mqJ3g0n0qV6ULWRgix%2FNUL4z%2FgQIRxiXlrqfG4xHOsu9msPr7bU71IZvL5bLQW1Nb6%2Fwhu4W3KjjShec4HE01phwe%2Bvi84Xp%2B0u9oEg4Cb4vFU6CPTi0z1HiB4yZLkwz516N8hyTtwKPxWLzJU15maHg&X-Amz-Signature=f87418377f3aeff1d8e860ec07a6984e6affb153685d30831b0433f21726d907&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](images/90d925bb2797.png)
 
 - [ ] No
   1. **Feature Usage**
@@ -671,38 +671,236 @@ Do you have any suggestions for improving the Setup guide?
 
 ## Build error
 
+Related Issue
+
 ## Hydration error
+
+### Related Issue
+
+- #30, #25, #23
+
+### How to fix it
+
+- Try to find hydrate point and fix it
 
 ## Configuration
 
+### Related Issue
+
+- #29, 
+
 ## Disable the button when unstake
+
+### Related Issue
+
+- #27, #16, # 9
+
+### Happend
+
+- unstake button is active when don’t have staked amount
+- If I input larger than staked amount, unstake button should be disabled on UI but it's able to unstake(but fails on contract)
+
+### How to fix
+
+- update condition for unstake button
+- If input unstake amount more than staked amount, it will be turn in to staked amount
 
 ## Reset the input amount when changing the action
 
+### Related Issue
+
+- #28, 
+
+### How to fix it
+
+- reset input value after change action
+
 ## Update staked amount after sending the transaction
+
+### Related Issue
+
+- #26, #10
+
+### Happend
+
+- After a successful stake transaction, the UI updates are inconsistent. While "Unclaimed Staking Reward" automatically updates without page refresh, "Your Staked Amount" remains at 0 and requires manual page refresh to display the correct staked amount.
+
+### How to fix it
+
+- update staked amount after send transaction
 
 ## Account change button is not working on wallet modal
 
+### Related Issue
+
+- #24,  #3
+
+### Happend
+
+1. Connect MetaMask wallet to the Tokamak staking service
+1. Open the Account modal
+1. Observe "Connected with MetaMask" text with a "Change" button
+1. Click the "Change" button
+1. Notice that nothing happens
+
+### How to fix it
+
+- Fix wallet view when clicking the change button in the wallet modal
+- But, currently, there is only metamask support, so blocked the change button.
+
 ## Cannot update information after changing account
+
+### Related Issue
+
+- #23, 
+
+### Happend
+
+- When I change my account in the middle, the data from my previous account is displayed, and even though it is an account that has not staked, it is displayed on the screen as an unstakeable amount.
+
+### How to solve it
+
+- Add event listener for change account
 
 ## Do not know how to serialize a BigInt error in console
 
+### Related Issue
+
+- #21, 
+
 ## Build error (copy-to-clipboard)
+
+### Related Issue
+
+- #20, 
 
 ## Fix Input UI
 
+### Related Issue
+
+- #19, 
+
+### Happend
+
+- The button is overlapping the input area when I put 0.000
+
+### How to fix it
+
+- adjust parameters
+
 ## Related with SDK update reward part Staking 
+
+### Related Issue
+
+- #18, #8
+
+### Happend
+
+- After successfully executing an updateSeigniorage transaction, the UI does not reflect the new block number. While the console shows "Refresh result: Success" (from useTx.ts:170), the displayed text "Seigniorage is updated 8410146." remains unchanged and does not update to the new block number.
+- The spinner has never been done and takes a lot of rpc calls.
+
+### How to solve it
+
+- replace SDK related value to hook
 
 ## Withdraw warning
 
+### Related Issue
+
+- #14, 
+
+### Happend
+
+- The Withdraw tab lacks information about withdrawal requirements and pending unstaked amounts. The contract provides multiple functions to track withdrawal requests, but none of this data is displayed in the UI. Users cannot see their pending withdrawals or when they become available.
+- Missing withdrawal warning(unstake)
+
+### How to fix it
+
+- add warning message
+
 ## Missing L2 information
+
+### Related Issue
+
+- #12, 
+
+### Happend
+
+- Need tooltips for `Sequencer seigniorage` section
+
+### How to fix it
+
+- Add tooltip
 
 ## Withdraw L2 position
 
+### Related Issue
+
+- #11, 
+
+### Happend
+
+- The current tab order and dropdown structure creates confusion about the withdrawal process. "Withdraw L2" is positioned after "Unstake" in the UI flow, implying that unstaking is required before L2 withdrawal. However, Withdraw L2 can be executed directly without unstaking, while only Withdraw Ethereum requires the unstake + 14-day waiting period.
+- 
+
+### How to fix it
+
+- Add tooltip to unstake button
+
 ## Incorrect message about update seigniorage
+
+### Related Issue
+
+- #7, 
+
+### Happend
+
+- The text "Seigniorage is updated 8410146" has incorrect English grammar. The sentence is missing a preposition and proper structure to indicate that seigniorage was updated at block number 8410146..
+
+### How to fix it
+
+- update text
 
 ## Total Staked show 0 during loading instead of loading indicator
 
+### Related Issue
+
+- #6, 
+
+### Happend
+
+- When the page is loading, the "Total staked" field displays "0.0 TON" instead of showing a loading indicator. This creates confusion as it appears there are no staked tokens when the data is actually still being fetched.
+
+### How to fix it
+
+- add loading indicator
+
 ## **Candidate clickable area extends too far causing unintended navigation**
 
+### Related Issue
+
+- #4, 
+
+### Happend
+
+- The clickable area for each candidate in the list extends far beyond the visible content, covering what appears to be empty space. This causes unintended navigation when users click on seemingly empty areas for scrolling or other interactions
+
+### How to fix it
+
+- add fit-content attribute to width
+
 ## **Network switch functionality triggered without wallet connection**
+
+### Related Issue
+
+- # 2, #15 
+
+### Happend
+
+- The "Switch to Sepolia" button is displayed and functional even when no wallet is connected. Clicking the button shows a "Switched network" notification despite no wallet being connected to switch networks on.
+- It says I need to switch Sepolia even tho my wallet is already there.
+- Text doesn't seem to be good to recognize.
+
+### How to fix it
+
+- I used `useChainId` hooks in wagmi before. But it cannot catch changed network id. So, I changed it to using `ethereum.on` method.

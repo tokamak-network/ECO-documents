@@ -121,3 +121,31 @@ TitanNFT는 1번부터 100번까지 존재함
 ```
 
 ## Make an NFT contract on L1
+
+- related doc to Titan Nft : 8179ce67-72bb-42bc-9b4c-3b4b23d0d2cd 
+- titan’s metadata link can not opened. [https://titan-nft.tokamak.network/titan-metadata/1](https://titan-nft.tokamak.network/titan-metadata/1)
+
+> We can choose one of two methods for developing NFTs:
+
+- Direct development
+  - Store owner information in the NFT contract and develop a contract so that the owner can directly mint it.
+  - We can use IPFS or git for metadata (PNG).  
+  - Pros and Cons
+    - Pros: Initial distribution costs are low.
+    - Cons: Users must mint (pay for) NFT ownership. To use in a DAO, users must pay for minting.
+- Using OpenSea
+  - A method of doing all NFTs and sending them to the owner. 
+  - [https://testnets.opensea.io/](https://testnets.opensea.io/)
+  - Pros and Cons
+    - Pros:  Easy for users to verify. Convenient to use on DAO.
+    - Cons: Expensive for initial deployment and setup. 
+  - Test on sepolia’s opensea 
+    - Titan NFT Contract : [Titan NFT (TNT) Token Tracker | Etherscan](https://sepolia.etherscan.io/token/0xe97276f1139b918a2cecb85682013110d74559b2#readContract)
+      - Create Collection (Titan NFT ) on Sepolia’s opensea  
+        - Mint Transaction : [https://sepolia.etherscan.io/tx/0x7ab4aaa2031ac44f9c30f751f3b810262281afa3b12d699f3fcfc418072484c8](https://sepolia.etherscan.io/tx/0x7ab4aaa2031ac44f9c30f751f3b810262281afa3b12d699f3fcfc418072484c8)
+        - 340,587 gas: About 20 thousand won
+        - 83 sold → 83*16,000 = 1,328,000 won
+      - Transfer NFT 
+        - tx: [sepolia.etherscan.io](https://sepolia.etherscan.io/tx/0x1987155d40ce546d22fe3d99d05f910b0f8f449e1c6dfa3fcb16ba1d9bd8f0e4)
+        - 57,804 gas: About 3 thousand won
+        - 83 sold → 83*3,000 = 249,000 won 
