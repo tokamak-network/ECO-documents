@@ -12,14 +12,14 @@ The current structure functions as a **technology catalog** — listing features
 
 ## Three Approaches
 
-| | A. Interactive Demo | B. Storytelling + Activity Proof | C. Live Dashboard |
-|:--|:--|:--|:--|
-| Core Idea | Hero IS an L2 deployment simulation | Narrative flow with live dev activity as evidence | Homepage as real-time ecosystem status board |
-| Differentiation | Very high | High | Moderate |
-| Effort | 2-3 weeks | 1.5-2 weeks | 1 week |
-| Non-developer accessibility | Moderate | High | Low |
-| Investor appeal | Moderate | High | High |
-| Maintenance | High | Low | Medium |
+|                             | A. Interactive Demo                 | B. Storytelling + Activity Proof                  | C. Live Dashboard                            |
+| :-------------------------- | :---------------------------------- | :------------------------------------------------ | :------------------------------------------- |
+| Core Idea                   | Hero IS an L2 deployment simulation | Narrative flow with live dev activity as evidence | Homepage as real-time ecosystem status board |
+| Differentiation             | Very high                           | High                                              | Moderate                                     |
+| Effort                      | 2-3 weeks                           | 1.5-2 weeks                                       |                                              |
+| Non-developer accessibility | Moderate                            | High                                              | Low                                          |
+| Investor appeal             | Moderate                            | High                                              | High                                         |
+| Maintenance                 | High                                | Low                                               | Medium                                       |
 
 ---
 
