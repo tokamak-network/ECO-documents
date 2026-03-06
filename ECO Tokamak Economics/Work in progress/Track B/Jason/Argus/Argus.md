@@ -11,6 +11,16 @@
 
 [[scoring-research]] — 스코어링 시스템 리서치 (경쟁사 분석, 오탐 개선)
 
+## PRD (AI Agent Integration)
+
+[[01_PRD]] — Product Requirements Document (왜, 무엇을, 어떻게)
+
+[[02_DATA_MODEL]] — Data Model (AgentContext, AgentVerdict, CostTracker)
+
+[[03_PHASES]] — Phase Plan (Phase 0 PoC + 3단계 구현 계획)
+
+[[04_PROJECT_SPEC]] — Project Spec (기술 스택, 규칙, 테스트, 배포)
+
 ## Infrastructure
 
 [[docker-hub-setup]] — Docker Hub 퍼블리시 설정 절차
