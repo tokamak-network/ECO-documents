@@ -2,7 +2,7 @@
 
 On November 3, 2025, an attacker drained $128M from Balancer V2 in under 30 minutes. By the time the community noticed, it was already over.
 
-I built [Argus](https://github.com/tokamak-network/Argus), an open-source Ethereum runtime security tool, and ran this attack through its detection pipeline. This article walks through what the opcodes reveal — step by step — and why static analysis tools couldn't catch it.
+I built [Argus](https://github.com/tokamak-network/Argus), an open-source Ethereum runtime security tool, and ran this attack through its detection pipeline. This article walks through what the opcodes reveal — step by step — and why this class of exploit requires runtime analysis.
 
 ---
 
@@ -39,7 +39,7 @@ Before any expensive analysis, Argus's pre-filter checks receipt-level heuristic
 
 ```
 Signal: UnusualGasPattern
-  Gas used: ~2,847,392 (top 0.1% of all transactions)
+  Gas used: ~2,847,392 (well above the ~21,000 baseline for simple transfers)
 
 Signal: MultipleErc20Transfers
   65 batchSwap operations → dozens of ERC-20 Transfer events
@@ -113,7 +113,7 @@ Here's what I observed in the first 11 hours of running Argus on Ethereum mainne
 | Avg opcode steps per alert | 69,259 |
 | Infrastructure cost | $7/month (AWS Fargate) |
 
-All 82 alerts were MEV/arbitrage — no exploits during the observation window. But the pipeline that flagged those MEV transactions is the same one that would have caught Balancer. The signatures overlap: high gas, multiple token transfers, flash loan patterns.
+All 82 alerts were MEV/arbitrage — no exploits during the observation window. The signatures that flagged those MEV transactions — high gas, multiple token transfers, flash loan patterns — overlap with the Balancer attack profile.
 
 **Honest caveat**: This is a retroactive analysis. Argus wasn't running when the Balancer exploit happened. I can't claim "we would have stopped it." What I can show is that the detection signals fire correctly when the transaction is replayed.
 
